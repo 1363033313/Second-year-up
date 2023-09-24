@@ -1,0 +1,39 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup[figure]{name={Figure}}
+%opening
+\title{科学计算引论作业(一)}
+\author{谢悦晋 \quad U202210333}
+\date{Sept 15th, 2023 }
+\begin{document}
+\maketitle
+\noindent\textbf{1.5} 若以$\displaystyle\frac{355}{113}$作为圆周率$\pi$的逼近值，问此逼近值具有多少位有效数字\\
+解：$x=\frac{325}{113}=0.314159204\ldots\times10^1$\\
+$|x-\pi|=2.6676\ldots\times10^{-7}<0.5\times10^{-6}=0.5\times10^{1-7}$\\
+$\therefore$有7位有效数字\\
+\noindent\textbf{2.1} 使用二分法求方程$x=2^{-x}$在$[0,1]$内的根，精确到$10^{-8}$\\
+解：迭代次数$\displaystyle k>\frac{\ln(b-a)-\ln2\varepsilon}{\ln2}=25.57\Rightarrow k=26$,用计算机模拟计算：
+\begin{figure}[H] 
+	\centering 
+	\includegraphics[scale=0.423]{kx2.1.png}
+	\caption{代码运行图}
+\end{figure}
+\noindent 迭代27，更新26次，最终结果为:$0.6411857418715954$
+\end{document}

@@ -1,0 +1,60 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup[figure]{name={Figure}}
+%opening
+\title{科学计算引论作业(二)}
+\author{谢悦晋 \quad U202210333}
+\date{Sept 22nd, 2023 }
+\begin{document}
+\maketitle
+\noindent\textbf{2.3} 设 $\varphi(x)$ 在闭区间 $[a,b]$ 上一阶连续可微,方程 $x=\varphi(x)$ 在$[a,b]$内有一根 $x^{*},$ 且
+$$
+|\varphi^{\prime}(x)-3|<1,\quad\forall x\in[a,b],
+$$
+试构造一个局部收敛于 $x^{*}$ 的迭代公式\\
+解：$f(x)=\varphi(x)-x$,事实上由题目条件可知$1<\varphi^{\prime}(x)-1=f^\prime(x)<3$\\
+修改迭代方程：$x=x-\lambda f(x)=\phi(x)$\\
+确定$\lambda$取值范围:$\displaystyle|\phi^\prime(x)|<1\Rightarrow \lambda \in (0, \frac23)$\\
+取$\displaystyle\lambda=\frac12$, 迭代函数$\displaystyle\phi(x)=x-\frac12 f(x)=\frac32-\frac12\varphi(x)$\\
+\textbf{2.5}  已知方程 $x+\sin x-1=0$ 在 $\displaystyle x_{0}=\frac{1}{2}$ 附近有唯一根，试选择
+常数$a$使得迭代格式
+$$
+x_{k+1}=\frac{ax_k-\sin x_k+1}{1+a}
+$$
+在求解其方程时能快速收敛,并用该迭代格式求其方程的根,要求精确到 $10^{-8}.$\\
+解：设迭代函数$\displaystyle\varphi(x)=\frac{ax-\sin x+1}{1+a}$\\
+$\displaystyle|\varphi^\prime(x)|=|\frac{a-\cos x}{1+a}|<1\Rightarrow a>\frac{\cos x-1}{2}\Rightarrow a>0$\\
+取$a=1$,带入迭代函数:$\displaystyle\varphi(x)=\frac{x-\sin x+1}{2}$,迭代过程如下：
+\begin{figure}[H] 
+	\centering 
+	\includegraphics[scale=0.48]{kx2.5.png}
+\end{figure}
+\noindent\textbf{2.6} 应用Newton迭代法求解方程 $\displaystyle x=2\sin\left(x+\frac{\pi}{3}\right)$ 的最小正根要求精确到 $10^{-8}.$\\
+解：从图像可知：最小正根在$x=1.25$附近\\
+令$\displaystyle f(x)=2\sin\left(x+\frac{\pi}{3}\right)-x$, $\displaystyle f^\prime(x)=2cos\left(x+\frac{\pi}{3}\right)-1$, 则迭代公式如下：
+$$
+	x_{k+1}=x_k-\frac{f(x_k)}{f^\prime(x_k)}\quad k=0,1,\ldots
+$$
+代码及计算结果如下：
+\begin{figure}[H] 
+	\centering 
+	\includegraphics[scale=0.48]{kx2.6.png}
+\end{figure}
+\end{document}
