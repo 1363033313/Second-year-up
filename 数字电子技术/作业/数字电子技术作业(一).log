@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  24 SEP 2023 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  25 SEP 2023 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -948,14 +948,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--67
-
- []
-
-
-Package caption Warning: Unused \captionsetup[figure] on input line 20.
-See the caption package documentation for explanation.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 30.
 
 (d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
@@ -963,20 +957,24 @@ TeX and DVIPDFMx (CTEX)
 {d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
 e.sfd}) [1
 
-{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
-(./数字电子技术作业(一).aux)
+{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+Package caption Warning: Unused \captionsetup[figure] on input line 20.
+See the caption package documentation for explanation.
+
+[2] (./数字电子技术作业(一).aux)
 Package rerunfilecheck Info: File `数字电子技术作业(一).out' has not c
 hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22872 strings out of 476025
- 446986 string characters out of 5794015
- 1870382 words of memory out of 5000000
- 42816 multiletter control sequences out of 15000+600000
- 555727 words of font info for 182 fonts, out of 8000000 for 9000
+ 23065 strings out of 476025
+ 451884 string characters out of 5794015
+ 1877382 words of memory out of 5000000
+ 43003 multiletter control sequences out of 15000+600000
+ 557827 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,7n,80p,1026b,918s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,9n,80p,1026b,918s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
@@ -987,17 +985,17 @@ ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
 sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
 onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
-indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usy
-r.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/
-2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on 数字电子技术作业(一).pdf (2 pages, 187102 bytes).
+indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
+tc><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/te
+xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 数字电子技术作业(一).pdf (2 pages, 193571 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 204 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  3 named destinations out of 1000 (max. 500000)
- 44149 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 44153 words of extra memory for PDF output out of 51595 (max. 10000000)
 

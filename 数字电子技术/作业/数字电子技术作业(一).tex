@@ -26,35 +26,65 @@
 \maketitle
 \noindent\textbf{2.1.3} 应用反演规则和对偶规则,求下列函数的非函数和对偶函数:\\
 (1)$L=A\cdot B+\overline{A}\cdot\overline{B}$\\
-(2)$L=AB+\overline{C+D}$\\
-(3)$L=\overline{A}\cdot\overline{B}+\overline{\overline{A}\cdot B\cdot\overline{C}}\cdot D$\\
+(2)$L=\overline{A}\cdot\overline{B}+\overline{\overline{A}\cdot B\cdot\overline{C}}\cdot D$\\
+解：\\
+(1)$\overline{L}=(\overline{A}+\overline{B})(A+B), L^\prime=(A+B)(\overline{A}+\overline{B})$\\
+(2)$\overline{L}=(A+B)(\overline{A+\overline{B}+C}+\overline{D}), L^\prime=(\overline{A}+\overline{B})(\overline{\overline{A}+B+\overline{C}}+D)$\\
 \textbf{2.2.3} 试写出下列各个函数的最小项表达式:\\
 (3)$L=\overline{\overline{AB}+ABD}(B+\overline{C}D)$\\
 (4)$L=\overline{(A\overline{B}+B\overline{C})\overline{AB}}$\\
+解：\\
+(3)\\$\begin{aligned}
+	L&=AB\cdot\overline{ABD}(B+\overline{C}D)\\
+	&=AB\cdot(\overline{A}+\overline{B}+\overline{D})(B+\overline{C}D)\\
+	&=AB\overline{D}(B+\overline{C}D)\\
+	&=AB\overline{D}
+\end{aligned}$\\
+(4)\\$\begin{aligned}
+	L&=\overline{(A\overline{B}+B\overline{C})}+AB\\
+	&=\overline{A\overline{B}}\cdot\overline{B\overline{C}}+AB\\
+	&=(\overline{A}+B)(\overline{B}+C)+AB\\
+	&=B+\overline{A}C\\
+	&=B(\overline{A}+A)(\overline{C}+C)\\
+	&=ABC+\overline{A}B\overline{C}+\overline{A}BC+AB\overline{C}+\overline{A}BC
+\end{aligned}$\\
 \textbf{2.3.1}
 用代数法将下列各式化简成最简的与-或表达式\\
-(1)$\overline{AB+\overline{A}\cdot\overline{B}+\overline{A}B+A\overline{B}}$\\
-(2)$\overline{\overline{(\overline{A}+B)}+\overline{(A+B)}+(\overline{\overline{A}B})(\overline{A\overline{B}})}\\$
-(3)$\overline{B}+ABC+\overline{AC}+\overline{AB}$\\
-(4)$\overline{ABC}+A\overline{B}C+ABC+A+B\overline{C}\\$
-(5)${ABC}{\overline{D}+ABD+BC}{\overline{D}+ABCD+B}{\overline{C}}$\\
-(6)$\overline{{\overline{AC+\overline{A}BC}+\overline{B}C+AB\overline{C}}}$\\
+(1)$\overline{\overline{(\overline{A}+B)}+\overline{(A+B)}+(\overline{\overline{A}B})(\overline{A\overline{B}})}\\$
+(2)$\overline{B}+ABC+\overline{AC}+\overline{AB}$\\
+(3)${ABC}{\overline{D}+ABD+BC}{\overline{D}+ABCD+B}{\overline{C}}$\\
+(4)$\overline{{\overline{AC+\overline{A}BC}+\overline{B}C+AB\overline{C}}}$\\
+解：\\
+(1)\\
+$\begin{aligned}
+	L&=\overline{A\overline{B}+\overline{A}\cdot\overline{B}+(A+\overline{B})(\overline{A}+B)}\\
+	&=\overline{\overline{B}+\overline{A}B+A\overline{B}}\\
+	&=\overline{\overline{A}B+A\overline{B}}\\
+	&=\overline{\overline{A}B}\cdot\overline{A\overline{B}}\\
+	&=(A+\overline{B})(\overline{A}+B)\\
+	&=\overline{A}B+A\overline{B}
+\end{aligned}$\\
+(2)\\
+$\begin{aligned}
+	L&=\overline{B}+A\overline{B}C+\overline{A}+\overline{C}+\overline{A}+\overline{B}\\
+	&=\overline{A}+\overline{B}+\overline{C}+A\overline{B}C\\
+	&=\overline{A}+\overline{B}C+\overline{B}+\overline{C}\\
+	&=\overline{A}+\overline{B}+\overline{C}
+\end{aligned}$\\
+(3)\\
+$\begin{aligned}
+	L&=ABC+ABD+BC\overline{D}+B\overline{C}\\
+	&=
+\end{aligned}$\\
 \textbf{2.4.3} 用卡诺图法化简下列各式:\\
 (1) $A\overline{B}CD+AB\overline{C}D+A\overline{B}+A\overline{D}+A\overline{B}C$\\
-(2)$\overline{A}\cdot\overline{B}C+A\overline{B}\cdot\overline{C}D+AB\overline{C}D+ABC$\\
-(3)$
+(2)$
 A\overline{B}CD+D(\overline{B}\cdot\overline{C}D)+(A+C)B\overline{D}+\overline{A}\overline{(\overline{B}+C)}
 $\\
-(4)$
+(3)$
 L(A,B,C,D)=\sum m(0,2,4,8,10,12)
 $\\
-(5)$
-L(A,B,C,D)=\sum m(0,1,2,5,6,8,9,10,13,14)
-$\\
-(6)$
-L(A,B,C,D)=\sum m(\begin{matrix}{0,2,4,6,9,13}\\\end{matrix})+\sum d(\begin{matrix}{1,3,5,7,11,15}\\\end{matrix})
-$\\
-(7)$
+(4)$
 L(A,B,C,D)=\sum m(0,4,6,13,14,15)+\sum d(1,2,3,5,7,9,10,11
 $\\ 
 \textbf{2.4.4} 用卡诺图化简法,求下列函数的最简或-与表达式\\
@@ -64,6 +94,7 @@ $\\
 (2)$
 L(A,B,C,D)=\sum m(3,4,5,7,13,14,15)
 $\\
+(3)
 
 
 
