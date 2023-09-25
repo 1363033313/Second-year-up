@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  25 SEP 2023 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  25 SEP 2023 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -950,6 +950,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
 quanjiao) on input line 30.
+<SD2.4.3_1.png, id=35, 459.7175pt x 360.34625pt>
+File: SD2.4.3_1.png Graphic file (type png)
+<use SD2.4.3_1.png>
+Package pdftex.def Info: SD2.4.3_1.png  used on input line 102.
+(pdftex.def)             Requested size: 137.9163pt x 108.1047pt.
 
 (d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
@@ -957,24 +962,51 @@ TeX and DVIPDFMx (CTEX)
 {d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
 e.sfd}) [1
 
-{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-
-Package caption Warning: Unused \captionsetup[figure] on input line 20.
-See the caption package documentation for explanation.
-
-[2] (./数字电子技术作业(一).aux)
+{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+<SD2.4.3_2.png, id=83, 460.72125pt x 382.42876pt>
+File: SD2.4.3_2.png Graphic file (type png)
+<use SD2.4.3_2.png>
+Package pdftex.def Info: SD2.4.3_2.png  used on input line 111.
+(pdftex.def)             Requested size: 138.21744pt x 114.7295pt.
+<SD2.4.3_3.png, id=84, 438.63875pt x 342.27875pt>
+File: SD2.4.3_3.png Graphic file (type png)
+<use SD2.4.3_3.png>
+Package pdftex.def Info: SD2.4.3_3.png  used on input line 118.
+(pdftex.def)             Requested size: 131.59264pt x 102.6844pt.
+File: SD2.4.3_3.png Graphic file (type png)
+<use SD2.4.3_3.png>
+Package pdftex.def Info: SD2.4.3_3.png  used on input line 125.
+(pdftex.def)             Requested size: 131.59264pt x 102.6844pt.
+ [3 <./SD2.4.3_1.png> <./SD2.4.3_2.png> <./SD2.4.3_3.png>]
+<SD2.4.3_4.png, id=96, 436.63126pt x 349.305pt>
+File: SD2.4.3_4.png Graphic file (type png)
+<use SD2.4.3_4.png>
+Package pdftex.def Info: SD2.4.3_4.png  used on input line 132.
+(pdftex.def)             Requested size: 130.99039pt x 104.7923pt.
+<SD2.4.4_1.png, id=97, 453.695pt x 358.33875pt>
+File: SD2.4.4_1.png Graphic file (type png)
+<use SD2.4.4_1.png>
+Package pdftex.def Info: SD2.4.4_1.png  used on input line 147.
+(pdftex.def)             Requested size: 136.10954pt x 107.50244pt.
+ [4 <./SD2.4.3_4.png>]
+<SD2.4.4_2.png, id=105, 438.63875pt x 341.275pt>
+File: SD2.4.4_2.png Graphic file (type png)
+<use SD2.4.4_2.png>
+Package pdftex.def Info: SD2.4.4_2.png  used on input line 154.
+(pdftex.def)             Requested size: 131.59264pt x 102.38329pt.
+ [5 <./SD2.4.4_1.png> <./SD2.4.4_2.png>] (./数字电子技术作业(一).aux)
 Package rerunfilecheck Info: File `数字电子技术作业(一).out' has not c
 hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23065 strings out of 476025
- 451884 string characters out of 5794015
- 1877382 words of memory out of 5000000
- 43003 multiletter control sequences out of 15000+600000
- 557827 words of font info for 187 fonts, out of 8000000 for 9000
+ 23138 strings out of 476025
+ 453101 string characters out of 5794015
+ 1878382 words of memory out of 5000000
+ 43057 multiletter control sequences out of 15000+600000
+ 558097 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,9n,80p,1026b,918s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,9n,80p,1026b,945s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
@@ -986,16 +1018,17 @@ ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
 sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
 onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
 indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
-tc><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/te
-xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-di
-st/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 数字电子技术作业(一).pdf (2 pages, 193571 bytes).
+tc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/202
+3/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on 数字电子技术作业(一).pdf (5 pages, 250030 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 3 named destinations out of 1000 (max. 500000)
- 44153 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 44187 words of extra memory for PDF output out of 51595 (max. 10000000)
 
