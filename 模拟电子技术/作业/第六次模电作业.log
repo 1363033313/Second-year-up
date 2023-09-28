@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  27 SEP 2023 07:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  28 SEP 2023 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,13 +951,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--38
 
  []
 
-<MD4.26.png, id=6, 437.38406pt x 417.81094pt>
-File: MD4.26.png Graphic file (type png)
-<use MD4.26.png>
-Package pdftex.def Info: MD4.26.png  used on input line 47.
-(pdftex.def)             Requested size: 218.69148pt x 208.90495pt.
+<MD4.15_1.png, id=6, 740.7675pt x 327.2225pt>
+File: MD4.15_1.png Graphic file (type png)
+<use MD4.15_1.png>
+Package pdftex.def Info: MD4.15_1.png  used on input line 46.
+(pdftex.def)             Requested size: 370.38284pt x 163.61084pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--48
 
  []
 
@@ -968,28 +968,45 @@ TeX and DVIPDFMx (CTEX)
 e.sfd}) [1
 
 {d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./MD4.15.png>]
-[2 <./MD4.26.png>] (./第六次模电作业.aux)
+<MD4.26.png, id=21, 437.38406pt x 417.81094pt>
+File: MD4.26.png Graphic file (type png)
+<use MD4.26.png>
+Package pdftex.def Info: MD4.26.png  used on input line 63.
+(pdftex.def)             Requested size: 218.69148pt x 208.90495pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--65
+
+ []
+
+[2 <./MD4.15_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+[3 <./MD4.26.png>] (./第六次模电作业.aux)
 Package rerunfilecheck Info: File `第六次模电作业.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22665 strings out of 476025
- 443117 string characters out of 5794015
- 1857382 words of memory out of 5000000
- 42660 multiletter control sequences out of 15000+600000
- 548849 words of font info for 157 fonts, out of 8000000 for 9000
+ 22680 strings out of 476025
+ 443291 string characters out of 5794015
+ 1858382 words of memory out of 5000000
+ 42666 multiletter control sequences out of 15000+600000
+ 550115 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,8n,80p,1018b,942s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dis
-t/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/s
-ymbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:
-/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 第六次模电作业.pdf (2 pages, 108219 bytes).
+<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2023/texmf-dist/fonts/type1
+/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pf
+b><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 第六次模电作业.pdf (3 pages, 139960 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 44043 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 44048 words of extra memory for PDF output out of 51595 (max. 10000000)
 
