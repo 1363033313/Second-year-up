@@ -46,14 +46,17 @@ $\therefore V_{GS}=V_G-V_S=1.58\mathrm{V}V_{DSQ}=V_{DD}-I_DR_D=1.96\mathrm{V}>V_
 	\includegraphics[scale=0.5]{MD4.15_1.png}
 	\caption{Problem 4.15}
 \end{figure}
-\noindent$\displaystyle g_m=2K_n(V_{GSQ}-V_TN)=1,56\mathrm{mS}, i_d=g_mv_{gs},v_o=-i_dR_D, A_v=\frac{v_o}{v_{gs}}=-2.44$\\
-(c)$\displaystyle A_v^\prime=0.75A_v=\frac{-i_d(RL||R_D)}{v_{gs}}\Rightarrow R_L=12\mathrm{k}\Omega$\\
+\noindent$\displaystyle g_m=2K_n(V_{GSQ}-V_TN)=1,56\mathrm{mS}, i_d=g_mv_{gs},v_o=-i_dR_D,v_1=v_{gs}+i_dR_s=v_{gs}+g_mv_{gs}R_S\\ \therefore A_v=\frac{v_o}{v_1}=-2.44$\\
+(c)$\displaystyle A_v^\prime=0.75A_v=\frac{-i_d(R_L||R_D)}{v_{1}}\Rightarrow R_L=12\mathrm{k}\Omega$\\
 4.17 Repeat Problem 4.15 if the source resistor is bypassed by a source capacitor
 $C_S$.\\
 (a)The answer is the same as 4.15(a), because in the case of DC, the source capacitor is open, answer doesn't change.\\
 $I_D=0.61\mathrm{mA},V_{DSQ}=1.96\mathrm{V}$\\
-(b)(c)In this case, the $R_S$ is shorted, but $i_d$ doesn't change, so the answer is the same as 4.15(b)(c)\\
-$\therefore$(b)$\displaystyle A_v=-2.44$ (c)$R_L=12\mathrm{k}\Omega$\\
+(b)In the case of AC, the resistor $R_S$ is shorted, so:
+$$
+	A_v=\frac{-i_dR_d}{V_{gs}}=-g_mR_d=-6.24
+$$
+(c)$\displaystyle A_v^\prime=0.75A_v=\frac{-i_d(R_L||R_D)}{v_{gs}}\Rightarrow R_L=12\mathrm{k}\Omega$\\
 D4.26 Design the common-source circuit in Figure P4.26 using an n-channel
 MOSFET with $\lambda = 0$. The quiescent values are to be $I_{DQ} = 6 $mA,
 $V_{GSQ} = 2.8$ V, and $V_{DSQ} = $10 V. The transconductance is $g_m = 2.2 $mA/V.
@@ -72,14 +75,15 @@ $$\begin{cases}\displaystyle
 	V_S=I_DR_S\\
 	g_m=2K_n(V_{GSQ}-V_{TN})\\
 	\displaystyle R_{in}=\frac{R_1R_2}{R_1+R_2}\\
-	\displaystyle A_v=\frac{-g_mv_{gs}(R_D||R_L)}{v_{gs}}
+	\displaystyle A_v=\frac{-g_mv_{gs}(R_D||R_L)}{v_{1}}\\
+	v_1=v_{gs}+i_dR_s
 \end{cases}\Rightarrow
 \begin{cases}
-	R_1=\\
-	R_2=\\
-	R_S=\\
-	R_D=\\
-	K_n=\\
-	V_{T N}=\\
+	R_1=529\mathrm{k\Omega}\\
+	R_2=123\mathrm{k\Omega}\\
+	R_S=0.1\mathrm{k\Omega}\\
+	R_D=1.23\mathrm{k\Omega}\\
+	K_n=0.20\mathrm{mA}\\
+	V_{TN}=-2.65\mathrm{V}?(\text{another answer is }8.25?)\\
 \end{cases}$$
 \end{document}
