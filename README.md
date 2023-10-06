@@ -1,4 +1,4 @@
-# Second-year-up
+# First semester of sophomore year
 
 这里是谢悦晋的GitHub仓库，整理了本学期的各类学习资料，包括考试试卷以及我自己做的笔记，以供大家参考：
 
