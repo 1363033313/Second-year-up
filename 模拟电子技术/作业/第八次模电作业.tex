@@ -71,20 +71,30 @@ case 2: When BJT works in saturation region(at sat-point), $V_{EC}=0.2$V, $V_O=4
 case 3: $V_I\in[1.6,4.3]$, the BJT works in the active region:$$\displaystyle\frac{V_O}{R_C}=\beta\frac{5-V_{BE(ON)}-V_I}{R_B}\Rightarrow V_O=-\frac{16}{9}V_I+\frac{344}{45}$$\\
 5.70 For the circuit in Figure P5.70, let $R_C = 2.2 \mathrm{k\Omega}$, $R_E = 2 \mathrm{k\Omega}$, $R_1 = 10 \mathrm{k\Omega}$,
 $R_2 = 20 \mathrm{k\Omega}$, and $\beta = 60$. (a) Find $R_{T H}$ and $V_{T H}$ for the base circuit.
-(b) Determine $I_{BQ}$, $I_{CQ}$, $V_E$ , and $V_C$.
+(b) Determine $I_{BQ}$, $I_{CQ}$, $V_E$ , and $V_C$.\\
 \begin{figure}[H] 
 	\centering 
 	\includegraphics[scale=0.15]{MD5.70.png}
 	\caption{Problem 5.70}
 \end{figure}
+\noindent Solution:\\
+(a)$\displaystyle V_{TH}=V^-+\frac{R_2}{R_1+R_2}(V^+-V^-)=\frac{5}3\mathrm{V},R_{TH}=R_1||R_2=\frac{20}{3}\mathrm{k\Omega}$\\
+(b)Equation is as follow:
+$$
+(1+\beta)I_BR_E+V_{BE(ON)}+I_BR_{TH}+V_{TH}=10\\
+\Rightarrow I_B=0.0593 \mathrm{mA}
+$$
+$\therefore I_C=\beta I_B=3.56 \mathrm{mA},V_E=V_S-I_ER_E=2.76 \mathrm{V},V_C=-10\mathrm{V}+I_CR_C=-2.17\mathrm{V}$\\
 6.8 The parameters of each transistor in the circuits shown in Figure P6.8 are
 $\beta = 130$, $V_A = 80 $V, and $I_{CQ} = 0.2 $mA. Determine the output resistance
 $R_o$ for each circuit.
 \begin{figure}[H] 
 	\centering 
-	\includegraphics[scale=0.3]{MD6.8.png}
+	\includegraphics[scale=0.20]{MD6.8.png}
 	\caption{Problem 6.8}
 \end{figure}
+\noindent Solution:\\
+
 6.18 The signal source in Figure P6.18 is $v_s = 5 \sin\omega t $mV. The transistor parameters
 are $\beta = 120$ and $V_A =\infty$. (a) (i) Design the circuit such that
 $I_{CQ} = 0.25 $mA and $V_{CEQ} = 3 $V. (ii) Find the small-signal voltage gain

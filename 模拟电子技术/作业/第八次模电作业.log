@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  10 OCT 2023 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  11 OCT 2023 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,39 +969,38 @@ File: MD5.70.png Graphic file (type png)
 Package pdftex.def Info: MD5.70.png  used on input line 77.
 (pdftex.def)             Requested size: 133.69373pt x 156.42769pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 71--79
+
+ []
+
 [2 <./MD5.43.png>]
 <MD6.8.png, id=29, 1995.455pt x 939.51pt>
 File: MD6.8.png Graphic file (type png)
 <use MD6.8.png>
-Package pdftex.def Info: MD6.8.png  used on input line 85.
-(pdftex.def)             Requested size: 598.64113pt x 281.85518pt.
-
-Overfull \hbox (180.38745pt too wide) in paragraph at lines 85--86
- [][] 
- []
-
+Package pdftex.def Info: MD6.8.png  used on input line 93.
+(pdftex.def)             Requested size: 399.08394pt x 187.89867pt.
 <MD6.18.png, id=30, 1144.275pt x 941.5175pt>
 File: MD6.18.png Graphic file (type png)
 <use MD6.18.png>
-Package pdftex.def Info: MD6.18.png  used on input line 94.
+Package pdftex.def Info: MD6.18.png  used on input line 102.
 (pdftex.def)             Requested size: 343.28514pt x 282.45743pt.
-[3 <./MD5.70.png> <./MD6.8.png>]
-<MD6.33.png, id=39, 926.46124pt x 1168.365pt>
+ [3 <./MD5.70.png> <./MD6.8.png>]
+<MD6.33.png, id=40, 926.46124pt x 1168.365pt>
 File: MD6.33.png Graphic file (type png)
 <use MD6.33.png>
-Package pdftex.def Info: MD6.33.png  used on input line 104.
+Package pdftex.def Info: MD6.33.png  used on input line 112.
 (pdftex.def)             Requested size: 277.9405pt x 350.5122pt.
  [4 <./MD6.18.png>]
-<MD6.39.png, id=46, 1143.27126pt x 934.49126pt>
+<MD6.39.png, id=47, 1143.27126pt x 934.49126pt>
 File: MD6.39.png Graphic file (type png)
 <use MD6.39.png>
-Package pdftex.def Info: MD6.39.png  used on input line 114.
+Package pdftex.def Info: MD6.39.png  used on input line 122.
 (pdftex.def)             Requested size: 342.98402pt x 280.34953pt.
  [5 <./MD6.33.png>]
-<MD6.69.png, id=53, 1094.0875pt x 881.2925pt>
+<MD6.69.png, id=54, 1094.0875pt x 881.2925pt>
 File: MD6.69.png Graphic file (type png)
 <use MD6.69.png>
-Package pdftex.def Info: MD6.69.png  used on input line 122.
+Package pdftex.def Info: MD6.69.png  used on input line 130.
 (pdftex.def)             Requested size: 328.22878pt x 264.38979pt.
  [6 <./MD6.39.png>] [7 <./MD6.69.png>] (./第八次模电作业.aux)
 Package rerunfilecheck Info: File `第八次模电作业.out' has not changed.
@@ -1019,13 +1018,14 @@ Here is how much of TeX's memory you used:
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/t
-ype1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usy
-r.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/
-2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 第八次模电作业.pdf (7 pages, 386192 bytes).
+ype1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2023/texmf-dist/fonts/type1
+/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pf
+b><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 第八次模电作业.pdf (7 pages, 395863 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
  39977 words of extra memory for PDF output out of 42996 (max. 10000000)
 
