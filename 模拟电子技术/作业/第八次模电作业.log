@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  13 OCT 2023 08:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.11)  13 OCT 2023 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (./第八次模电作业.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
-(d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(d:/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,27 +23,27 @@ File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/ctex.sty
-(d:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/ctex.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
 
-(d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box51
 ))
 Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
 
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/ctexhook.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/ctexpatch.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(d:/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
@@ -53,33 +53,33 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \g__ctex_section_depth_int=\count195
 \g__ctex_font_size_int=\count196
 
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
 File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
 
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
 Package: CJKutf8 2021/10/16 4.8.5
 
-(d:/texlive/2023/texmf-dist/tex/generic/iftex/ifpdf.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(d:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.sty
 Package: CJK 2021/10/16 4.8.5
 
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
 Package: MULEenc 2021/10/16 4.8.5
 )
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.enc
 File: CJK.enc 2021/10/16 4.8.5
 Now handling font encoding C00 ...
 ... no UTF-8 mapping file for font encoding C00
@@ -148,10 +148,10 @@ Now handling font encoding C62 ...
 )
 \CJK@indent=\box53
 )
-(d:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
 Package: CJKpunct 2016/05/14 4.8.4
 \CJKpunct@cnta=\count197
 \CJKpunct@cntb=\count198
@@ -165,14 +165,14 @@ Package: CJKpunct 2016/05/14 4.8.4
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2026 (decimal 8230)
 
-(d:/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa))
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa))
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
 Package: CJKspace 2021/10/16 3.8.0
 )
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 )
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/ctexspa.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/ctexspa.def
 File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
 )
 \ccwd=\dimen142
@@ -180,49 +180,48 @@ File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
 )
 \l__ctex_ziju_dim=\dimen143
 
-(d:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count268
 \l__zhnum_tmp_int=\count269
 
-(d:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
 File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CT
 EX)
-
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.d
+ef
 File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
 X)
-))
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex.cfg
+)) (d:/LaTex/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(d:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen144
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen145
 )
-(d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count270
@@ -273,7 +272,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(d:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks23
 \thm@bodyfont=\toks24
@@ -285,10 +284,10 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip56
 \dth@everypar=\toks28
 )
-(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -296,14 +295,14 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks29
 )
-(d:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count282
@@ -319,30 +318,30 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen160
 \Gm@dimlist=\toks30
 )
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen161
 \Gin@req@width=\dimen162
 )
-(d:/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 
-(d:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count285
 )
@@ -358,7 +357,7 @@ LaTeX Info: Redefining \textls on input line 1368.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
 \MT@listname@count=\count287
 
-(d:/texlive/2023/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 902.
@@ -367,28 +366,28 @@ LaTeX Info: Redefining \lslig on input line 902.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(d:/texlive/2023/texmf-dist/tex/latex/microtype/microtype.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen164
 \l__siunitx_angle_marker_box=\box57
 \l__siunitx_angle_unit_box=\box58
 \l__siunitx_compound_count_int=\count288
 
-(d:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(d:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(d:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -418,7 +417,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_unit_position_int=\count299
 \l__siunitx_unit_total_int=\count300
 
-(d:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen169
 \ar@mcellbox=\box65
@@ -428,7 +427,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \backup@length=\skip59
 \ar@cellbox=\box66
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen171
 \lightrulewidth=\dimen172
@@ -448,37 +447,36 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count304
 \@thisrulewidth=\dimen183
 )
-(d:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 
-(d:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(d:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(d:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count305
@@ -487,20 +485,20 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \Hy@linkcounter=\count306
 \Hy@pagecounter=\count307
 
-(d:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(d:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(d:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count308
 
-(d:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -516,17 +514,17 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count309
 
-(d:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen185
 
-(d:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(d:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -541,7 +539,7 @@ Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
 
-(d:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -551,10 +549,10 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(d:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
 
-(d:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -562,18 +560,17 @@ with kernel methods
 \Fld@listcount=\count314
 \c@bookmark@seq@number=\count315
 
-(d:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(d:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip60
-)
-(d:/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
+) (d:/LaTex/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -588,11 +585,11 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 )
-(d:/texlive/2023/texmf-dist/tex/latex/esint/esint.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/esint/esint.sty
 Package: esint 
 \symlargesymbolsA=\mathgroup6
 )
-(d:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/02/25 v3.4 ragged2e Package
 \CenteringLeftskip=\skip61
 \RaggedLeftLeftskip=\skip62
@@ -609,24 +606,24 @@ Package: ragged2e 2023/02/25 v3.4 ragged2e Package
 \RaggedRightParindent=\skip73
 \JustifyingParindent=\skip74
 )
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/pifont.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/upzd.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/upsy.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(d:/texlive/2023/texmf-dist/tex/latex/extarrows/extarrows.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/extarrows/extarrows.sty
 Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
 )
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -662,7 +659,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(d:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count316
 \float@exts=\toks34
@@ -670,10 +667,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks35
 \@floatcapt=\box68
 )
-(d:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
-(d:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen188
 \captionmargin=\dimen189
@@ -690,10 +687,10 @@ Package caption Info: Standard document class detected.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
-(d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
 Package translations Info: No language package found. I am going to use `englis
@@ -701,7 +698,7 @@ h' as default language. on input line 25.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
 5.
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (./第八次模电作业.aux)
@@ -824,7 +821,7 @@ LaTeX Font Info:    ... okay on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(d:/LaTex/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count319
 \scratchdimen=\dimen196
@@ -837,12 +834,12 @@ LaTeX Font Info:    ... okay on input line 25.
 \MPnumerator=\count323
 \makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks37
-) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (d:/LaTex/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(d:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -863,27 +860,28 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(d:/texlive/2023/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(d:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionar
-y-english.trsl
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dic
+tionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 25.
 Package hyperref Info: Link coloring OFF on input line 25.
- (./第八次模电作业.out) (./第八次模电作业.out)
+ (./第八次模电作业.out)
+(./第八次模电作业.out)
 \@outlinefile=\write3
 \openout3 = `第八次模电作业.out'.
 
@@ -892,7 +890,7 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  27.
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -902,31 +900,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
  27.
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
  27.
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
  27.
 
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-(d:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-(d:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 2
 7.
 
-(d:/texlive/2023/texmf-dist/tex/latex/esint/uesint.fd
+(d:/LaTex/texlive/2023/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -951,13 +949,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-(d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+
+(d:/LaTex/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
 TeX and DVIPDFMx (CTEX)
-{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
-e.sfd}) [1
+{d:/LaTex/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{
+Unicode.sfd}) [1
 
-{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./MD5.24.png>]
+{d:/LaTex/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./MD5.24.png>]
 <MD5.43.png, id=20, 1169.36874pt x 1003.75pt>
 File: MD5.43.png Graphic file (type png)
 <use MD5.43.png>
@@ -985,49 +984,45 @@ File: MD6.18.png Graphic file (type png)
 Package pdftex.def Info: MD6.18.png  used on input line 107.
 (pdftex.def)             Requested size: 228.85094pt x 188.30016pt.
  [3 <./MD5.70.png> <./MD6.8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
 <MD6.33.png, id=40, 926.46124pt x 1168.365pt>
 File: MD6.33.png Graphic file (type png)
 <use MD6.33.png>
-Package pdftex.def Info: MD6.33.png  used on input line 119.
+Package pdftex.def Info: MD6.33.png  used on input line 129.
 (pdftex.def)             Requested size: 185.28896pt x 233.66885pt.
-[4 <./MD6.18.png>]
+ [4 <./MD6.18.png>]
 <MD6.39.png, id=47, 1143.27126pt x 934.49126pt>
 File: MD6.39.png Graphic file (type png)
 <use MD6.39.png>
-Package pdftex.def Info: MD6.39.png  used on input line 129.
+Package pdftex.def Info: MD6.39.png  used on input line 139.
 (pdftex.def)             Requested size: 342.98402pt x 280.34953pt.
  [5 <./MD6.33.png>]
 <MD6.69.png, id=54, 1094.0875pt x 881.2925pt>
 File: MD6.69.png Graphic file (type png)
 <use MD6.69.png>
-Package pdftex.def Info: MD6.69.png  used on input line 137.
+Package pdftex.def Info: MD6.69.png  used on input line 147.
 (pdftex.def)             Requested size: 328.22878pt x 264.38979pt.
- [6 <./MD6.39.png>] [7 <./MD6.69.png>]
-(./第八次模电作业.aux)
+ [6 <./MD6.39.png>] [7 <./MD6.69.png>] (./第八次模电作业.aux)
 Package rerunfilecheck Info: File `第八次模电作业.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22718 strings out of 476025
- 443779 string characters out of 5794015
+ 22721 strings out of 476025
+ 445468 string characters out of 5791021
  1859382 words of memory out of 5000000
  42692 multiletter control sequences out of 15000+600000
- 550872 words of font info for 162 fonts, out of 8000000 for 9000
+ 550991 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,8n,80p,1018b,945s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2023/texmf-dist/fonts/type1
-/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pf
-b><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023
-/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 第八次模电作业.pdf (7 pages, 396405 bytes).
+<d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/
+LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/LaTe
+x/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/LaTex/t
+exlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><d:/LaTex
+/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023
+/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb><d:/LaTex/texlive/2023/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on 第八次模电作业.pdf (7 pages, 398235 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
