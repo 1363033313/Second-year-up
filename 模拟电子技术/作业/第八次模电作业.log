@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  11 OCT 2023 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  13 OCT 2023 08:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,36 +982,41 @@ Package pdftex.def Info: MD6.8.png  used on input line 93.
 <MD6.18.png, id=30, 1144.275pt x 941.5175pt>
 File: MD6.18.png Graphic file (type png)
 <use MD6.18.png>
-Package pdftex.def Info: MD6.18.png  used on input line 102.
-(pdftex.def)             Requested size: 343.28514pt x 282.45743pt.
+Package pdftex.def Info: MD6.18.png  used on input line 107.
+(pdftex.def)             Requested size: 228.85094pt x 188.30016pt.
  [3 <./MD5.70.png> <./MD6.8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
 <MD6.33.png, id=40, 926.46124pt x 1168.365pt>
 File: MD6.33.png Graphic file (type png)
 <use MD6.33.png>
-Package pdftex.def Info: MD6.33.png  used on input line 112.
-(pdftex.def)             Requested size: 277.9405pt x 350.5122pt.
- [4 <./MD6.18.png>]
+Package pdftex.def Info: MD6.33.png  used on input line 119.
+(pdftex.def)             Requested size: 185.28896pt x 233.66885pt.
+[4 <./MD6.18.png>]
 <MD6.39.png, id=47, 1143.27126pt x 934.49126pt>
 File: MD6.39.png Graphic file (type png)
 <use MD6.39.png>
-Package pdftex.def Info: MD6.39.png  used on input line 122.
+Package pdftex.def Info: MD6.39.png  used on input line 129.
 (pdftex.def)             Requested size: 342.98402pt x 280.34953pt.
  [5 <./MD6.33.png>]
 <MD6.69.png, id=54, 1094.0875pt x 881.2925pt>
 File: MD6.69.png Graphic file (type png)
 <use MD6.69.png>
-Package pdftex.def Info: MD6.69.png  used on input line 130.
+Package pdftex.def Info: MD6.69.png  used on input line 137.
 (pdftex.def)             Requested size: 328.22878pt x 264.38979pt.
- [6 <./MD6.39.png>] [7 <./MD6.69.png>] (./第八次模电作业.aux)
+ [6 <./MD6.39.png>] [7 <./MD6.69.png>]
+(./第八次模电作业.aux)
 Package rerunfilecheck Info: File `第八次模电作业.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  22718 strings out of 476025
- 443788 string characters out of 5794015
+ 443779 string characters out of 5794015
  1859382 words of memory out of 5000000
  42692 multiletter control sequences out of 15000+600000
- 549127 words of font info for 161 fonts, out of 8000000 for 9000
+ 550872 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,8n,80p,1018b,945s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/tex
@@ -1022,7 +1027,7 @@ ype1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2023/texmf-dist/fonts/type1
 /urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pf
 b><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 第八次模电作业.pdf (7 pages, 395863 bytes).
+Output written on 第八次模电作业.pdf (7 pages, 396405 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
