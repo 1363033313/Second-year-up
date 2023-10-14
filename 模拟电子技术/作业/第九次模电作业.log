@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.11)  14 OCT 2023 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.11)  14 OCT 2023 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,11 +944,11 @@ File: MD7.3.png Graphic file (type png)
 <use MD7.3.png>
 Package pdftex.def Info: MD7.3.png  used on input line 30.
 (pdftex.def)             Requested size: 294.2014pt x 158.39296pt.
-<MD7.12.png, id=6, 740.7675pt x 628.3475pt>
-File: MD7.12.png Graphic file (type png)
-<use MD7.12.png>
-Package pdftex.def Info: MD7.12.png  used on input line 39.
-(pdftex.def)             Requested size: 222.23196pt x 188.50569pt.
+<MD7.3_1.png, id=6, 415.19115pt x 328.8285pt>
+File: MD7.3_1.png Graphic file (type png)
+<use MD7.3_1.png>
+Package pdftex.def Info: MD7.3_1.png  used on input line 47.
+(pdftex.def)             Requested size: 290.6318pt x 230.17838pt.
 
 (d:/LaTex/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
@@ -957,40 +957,53 @@ TeX and DVIPDFMx (CTEX)
 Unicode.sfd}) [1
 
 {d:/LaTex/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./MD7.3.png>]
-<MD7.17.png, id=20, 696.6025pt x 725.71124pt>
+<MD7.12.png, id=21, 740.7675pt x 628.3475pt>
+File: MD7.12.png Graphic file (type png)
+<use MD7.12.png>
+Package pdftex.def Info: MD7.12.png  used on input line 56.
+(pdftex.def)             Requested size: 185.19142pt x 157.08649pt.
+ [2 <./MD7.3_1.png> <./MD7.12.png>]
+<MD7.17.png, id=31, 696.6025pt x 725.71124pt>
 File: MD7.17.png Graphic file (type png)
 <use MD7.17.png>
-Package pdftex.def Info: MD7.17.png  used on input line 45.
+Package pdftex.def Info: MD7.17.png  used on input line 86.
 (pdftex.def)             Requested size: 208.98236pt x 217.71504pt.
-<MD7.26.png, id=21, 1363.0925pt x 528.97626pt>
+ [3 <./MD7.17.png>]
+<MD7.17_1.png, id=39, 988.44281pt x 526.21594pt>
+File: MD7.17_1.png Graphic file (type png)
+<use MD7.17_1.png>
+Package pdftex.def Info: MD7.17_1.png  used on input line 111.
+(pdftex.def)             Requested size: 296.53513pt x 157.866pt.
+<MD7.26.png, id=40, 1363.0925pt x 528.97626pt>
 File: MD7.26.png Graphic file (type png)
 <use MD7.26.png>
-Package pdftex.def Info: MD7.26.png  used on input line 51.
+Package pdftex.def Info: MD7.26.png  used on input line 117.
 (pdftex.def)             Requested size: 408.93091pt x 158.69409pt.
- [2 <./MD7.12.png> <./MD7.17.png>] [3 <./MD7.26.png>]
-(./第九次模电作业.aux)
+ [4 <./MD7.17_1.png>] [5 <./MD7.26.png>] (./第九次模电作业.aux)
 Package rerunfilecheck Info: File `第九次模电作业.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22691 strings out of 476025
- 445117 string characters out of 5791021
- 1856382 words of memory out of 5000000
- 42684 multiletter control sequences out of 15000+600000
- 547808 words of font info for 154 fonts, out of 8000000 for 9000
+ 22725 strings out of 476025
+ 445545 string characters out of 5791021
+ 1860382 words of memory out of 5000000
+ 42704 multiletter control sequences out of 15000+600000
+ 550716 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,80p,1018b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/L
-aTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/LaTe
-x/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/202
-3/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb><d:/LaTex/texlive/2023/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on 第九次模电作业.pdf (3 pages, 151812 bytes).
+ 78i,8n,80p,1018b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/
+LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/LaTe
+x/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/LaTex/t
+exlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><d:/LaTex
+/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023
+/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb><d:/LaTex/texlive/2023/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on 第九次模电作业.pdf (5 pages, 238664 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 39957 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 39967 words of extra memory for PDF output out of 42996 (max. 10000000)
 
