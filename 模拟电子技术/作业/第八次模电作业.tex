@@ -108,7 +108,7 @@ $A_v = v_o/v_s$ . (iii) Find $v_o(t)$. (b) Repeat part (a) for $R_S = 0$.
 	\caption{Problem 6.18}
 \end{figure}
 \noindent Solution:\\
-(a)(i)$\displaystyle I_{BQ}=\frac{I_{CQ}}{\beta}=\mathrm{mA}$, then because of KVL, we have equation:
+(a)(i)$\displaystyle I_{BQ}=\frac{I_{CQ}}{\beta}=0.00661\mathrm{mA}$, then because of KVL, we have equation:
 $$\begin{cases}
 	I_{BQ}R_S+V_{BE{ON}}+(\beta+1)I_BR_E=0-V^-\\
 	I_CR_C+V_{CEQ}+(\beta+1)I_B=V^+-V^-
@@ -118,17 +118,29 @@ $$\begin{cases}
 	R_E=17.0\mathrm{k\Omega}
 \end{cases}
 $$
-(ii)$\displaystyle A_v=\frac{-g_m(\displaystyle\frac{r_\pi}{R_S+r_\pi}\cdot v_s)(R_L||R_C)}{v_s}$\\
+(ii)$\displaystyle A_v=\frac{-g_m(\displaystyle\frac{r_\pi}{R_S+r_\pi}\cdot v_s)(R_L||R_C)}{v_s}=-27.5$\\
+(iii)$v_o(t)=A_vv_s=-0.14\sin\omega t\mathrm{V}$\\
+(b)(i)because of KVL, we have equation:
+$$\begin{cases}
+	\beta I_{BQ}R_C+V{CEQ}+(\beta+1)I_BR_E=V^+-V^-\\
+	V_{BE{ON}}+(\beta+1)I_BR_E=0-V^-
+\end{cases}\Rightarrow
+\begin{cases}
+	R_C=10.8\mathrm{k\Omega}\\
+	R_E=17.1\mathrm{k\Omega}
+\end{cases}
+$$
+(ii)$\displaystyle A_v=\frac{-g_m(\displaystyle\cdot v_s)(R_L||R_C)}{v_s}=-32.9$\\
+(iii)$v_o(t)=A_vv_s=-0.16\sin\omega t\mathrm{V}$\\
 6.33 For the circuit in Figure P6.15, let $\beta = 100$, $V_A =\infty$, $R_E = 12.9 \mathrm{k\Omega}$, and
-$R_C = 6 \mathrm{k\Omega}$. Determine the maximum undistorted swing in the output
-voltage if the total instantaneous C–E voltage is to remain in the range
-$1 \leq v_{CE} \leq 9 $V and if the total instantaneous collector current is to remain
-greater or equal to $50 \mu$ A.
+$R_C = 6 \mathrm{k\Omega}$. Determine the maximum undistorted swing in the output voltage if the total instantaneous C–E voltage is to remain in the range
+$1 \leq v_{CE} \leq 9 $V and if the total instantaneous collector current is to remain greater or equal to $50 \mu$ A.
 \begin{figure}[H] 
 	\centering 
 	\includegraphics[scale=0.20]{MD6.33.png}
 	\caption{Problem 6.33}
 \end{figure}
+\noindent Solution:\\
 6.39 For the circuit in Figure P6.24, the transistor parameters are $\beta = 100$ and
 $V_A =\infty$. (a) Determine the maximum undistorted swing in the output
 voltage if the total instantaneous E–C voltage is to remain in the range
