@@ -141,6 +141,17 @@ $1 \leq v_{CE} \leq 9 $V and if the total instantaneous collector current is to 
 	\caption{Problem 6.33}
 \end{figure}
 \noindent Solution:\\
+First, we solve out Q-point:\\
+because of KVL, we have equation:
+$$
+	I_BR_B+V_{BE(ON)}+(\beta+1)I_B(R_E+R_S)=0-V^-\Rightarrow I_B=0.00315\mathrm{mA}
+$$
+$\therefore I_C=0.315 \mathrm{mA},I_E=0.319 \mathrm{mA},V_{CEQ}=(V^+-V^-)-I_CR_C-I_E(R_E+R_S)=3.96\mathrm{V}$\\
+Second, AC circuit Load Line Analysis:\\
+$\displaystyle AC-slope=-\frac{1}{R_C||R_S}=-\frac1{6.1}\Rightarrow 315 \mathrm{\mu A}-50\mathrm{\mu A}=\Delta i_{CE(\max)}=-\frac1{6.1}\Delta v_{CE(\max)}\\
+\Rightarrow\Delta v_{CE(\max)}=1.62\mathrm{V}\Rightarrow v_{CE(\min)}=2.34\mathrm{V}>1\mathrm{V}$\\
+Third, calculate the max undistorted swing:\\
+$V_{pp(\max)}=2\Delta v_{CE(\max)}=3.24\mathrm{V}$\\
 6.39 For the circuit in Figure P6.24, the transistor parameters are $\beta = 100$ and
 $V_A =\infty$. (a) Determine the maximum undistorted swing in the output
 voltage if the total instantaneous E–C voltage is to remain in the range
@@ -148,15 +159,39 @@ $1 \leq v_{EC} \leq 9 $V. (b) Using the results of part (a), determine the range
 current.
 \begin{figure}[H] 
 	\centering 
-	\includegraphics[scale=0.3]{MD6.39.png}
+	\includegraphics[scale=0.2]{MD6.39.png}
 	\caption{Problem 6.39}
 \end{figure}
+\noindent Solution:\\
+(a)First, find Q-point:
+$$
+	(\beta+1)I_{BQ}R_E+V{BE(ON)}+I_{BQ}R_B=V^+\Rightarrow I_{BQ}=0.00647\mathrm{mA}
+$$
+$\therefore I_{CQ}=0.647\mathrm{mA},V_{ECQ}=(V^+-V^-)-(\beta+1)R_E-I_{CQ}R_C=4.18\mathrm{V}$\\
+Second, AC circuit Load Line Analysis:\\
+$\displaystyle AC-slope=-\frac{1}{R_C||R_L}=-\frac1{2\mathrm{k\Omega}}\Rightarrow 0.647 \mathrm{mA}=\Delta i_{CE(\max)}=-\frac1{2\mathrm{k\Omega}}\Delta v_{CE(\max)}\\
+\Rightarrow\Delta v_{CE(\max)}=1.294\mathrm{V}\Rightarrow v_{CE(\min)}=V_{CEQ}-\Delta v_{CE(\max)}>1\mathrm{V}$\\
+Third, calculate the max undistorted swing:\\
+$V_{pp(\max)}=2\Delta v_{CE(\max)}=2.59\mathrm{V}$\\
+(b)the answer is obviously: $i_C\in(0,1.294]\mathrm{mA}$\\
 6.65 Consider the circuit shown in Figure P6.69. The transistor has parameters
-$\beta = 60$ and $V_A =\infty$. (a) Determine the quiescent values of $I_{CQ}$ and $V_{CEQ}$.
+$\beta = 120$ and $V_A =\infty$. (a) Determine the quiescent  $V_{CEQ}$.
 (b) Determine the small-signal voltage gain $A_v = v_o/v_s$.
 \begin{figure}[H] 
 	\centering 
-	\includegraphics[scale=0.3]{MD6.69.png}
-	\caption{Problem 6.69}
+	\includegraphics[scale=0.4]{MD6.65.jpg}
+	\caption{Problem 6.65}
 \end{figure}
+\noindent Solution:\\
+(a)Because of KCL, we have equation:
+$$\begin{cases}
+	I_{BQ}+\beta I_{BQ}=I_Q\\
+	\beta I_BR_C+V_{CEQ}=V^+-(-V_{BE(ON)})
+\end{cases}\Rightarrow
+\begin{cases}
+	I_{BQ}=0.0083\mathrm{mA}\\
+	V_{CEQ}=3.72\mathrm{V}
+\end{cases}
+$$
+(b)$\displaystyle A_v=\frac{-g_mV_\pi(R_C||R_L)}{v_s}=g_m{(R_C||R_L)}=63.6$
 \end{document}
