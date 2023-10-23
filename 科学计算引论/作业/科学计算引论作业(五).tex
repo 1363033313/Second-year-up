@@ -1,0 +1,65 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\captionsetup[figure]{name={Figure}}
+%opening
+\title{科学计算引论作业(五)}
+\author{谢悦晋 \quad U202210333}
+\date{Oct 22nd, 2023 }
+\begin{document}
+\maketitle
+\textbf{4.2} 给定 $f(x)=\sinh x$ 及插值节点 $x_0=0.40,x_1=0.55,x_2=0.70,x_3=0.85,x_4=1.00$, 试构造 4次 Newton 插值多项式计算 $f(0.596)$ 的通近值，并指出其绝对误差。
+
+解：
+
+注意到插值点实际上是等间距的，故可以应用等距节点时的Newton插值公式，差分表如下：
+\begin{table*}[h]
+	\centering
+	\caption{4.2 差分表}
+	
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		$x$ & $f(x)$ & $\Delta$ & $\Delta^2$ & $\Delta^3$ & $\Delta^4$\\
+		\hline
+		$0.40$ & 0.410752 &  &&&\\
+		\hline
+		$0.55$ & 0.578151 & 0.167399 &&&\\
+		\hline
+		$0.70$ & 0.758583 & 0.180432 & 0.013033&&\\
+		\hline
+		$0.85$ & 0.956115 & 0.197532 & 0.017100 & 0.004067&\\
+		\hline
+		$1.00$ & 1.175201 & 0.219085 & 0.021553 & 0.004453& 0.000385\\
+		\hline
+	\end{tabular}
+\end{table*}
+由差商表易得Newton插值多项式：
+$$\begin{aligned}
+	N_4(x)=N_4(x_0+0.15t)&=0.410752+0.167399t+\frac{0.013033}{2!}t(t-1)+\frac{0.004067}{3!}t(t-1)(t-2)\\&+\frac{0.000385}{4!}t(t-1)(t-2)(t-3)
+\end{aligned}
+$$
+计算结果如下:
+$$
+	N_4(0.596)=N_4(0.4+0.15\frac{98}{75})=0.6319171542,\\ |f(0.596)-N_4(0.596)|=3.523342521072337\times10^{-7}
+$$
+\end{document}
