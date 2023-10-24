@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  23 OCT 2023 08:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  24 OCT 2023 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -937,12 +937,12 @@ File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
 quanjiao) on input line 31.
-<hust.png, id=63, 88.07906pt x 67.0003pt>
+<hust.png, id=71, 88.07906pt x 67.0003pt>
 File: hust.png Graphic file (type png)
 <use hust.png>
 Package pdftex.def Info: hust.png  used on input line 41.
 (pdftex.def)             Requested size: 88.07883pt x 67.00012pt.
-<eic.png, id=65, 76.78688pt x 76.78688pt>
+<eic.png, id=73, 76.78688pt x 76.78688pt>
 File: eic.png Graphic file (type png)
 <use eic.png>
 Package pdftex.def Info: eic.png  used on input line 44.
@@ -1023,7 +1023,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
                    \relax 
 l.68 	\subfigure
                 [直接连接]{
-<1.1.png, id=133, 1506.62875pt x 819.06pt>
+<1.1.png, id=141, 1506.62875pt x 819.06pt>
 File: 1.1.png Graphic file (type png)
 <use 1.1.png>
 Package pdftex.def Info: 1.1.png  used on input line 71.
@@ -1035,7 +1035,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
                    \relax 
 l.72 	\subfigure
                 [通过电压跟随器连接]{
-<1.2.png, id=134, 1625.07124pt x 741.77126pt>
+<1.2.png, id=142, 1625.07124pt x 741.77126pt>
 File: 1.2.png Graphic file (type png)
 <use 1.2.png>
 Package pdftex.def Info: 1.2.png  used on input line 74.
@@ -1047,11 +1047,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
                    \relax 
 l.85 	\subfigure
                 [不接入$R_L$]{
-<1.7.jpg, id=136, 4111.36pt x 3083.52pt>
+<1.7.jpg, id=144, 4111.36pt x 3083.52pt>
 File: 1.7.jpg Graphic file (type jpg)
 <use 1.7.jpg>
 Package pdftex.def Info: 1.7.jpg  used on input line 87.
-(pdftex.def)             Requested size: 201.43958pt x 151.07968pt.
+(pdftex.def)             Requested size: 200.75996pt x 150.56213pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
@@ -1065,11 +1065,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
                    \relax 
 l.88 	\subfigure
                 [接入$R_L$]{
-<1.8.jpg, id=137, 4111.36pt x 3083.52pt>
+<1.8.jpg, id=145, 4111.36pt x 3083.52pt>
 File: 1.8.jpg Graphic file (type jpg)
 <use 1.8.jpg>
 Package pdftex.def Info: 1.8.jpg  used on input line 90.
-(pdftex.def)             Requested size: 201.43958pt x 151.07968pt.
+(pdftex.def)             Requested size: 200.75996pt x 150.56213pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
 }) has been already used, duplicate ignored
@@ -1077,11 +1077,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
                    \relax 
 l.97 	\subfigure
                 [不接入$R_L$]{
-<1.5.jpg, id=138, 4111.36pt x 3083.52pt>
+<1.5.jpg, id=146, 4111.36pt x 3083.52pt>
 File: 1.5.jpg Graphic file (type jpg)
 <use 1.5.jpg>
 Package pdftex.def Info: 1.5.jpg  used on input line 99.
-(pdftex.def)             Requested size: 201.43958pt x 151.07968pt.
+(pdftex.def)             Requested size: 200.75996pt x 150.56213pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
 }) has been already used, duplicate ignored
@@ -1089,11 +1089,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
                    \relax 
 l.100 	\subfigure
                  [接入$R_L$]{
-<1.6.jpg, id=139, 4111.36pt x 3083.52pt>
+<1.6.jpg, id=147, 4111.36pt x 3083.52pt>
 File: 1.6.jpg Graphic file (type jpg)
 <use 1.6.jpg>
 Package pdftex.def Info: 1.6.jpg  used on input line 102.
-(pdftex.def)             Requested size: 201.43958pt x 151.07968pt.
+(pdftex.def)             Requested size: 200.75996pt x 150.56213pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1102,7 +1102,7 @@ been already used, duplicate ignored
 l.105 \end{figure}
                    [1 <./1.1.png> <./1.2.png>] [2 <./1.7.jpg> <./1.8.jpg> <./1.
 5.jpg> <./1.6.jpg>]
-<1.3.png, id=202, 1080.035pt x 503.8825pt>
+<1.3.png, id=210, 1080.035pt x 503.8825pt>
 File: 1.3.png Graphic file (type png)
 <use 1.3.png>
 Package pdftex.def Info: 1.3.png  used on input line 136.
@@ -1114,7 +1114,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
                    \relax 
 l.159 	\subfigure
                  [$v_{1pp}$]{
-<1.9.jpg, id=203, 4111.36pt x 3083.52pt>
+<1.9.jpg, id=211, 4111.36pt x 3083.52pt>
 File: 1.9.jpg Graphic file (type jpg)
 <use 1.9.jpg>
 Package pdftex.def Info: 1.9.jpg  used on input line 161.
@@ -1126,82 +1126,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
                    \relax 
 l.162 	\subfigure
                  [$v_{2pp}$]{
-<1.10.jpg, id=204, 4111.36pt x 3083.52pt>
+<1.10.jpg, id=212, 4111.36pt x 3083.52pt>
 File: 1.10.jpg Graphic file (type jpg)
 <use 1.10.jpg>
 Package pdftex.def Info: 1.10.jpg  used on input line 164.
 (pdftex.def)             Requested size: 201.43958pt x 151.07968pt.
-<1.11.jpg, id=205, 4111.36pt x 3083.52pt>
+<1.11.jpg, id=213, 4111.36pt x 3083.52pt>
 File: 1.11.jpg Graphic file (type jpg)
 <use 1.11.jpg>
 Package pdftex.def Info: 1.11.jpg  used on input line 167.
 (pdftex.def)             Requested size: 201.43958pt x 151.07968pt.
  [3 <./1.3.png>]
-<1.4.png, id=224, 1178.4025pt x 917.4275pt>
+<1.4.png, id=232, 1178.4025pt x 917.4275pt>
 File: 1.4.png Graphic file (type png)
 <use 1.4.png>
 Package pdftex.def Info: 1.4.png  used on input line 178.
 (pdftex.def)             Requested size: 212.1033pt x 165.12982pt.
-<1.12.jpg, id=225, 4111.36pt x 3083.52pt>
+<1.12.jpg, id=233, 4111.36pt x 3083.52pt>
 File: 1.12.jpg Graphic file (type jpg)
 <use 1.12.jpg>
 Package pdftex.def Info: 1.12.jpg  used on input line 183.
 (pdftex.def)             Requested size: 292.77629pt x 219.5384pt.
- [4 <./1.9.jpg> <./1.10.jpg> <./1.11.jpg>] [5 <./1.4.png> <./1.12.jpg>] (./第�
-��次模电实验.aux)
+ [4 <./1.9.jpg> <./1.10.jpg> <./1.11.jpg>] [5 <./1.4.png> <./1.12.jpg>] [6] (./
+第一次模电实验.aux)
 Package rerunfilecheck Info: File `第一次模电实验.out' has not changed.
-(rerunfilecheck)             Checksum: 92040D1173EABF33F7F3EC45C610E878;1050.
+(rerunfilecheck)             Checksum: 76D1CEF49F83057CB88E64BB443B01ED;1250.
  ) 
 Here is how much of TeX's memory you used:
- 24316 strings out of 476025
- 471255 string characters out of 5794015
- 1861382 words of memory out of 5000000
- 44026 multiletter control sequences out of 15000+600000
- 594212 words of font info for 305 fonts, out of 8000000 for 9000
+ 24476 strings out of 476025
+ 474149 string characters out of 5794015
+ 1862382 words of memory out of 5000000
+ 44154 multiletter control sequences out of 15000+600000
+ 599072 words of font info for 323 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,11n,80p,1018b,947s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
-/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:
+/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
 /Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
-.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
+.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
 s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
-ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
+ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf>
 <c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/sim
-hei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
+hei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
 onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
-indows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.t
-tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
-simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
+tc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
+simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
 s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
-:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
+:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsu
 n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
 ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
-dows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc
+dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
 msun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
 Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/
-Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.
+Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.
 ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts
-/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windo
-ws/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><
-c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simh
-ei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fo
-nts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wi
+/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windo
+ws/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><
+c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sims
+un.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fo
+nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Wi
 ndows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.tt
 f><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
-imhei.ttf><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist
-/fonts/type1/public/esint-type1/esint10.pfb><d:/texlive/2023/texmf-dist/fonts/t
-ype1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive
-/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 第一次模电实验.pdf (6 pages, 25304919 bytes).
+imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
+/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:
+/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
+.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
+s/simhei.ttf><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/t
+exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/202
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-d
+ist/fonts/type1/public/esint-type1/esint10.pfb><d:/texlive/2023/texmf-dist/font
+s/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texl
+ive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 第一次模电实验.pdf (7 pages, 25360857 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 28 named destinations out of 1000 (max. 500000)
- 54623 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 604 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 54671 words of extra memory for PDF output out of 61914 (max. 10000000)
 
