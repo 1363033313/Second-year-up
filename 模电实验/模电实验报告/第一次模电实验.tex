@@ -79,7 +79,7 @@
 (2)按照图(b)连接电路，仍从信号源送出频率为1kHz、峰－峰值为1V的正弦信号，用示波器两个通道同时观察输入、输出波形，分别测量未接$R_L$和接入$R_L$两种情况下$v_i$和$v_io$的大小并填入下表中。
 
 (3)计算信号源的内阻$R_S$，说明100$\Omega$负载电阻连接到信号源上产生的负载效应，并解释观察到的实验现象。
-\begin{table}[h]
+\begin{figure}[H]
 	\centering
 	\caption*{电压跟随器的作用数据记录表格}
 	
@@ -90,13 +90,13 @@
 		\cline{2-5}
 		\multirow{2}{*}{} & $v_{ipp}/$V & $v_{opp}/$V & $v_{ipp}/$V & $v_{opp}/$V & \multirow{2}{*}{}\\
 		\hline
-		无电压跟随器 &  & - &  & - & \\
+		无电压跟随器 &  & - &  & - &  \\
 		\hline
 		有电压跟随器 &  &  &  &  & - \\
 		\hline
 	\end{tabular}
 	\label{table_MAP}
-\end{table}
+\end{figure}
 信号源的内阻计算可以按照分压公式计算：
 $$
 	R_s=\frac{V_s-v_{ipp(R_L)}}{v_{ipp(R_L)}}R_L

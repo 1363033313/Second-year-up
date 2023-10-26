@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  25 OCT 2023 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  26 OCT 2023 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,8 +1061,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 $$
-         [1 <./1.1.png> <./1.2.png>]
+l.99 \end{figure}
+                  [1 <./1.1.png> <./1.2.png>]
 <1.13.png, id=215, 933.4875pt x 856.19875pt>
 File: 1.13.png Graphic file (type png)
 <use 1.13.png>
@@ -1094,14 +1094,14 @@ File: 1.4.png Graphic file (type png)
 <use 1.4.png>
 Package pdftex.def Info: 1.4.png  used on input line 150.
 (pdftex.def)             Requested size: 212.1033pt x 165.12982pt.
-
+ [3]
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.160 	\subfigure
                  [不接入$R_L$]{
-<1.5.png, id=241, 783.67781pt x 240.9pt>
+<1.5.png, id=249, 783.67781pt x 240.9pt>
 File: 1.5.png Graphic file (type png)
 <use 1.5.png>
 Package pdftex.def Info: 1.5.png  used on input line 162.
@@ -1119,19 +1119,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
                    \relax 
 l.163 	\subfigure
                  [接入$R_L$]{
-<1.6.png, id=242, 831.85782pt x 215.30438pt>
+<1.6.png, id=250, 831.85782pt x 215.30438pt>
 File: 1.6.png Graphic file (type png)
 <use 1.6.png>
 Package pdftex.def Info: 1.6.png  used on input line 165.
 (pdftex.def)             Requested size: 200.75996pt x 51.95992pt.
- [3]
+
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.173 	\subfigure
                  [不接入$R_L$]{
-<1.7.png, id=253, 1068.99374pt x 636.3775pt>
+<1.7.png, id=251, 1068.99374pt x 636.3775pt>
 File: 1.7.png Graphic file (type png)
 <use 1.7.png>
 Package pdftex.def Info: 1.7.png  used on input line 175.
@@ -1143,7 +1143,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.2
                    \relax 
 l.176 	\subfigure
                  [接入$R_L$]{
-<1.8.png, id=254, 1030.85126pt x 611.28375pt>
+<1.8.png, id=252, 1030.85126pt x 611.28375pt>
 File: 1.8.png Graphic file (type png)
 <use 1.8.png>
 Package pdftex.def Info: 1.8.png  used on input line 178.
@@ -1196,12 +1196,12 @@ Package rerunfilecheck Info: File `第一次模电实验.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24576 strings out of 476025
- 475992 string characters out of 5794015
- 1868382 words of memory out of 5000000
+ 475993 string characters out of 5794015
+ 1866382 words of memory out of 5000000
  44230 multiletter control sequences out of 15000+600000
  601891 words of font info for 335 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,80p,1018b,947s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,12n,80p,1018b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:
@@ -1247,7 +1247,7 @@ sfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/esint-type1
 xlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on 第一次模电实验.pdf (7 pages, 14198939 bytes).
+Output written on 第一次模电实验.pdf (7 pages, 14198935 bytes).
 PDF statistics:
  658 PDF objects out of 1000 (max. 8388607)
  432 compressed objects within 5 object streams

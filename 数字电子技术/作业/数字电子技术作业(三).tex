@@ -118,7 +118,7 @@ $(1)L(A,B)=\overline{A}\cdot\overline{B}+AB$
 
 $(2)L(A,B,C)=\sum m(1,2,6,7)$
 
-解：
+\noindent 解：
 
 (1)
 \begin{figure}[H]
@@ -172,11 +172,77 @@ $$
 
 \textbf{4.4.35} 仿照半加器和全加器的设计方法，试设计一半减器和一全减器，所用的门电路由自己选定。
 
+解：
+
+半减器仅考虑向高位借位，全减器还要额外考虑低位的借位。
+
+半减器：
+
+设$A,B$分别为被减数和减数，$S,D$为差值和向高位的借位，真值表如下：
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{cc|cc}
+		\hline
+		$A$ & $B$ & $S$ & $D$\\
+		\hline
+		0 & 0 & 0 & 0 \\
+		0 & 1 & 1 & 1 \\
+		1 & 0 & 1 & 0 \\
+		1 & 1 & 0 & 0 \\
+		\hline
+	\end{tabular}
+	\caption{半减器真值表}
+\end{figure}
+易得逻辑函数:
+\begin{align*}
+	S&=\overline{A}B+A\overline{B}=A\textcircled{+}B\\
+	D&=\overline{A}B
+\end{align*}
+
+电路如下：
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{4.4.35_1}
+	\caption{半减器}
+\end{figure}
+全减器：
+
+设$A,B$分别为被减数和减数，$C$为低位借位，$S,D$为差值和向高位的借位，真值表如下：
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{ccc|cc}
+		\hline
+		$A$ & $B$ & $C$ & $S$ & $D$\\
+		\hline
+		0 & 0 & 0 & 0 & 0\\
+		0 & 0 & 1 & 1 & 1\\
+		0 & 1 & 0 & 1 & 1\\
+		0 & 1 & 1 & 0 & 1\\
+		1 & 0 & 0 & 1 & 0\\
+		1 & 0 & 1 & 0 & 0\\
+		1 & 1 & 0 & 0 & 0\\
+		1 & 1 & 1 & 1 & 1\\
+		\hline
+	\end{tabular}
+	\caption{半减器真值表}
+\end{figure}
+易得逻辑函数:
+\begin{align*}
+	&S=\overline{A}\overline{B}C+\overline{A}B\overline{C}+A\overline{B}\overline{C}+ABC=\overline{A}(B\oplus C)+A\overline{B\oplus C}=A\oplus B\oplus C \\
+	&D=\overline{A}\cdot\overline{B}C+\overline{A}B\overline{C}+\overline{A}BC+ABC=\overline{A}B(\overline{C}+C)+(\overline{A}\cdot\overline{B}+AB)C=\overline{A}B+\overline{A\oplus B}\cdot C
+\end{align*}
+
+用两个半减器和一个或门就可以组成全减器：
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{4.4.35_2}
+	\caption{全减器}
+\end{figure}
 \textbf{4.4.37} 逻辑电路如图题 4.4.37 所示，试分析该电路的功能
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{4.4.37}
-	\caption{}
+	\caption{全减器}
 \end{figure}
 课堂习题：
 
