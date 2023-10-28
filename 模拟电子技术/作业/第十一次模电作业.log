@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.11)  26 OCT 2023 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.11)  27 OCT 2023 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -947,7 +947,7 @@ Package pdftex.def Info: 10.44.png  used on input line 30.
 <10.54.png, id=6, 280.04625pt x 512.66531pt>
 File: 10.54.png Graphic file (type png)
 <use 10.54.png>
-Package pdftex.def Info: 10.54.png  used on input line 37.
+Package pdftex.def Info: 10.54.png  used on input line 44.
 (pdftex.def)             Requested size: 167.2989pt x 306.27953pt.
 
 (d:/LaTex/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
@@ -960,21 +960,21 @@ Unicode.sfd}) [1
 <10.60.png, id=21, 335.00156pt x 645.91313pt>
 File: 10.60.png Graphic file (type png)
 <use 10.60.png>
-Package pdftex.def Info: 10.60.png  used on input line 43.
+Package pdftex.def Info: 10.60.png  used on input line 64.
 (pdftex.def)             Requested size: 167.2989pt x 322.56154pt.
 
-Overfull \hbox (7.70897pt too wide) in paragraph at lines 40--45
+Overfull \hbox (5.90652pt too wide) in paragraph at lines 61--66
 []\OT1/ptm/m/n/10.95 (-20) 10.60 The tran-sis-tors in the cir-cuit shown in Fig
 -ure P10.60 have pa-ram-e-ters $\OML/ztmcm/m/it/10.95 V[] \OT1/ztmcm/m/n/10.95 
 = 0\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m/n/10.95 4$\OT1/ptm/m/n/10.95 (-20) V$\OM
-L/ztmcm/m/it/10.95 ; V[]P \OT1/ztmcm/m/n/10.95 =
+L/ztmcm/m/it/10.95 ; V[] \OT1/ztmcm/m/n/10.95 =
  []
 
 [2 <./10.54.png>]
-<10.84.png, id=28, 497.60907pt x 569.87906pt>
+<10.84.png, id=29, 497.60907pt x 569.87906pt>
 File: 10.84.png Graphic file (type png)
 <use 10.84.png>
-Package pdftex.def Info: 10.84.png  used on input line 49.
+Package pdftex.def Info: 10.84.png  used on input line 85.
 (pdftex.def)             Requested size: 167.2989pt x 191.5998pt.
  [3 <./10.60.png>] [4 <./10.84.png>]
 (./第十一次模电作业.aux)
@@ -983,24 +983,25 @@ d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22691 strings out of 476025
- 445132 string characters out of 5791021
- 1856382 words of memory out of 5000000
+ 22697 strings out of 476025
+ 445163 string characters out of 5791021
+ 1857382 words of memory out of 5000000
  42684 multiletter control sequences out of 15000+600000
- 548111 words of font info for 154 fonts, out of 8000000 for 9000
+ 550753 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,7n,80p,1021b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/L
-aTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/LaTe
-x/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/202
-3/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb><d:/LaTex/texlive/2023/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on 第十一次模电作业.pdf (4 pages, 121029 bytes).
+ 78i,8n,80p,1021b,942s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+d:/LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/
+LaTex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/LaTe
+x/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/LaTex/t
+exlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023/t
+exmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/LaTex/texlive/2023/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb><d:/LaTex/texlive/2023/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on 第十一次模电作业.pdf (4 pages, 135157 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  39957 words of extra memory for PDF output out of 42996 (max. 10000000)
 
