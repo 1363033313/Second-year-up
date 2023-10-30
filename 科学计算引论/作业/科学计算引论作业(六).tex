@@ -1,0 +1,89 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\captionsetup[figure]{name={Figure}}
+%opening
+\title{科学计算引论作业(六)}
+\author{谢悦晋 \quad U202210333}
+\date{Oct 29th, 2023 }
+\begin{document}
+\maketitle
+\textbf{4.2} 已知下列实验数据
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	$x$ & 19 & 25 & 31 & 38 & 41\\
+	\hline
+	$y$\textsf{} & 19.0 & 32.3 & 49.0 &73.3 & 97.8\\
+	\hline
+	\end{tabular}
+\end{table}
+试用最小二乘法求一个形如$y=a+bx^2$的经验公式.
+
+\noindent 解：
+\textbf{Step 1}: 计算平方项的值
+
+计算每个数据点的$x$的平方值，得到新的一列数据。
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		$x$ & 19 & 25 & 31 & 38 & 41\\
+		\hline
+		$t=x^2$ & 361 & 625 & 961 & 1444 & 1681\\
+		\hline
+		$y$\textsf{} & 19.0 & 32.3 & 49.0 &73.3 & 97.8\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\textbf{Step 2}: 计算相关的和
+
+计算以下和的值：
+
+$$
+	\sum_{i=1}^5{t} = 5072,
+	\sum_{i=1}^5{t^2} = 6355364,
+	\sum_{i=1}^5{y} = 271.4,
+	\sum_{i=1}^5{ty} = 18743.02,
+$$
+
+\textbf{Step 3}: 计算参数$a$和$b$
+
+使用最小二乘法的公式计算参数$a$和$b$：
+$$
+	b = \frac{\displaystyle 5\sum_{i=1}^5{t_iy_i} - \sum_{i=1}^5{t_i}\sum_{i=1}^5{y_i}}{\displaystyle 5\sum_{i=1}^5{t_i^2} - (\sum_{i=1}^5{t_i})^2}, a = \frac{\displaystyle\sum_{i=1}^5{y_i} - b\sum_{i=1}^5{t_i}}{5}
+$$
+
+代入计算得到：
+$$
+\begin{aligned}
+	b = 0.057,a = -3.612,r=0.991
+\end{aligned}
+$$
+
+因此，经验公式为:
+$$y =-3.612+0.057x^2$$。
+
+\end{document}
