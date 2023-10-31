@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}实验目的}{1}{section.1}%
+\contentsline {section}{\numberline {2}实验器材}{1}{section.2}%
+\contentsline {section}{\numberline {3}实验内容}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}任务1: 研究电压跟随器的作用}{1}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}实验电路:}{2}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}任务2: 反相比例加法运算电路测试}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}任务3: 比例积分电路测试}{4}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}实验电路:}{4}{subsubsection.3.3.1}%
+\contentsline {section}{\numberline {4}实验数据分析}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}任务1: 研究电压跟随器的作用}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}任务2: 反相比例加法运算电路测试}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}任务3: 比例积分电路测试}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}心得、体会与反思}{7}{section.5}%

@@ -21,7 +21,7 @@
 \usepackage{subfigure}
 \usepackage{titlesec}
 \usepackage{makecell}
-\usepackage{tabularx} % for 'tabularx' env. and 'X' col. type
+\usepackage{tabularx}
 
 \numberwithin{equation}{subsection}
 
@@ -33,10 +33,8 @@
 	\begin{center}
 		\vspace*{1cm}
 		\textbf{\LARGE 实验报告：集成运算放大器在信号运算方面的应用}
-		
 		\vspace{0.5cm}
 		\Large 谢悦晋\quad 提高2201班\quad U20221033
-		
 		\vspace{1cm}
 		\begin{figure}[H]
 			\centering
@@ -49,8 +47,6 @@
 			\caption*{}
 		\end{figure}
 		\vfill
-		
-		
 		\vspace{0.8cm}
 		华中科技大学 \\
 		电子信息与通信学院 \\
@@ -279,7 +275,83 @@ $R_{\mathrm{L}}$越接近 $R_{0}$ 误差越小。
 \subsubsection{MOSFET 转移特性仿真}
 \subsection{单极 MOSFET 共源放大电路插板实验}
 \subsubsection{测试静态工作点}
-\subsubsection{性能测试}
-\subsubsection{观察失真波形}
+实验中数据记录表格如下：
+\begin{table}[H]
+	\centering
+	\resizebox{\linewidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			\multirow{2}{*}{} & \multicolumn{3}{c|}{实测值} & \multicolumn{3}{c|}{计算值} & \multirow{2}{*}{\shortstack{MOSFET处于\\哪个工作区}}\\
+			\cline{2-7}
+			& $V_{G}$/V & $V_{S}$/V & $V_{D}$/V & {$I_{DQ}=V_S/R_S$/mA}& $V_{GSQ}=(V_G-V_S)$/V & $V_{DSQ}=(V_D-V_S)$/V & \\
+			\hline
+			\makecell[l]{$R_{g1}=240k$\\$R_{g2}=100k$} & 3.45174 & 1.85189 & 2.59015 &  &&&\\	
+			\hline
+			\makecell[l]{$R_{g1}=100k$\\$R_{g2}=100k$} & 5.99462 & 1.97318 & 1.98032 &&&&\\	
+			\hline
+			\makecell[l]{$R_{g1}=240k$\\$R_{g2}=33k$} & 1.44178 & 0.163566 & 11.4622 &&&&\\
+			\hline
+			实测电阻值 &\multicolumn{7}{c|}{$R_{g1}=241.87\mathrm{k\Omega},97.839\mathrm{k\Omega}\qquad$,$R_{g2}=98.232\mathrm{k\Omega},33.132\mathrm{k\Omega}\qquad$,$R_{d}=5.0156\Omega\qquad$,$R_{s}=983.44\Omega\qquad$}\\
+			\hline				
+		\end{tabular}
+	}
+	\caption{静态工作点}
+\end{table}
+\subsubsection{测试放大电路的输入、输出波形和通带电压增益}
+输入、输出波形如下：
+\begin{figure}[H]
+	\subfigure{
+		\centering
+		\includegraphics[width=0.49\textwidth]{TEK00004.PNG}
+	}
+	\subfigure{
+		\centering
+		\includegraphics[width=0.49\textwidth]{TEK00005.PNG}
+	}
+\end{figure}
+实验数据记录表格如下：
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			\shortstack{负载\\情况} & \shortstack{$v_i$峰-峰\\值$V_{ipp}$/mV} & \shortstack{$v_o$峰-峰值\\$V_{opp}$/mV} & \shortstack{$|A_v|=$\\$V_{opp}/V_{ipp}$}	& \shortstack{$|A_v|$的\\理论值} & \shortstack{相对\\误差}\\
+			\hline
+			负载开路 & 30(39.20) & 1304&&&\\
+			\hline
+			$R_L=5.1\mathrm{k\Omega}$ & 30(38.40) & 222.0 &&&\\
+			\hline		
+		\end{tabular}
+	\caption{:电压增益($f\mathrm{=}\mathrm{1kHz}$)}
+\end{table}
+\subsubsection{测试放大电路的输入电阻}
+测量得到此时的$R=50.914\mathrm{k\Omega}$，接入电路后，输出波形如下：
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{TEK00009.PNG}
+\end{figure}
+
+根据公式(4.3.1)可以计算输入电阻为：$R_i=$
+\subsubsection{测试放大电路的输出电阻}
+根据表4以及公式(4.3.2)可以计算输出电阻为：$R_o=\mathrm{k\Omega}$
+\subsubsection{测试放大电路的通频带}
+下表记录了通频带的测量数据：
+\begin{table}[H]
+	\centering
+	\resizebox{\linewidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		$f$/Hz&5&10&15&20&30&40&50&70&100&200&500&2k&30k\\	
+		\hline
+		$V_{opp}$/mV&420.0&260.0&600.0&700.0&920.0&1040&1120&1180&1240&1280&1288&1288&1288\\
+		\hline
+		100k&200k&250k&260k&270k&275k&280k&285k&290k&300k&310k&330k&350k&370k\\
+		\hline
+		1240&1080&960.0&940.0&920.0&920.0&912.0&900.0&880.0&860.0&840.0&820.0&780.0&760.0\\
+		\hline
+		400k&450k&500k&600k&800k&1M&&&&&&&&\\
+		\hline
+		700.0&680.0&640.0&560.0&440.0&360.0&&&&&&&&\\
+		\hline
+	\end{tabular}}
+	\caption{通频带($V_{\mathrm{ipp}}=30$mV)}
+\end{table}
 \section{实验小结}
 \end{document}
