@@ -1,0 +1,285 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage{makecell}
+\usepackage{tabularx} % for 'tabularx' env. and 'X' col. type
+
+\numberwithin{equation}{subsection}
+
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\begin{document}
+\begin{titlepage}
+	\begin{center}
+		\vspace*{1cm}
+		\textbf{\LARGE 实验报告：集成运算放大器在信号运算方面的应用}
+		
+		\vspace{0.5cm}
+		\Large 谢悦晋\quad 提高2201班\quad U20221033
+		
+		\vspace{1cm}
+		\begin{figure}[H]
+			\centering
+			\subfigure{
+				\includegraphics[scale=1]{hust}
+			}
+			\subfigure{
+				\includegraphics[scale=1]{eic}
+			}
+			\caption*{}
+		\end{figure}
+		\vfill
+		
+		
+		\vspace{0.8cm}
+		华中科技大学 \\
+		电子信息与通信学院 \\
+		Oct 31st, 2023
+	\end{center}
+\end{titlepage}
+\tableofcontents\newpage
+\section{实验名称}
+共源放大电路设计、仿真与实现
+\section{实验目的}
+\begin{itemize}
+	\item 学习共源放大电路工作原理
+	\item 掌握金属-氧化物-半导体场效应管的主要性能参数及其测试方法
+	\item 掌握共源放大电路参数调整方法
+	\item 掌握共源放大电路的基本原理与参数测量方法
+	\item 掌握MOSFET共源极放大电路的安装与测试 技术
+	\item 掌握Multisim软件的使用，实现共源放大电路的仿真实现
+\end{itemize}
+\section{实验元器件}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		名称 & 型号/参数 & 数量\\
+		\hline
+		场效应管 & 2N7000 & 1\\
+		\hline
+		\multirow{3}{*}{电容} & 4.7μF & 1 \\
+		\cline{2-3}
+		 & 47μF & 1\\
+		\cline{2-3}
+		 & 1μF & 1\\
+		\hline
+		电位器 & 500kΩ & 1\\
+		\hline
+		\multirow{4}{*}{电阻} & 100kΩ & 2 \\
+		\cline{2-3}
+		 & 5.1kΩ & 1\\
+		\cline{2-3}
+		 & 51kΩ & 1\\
+		\cline{2-3}
+ 		 & 1kΩ & 1\\
+		\hline 		
+	\end{tabular}
+\end{table}
+\section{实验任务}
+主要为以下三个实验任务：MOSFET输出特性曲线仿真、MOSFET转移特性曲线仿真、MOSFET共源放大电路安装、调试及测试
+\subsection{MOSFET输出特性曲线仿真}
+使用 OrCAD/Spice 分析绘制 MOSFET (2N7000) 的共源极输出特性曲线。实验步骤与要求如下：
+
+(1)建立新项目，绘出电路图。
+
+首先新建一个工程项目，然后放置元器件(M2N7000、Vdc、0 (GRD)等)、连线，画出如图 3.3.5 所示的电路，并在 MOSFET 的漏极放置电流测试探针
+
+\begin{minipage}[t]{0.6\textwidth}
+	(2)设置仿真简表。
+	
+	\ding{172} 新建仿真简表 (New Simulation Profile)， 设置直流扫描分析(DC Sweep) 的主扫描(Primary Sweep)， 扫描变量为VDD， 采用线性扫描，由 OV 开始至 8V 结束，步进为  0.01V。
+	
+	\ding{173} 设置直流扫描分析(DC Sweep)中的二级扫描(Secondray Sweep), 扫描变量为 VGG, 采用线性扫描，由 1.7V 开始至 2.05V 结束，步进为 0.05V。
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{2.1}
+		\caption{特性曲线仿真电路}
+	\end{figure}
+\end{minipage}
+
+
+(3)保存文档、执行仿真(Run)。运行后自动打开结果显示窗，显示输出特性曲线($i_\mathrm{D}$ $v_\mathrm{DS}$)。多根曲线对应$v_\mathrm{GS}$ 的间隔为 0.05V。
+
+(4) 将仿真结果反映至实验报告中。
+
+\ding{172} 选中仿真电路图，复制粘贴到实验报告文档中。
+
+\ding{173} 在结果显示窗中，选择 Window\textbackslash Copy to Clipboard...将曲线复制到剪贴板，期间最好选择“change all colors to black”将所有曲线都变为黑色。然后粘贴至实验报告文档。
+\subsection{MOSFET转移特性曲线仿真}
+使用 OrCAD/Spice 分析绘制 MOSFET (2N7000) 的共源极转移特性曲线。实验步骤与要求如下:
+
+(1)修改电路参数，将$v_\mathrm{op}$电压改为 8V。
+
+(2)设置仿真简表。新建仿真简表(New Simulation Profile), 设置直流扫描分析(DC Sweep)
+的主扫描 (Primary Sweep), 扫描变量为 V$_{GG}$, 采用线性扫描，由 OV 开始至 4V 结束，步进为0.01V。
+
+(3)保存文档、执行仿真 (Run)。运行后自动打开结果显示窗，显示转移特性曲线 $(i_\mathrm{D}-v_{\mathrm{GS}})$.
+
+(4) 将仿真结果复制粘贴到实验报告文档中。
+
+\subsection{MOSFET共源放大电路安装、调试及测试}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{2.2}
+	\caption{共源极放大电路}
+\end{figure}
+
+实验步骤与要求如下:
+
+(1)测试电路的静态工作点。 
+
+\ding{172} 按照图3.3.6在面包板上组装电路，$\nu_\mathrm{DD}$的 12V 取自直流稳压电源。安装电阻前先用万用表测试电阻值，填入表 3.3.2 相应栏中。检查无误后接通电源。用数字万用表的直流电压挡测量电路的 $V_\mathrm{G}$ (栅极对地电压)、$V_\mathrm{S}$(源极对地电压)和 $V_\mathrm{D}$(漏极对地电压), 计算静态工作点$Q(I_DQ$、$V_\mathrm{GSQ}$、$V_\mathrm{DSQ}$)。将结果填入表 3.3.2 相应栏中。
+
+\ding{173}关闭电源，将 $R_\mathrm{gl}$ 改为 100k, 检查无误后接通电源，再次测量 $V_\mathrm{G}$、$V_\mathrm{s}$ 和 $V_\mathrm{D}$, 计算静态工作点$\varrho$($I_\mathrm{bQ},V_\mathrm{GSQ},V_\mathrm{DSQ})$。将结果填入表 3.3.2 相应栏中。
+
+\ding{174} 关闭电源，将 $R_\mathrm{gl}$ 恢复为 240k, 而将 $R_{\mathrm{g2}}$ 改为 33k, 检查无误后接通电源，测量 $V_{\mathrm{G}}$、 $V_\mathrm{s}$和$V_\mathrm{D}$, 计算静态工作点$Q$($I_\mathrm{DQ}$、$V_\mathrm{GSQ}$、$V_\mathrm{DSQ}$)。完成表 3.3.2 的内容。
+\begin{table}[h]
+	\centering
+	\resizebox{\linewidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{} & \multicolumn{3}{c|}{实测值} & \multicolumn{3}{c|}{计算值} & \multirow{2}{*}{\shortstack{MOSFET处于\\哪个工作区}}\\
+		\cline{2-7}
+		& \small$V_{G}$/V & \small$V_{S}$/V & \small$V_{D}$/V & \small{$I_{DQ}=V_S/R_S$/mA}& \small$V_{GSQ}=(V_G-V_S)$/V & \small$V_{DSQ}=(V_D-V_S)$/V & \\
+		\hline
+		\small\makecell[l]{$R_{g1}=240k$\\$R_{g2}=100k$} &&&&&&&\\	
+		\hline
+		\small\makecell[l]{$R_{g1}=100k$\\$R_{g2}=100k$} &&&&&&&\\	
+		\hline
+		\small\makecell[l]{$R_{g1}=240k$\\$R_{g2}=33k$} &&&&&&&\\
+		\hline
+		实测电阻值 &\multicolumn{7}{c|}{$R_{g1}=\qquad$,$R_{g2}=\qquad$,$R_{d}=\qquad$,$R_{s}=\qquad$}\\
+		\hline				
+	\end{tabular}
+}
+\caption{静态工作点}
+\end{table}
+(2)测试放大电路的输入、输出波形和通带电压增益。参考上节的图 3.2.7, 搭建放大电路实验测试平台。关闭电源，将电阻参数恢复为
+$R_{g1}=240k$, $R_{g2}$=100k, 检查无误后接通电源。调整信号源，使其输出峰-峰值为 30mV、频率为1kHz 的正弦波，作为放大电路的 $v_\mathrm{i}$。分别用示波器的两个通道同时测试 $v_\mathrm{i}$ 和 $v_\mathrm{o}$, 在实验报告上定量画出$v_\mathrm{i}$和$v_\mathrm{o}$的波形(时间轴上下对齐), 分别测试负载开路和 $R_\mathrm{L}=5$.1k$\Omega$两种情况下的 $v_{7}$ 和$v_{0}$,完成表 3.3.3。
+
+(3)测试放大电路的输入电阻。采用在输入回路串入已知电阻的方法测量输入电阻。由于 MOSFET 放大电路的输入电阻
+较大，所以当测量仪器的输入电阻不够大时，采用如图 3.2.8 所示的方法可能存在较大误差， 改用如图 3.3.7 所示的测量输出电压的方法更好。$R$ 取值尽量与 $R_i$ 接近(此处可取 R=51k$\Omega$)。信号源仍旧输出峰-峰值 30mV、1kHz 正弦波，用示波器的一个通道始终监视 $v_\mathrm{i}$ 波形，用另个通道先后测量开关 S 闭合和断开时对应的输出电压 $\upsilon_\mathrm{ol}$ 和 $\upsilon_\mathrm{o2}$, 则输入电阻为
+\begin{align}R_{\mathrm{i}}=\frac{v_{\mathrm{o}2}}{v_{\mathrm{ol}}-v_{\mathrm{o}2}}\cdot R\end{align}
+
+测量过程要保证 $v_{\mathrm{o}}$不出现失真现象
+\begin{figure}[H]
+	\begin{minipage}[h]{0.6\textwidth}
+		\centering
+		\captionsetup{labelsep=space, textformat=simple, format=plain} 
+		\renewcommand{\figurename}{表}  
+		\resizebox{\linewidth}{!}{\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\shortstack{负载\\情况} & \shortstack{$v_i$峰-峰\\值$V_{ipp}$/mV} & \shortstack{$v_o$峰-峰值\\$V_{opp}$/mV} & \shortstack{$|A_v|=$\\$V_{opp}/V_{ipp}$}	& \shortstack{$|A_v|$的\\理论值} & \shortstack{相对\\误差}\\
+				\hline
+				负载开路 & 30 &&&&\\
+				\hline
+				$R_L=5.1\mathrm{k\Omega}$ & 30 &&&&\\
+				\hline		
+			\end{tabular}
+		}
+		\caption{:电压增益($f\mathrm{=}\mathrm{1kHz}$)}
+	\end{minipage}
+	\begin{minipage}[h]{0.4\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{2.3}
+		\caption{高输入电阻测试局部示意图}
+	\end{minipage}
+\end{figure}
+
+(4)测试放大电路的输出电阻。
+
+采用改委负载的方法测试输出电阻。分别测试负载开路输出电压 $v_o^{\prime}$ 和接入已知负载$R_L$时的输出电压 $v_\mathrm{o}$,测量过程同样要保证 $v_\mathrm{o}$ 不出现失真现象。实际上在表 3.3.3 中已得到 $v_\mathrm{o}^{\prime}$ 和$v_0$, 则输出电阻为
+\begin{align}
+	R_\mathrm{o}=\frac{v_\mathrm{o}^{\prime}-v_\mathrm{o}}{v_\mathrm{o}^{\prime}}\times R_\mathrm{L}
+\end{align}
+
+$R_{\mathrm{L}}$越接近 $R_{0}$ 误差越小。
+
+(5)测试放大电路的通频带。在图3.3.6中，输入$v_\mathrm{i}$ 为峰-峰值 30mV、1kHz 的正弦波，用示波器的一个通道始终监视输入波形的峰-峰值，用另一个通道测出输出波形的峰-峰值。保持输入波形峰-峰值不变，调节信号源的频率，逐渐提高信号的频率，观测输出波形的幅值变化，并相应适时调节示波器水平轴的扫描速率，保证始终能清晰观测到正常的正弦波。持续提高信号频率，直到输出波形峰峰值降为 1kHz 时的 0.707 倍，此时信号的频率即为上限频率 $f_\mathrm{H}$, 记录该频率； 类似地，逐渐降低信号频率，直到输出波形峰-峰值降为 1kHz 时的 0.707 倍，此时的频率即为下限频率 $f_\mathrm{L}$, 记录该频率，完成表 3.3.4。要特别注意，测试过程必须时刻监视输入波形峰-峰值，若有变化，需调整信号源的输出幅值，保持$v_\mathrm{i}$的峰-峰值始终为 30mV。
+
+通频带(带宽)为: 
+\begin{align}\mathrm{BW}=f_{\mathrm{H}}-f_{\mathrm{L}}\end{align}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{信号频率$f$} & $f_L$ & - & $f_H$\\
+		\cline{2-4}
+		&&1kHz&\\	
+		\hline
+		\shortstack{输出波形\\峰-峰值$V_{opp}$}&&&\\
+		\hline
+		$|A_v|$&&&\\
+		\hline	
+	\end{tabular}
+	\caption{通频带($V_{\mathrm{ipp}}=30$mV)}
+\end{table}
+\section{实验原理}
+\subsection{MOSFET共源放大电路安装、调试及测试}
+\begin{minipage}[t]{0.6\textwidth}
+	图 3.3.6 为 N 沟道增强型 MOSFET 共源极放大电路,其静态工作点可由式(4.3.1) 估算
+	\begin{subequations}\begin{align}
+			V_{\mathrm{GSQ}}=\frac{R_{\mathrm{g2}}}{R_{\mathrm{g1}}+R_{\mathrm{g2}}}\times V_{\mathrm{DD}}-I_{\mathrm{DQ}}R_{\mathrm{s}}  \\
+			I_{\mathrm{DQ}}=K_{\mathrm{n}}\left(V_{\mathrm{GS}}-V_{\mathrm{TN}}\right)^{2} \\
+			V_{\mathrm{DSQ}}=V_{\mathrm{DD}}-I_{\mathrm{DQ}}(R_{\mathrm{d}}+R_{\mathrm{s}}) 
+	\end{align}\end{subequations}
+	动态性能指标可由式(4.1) 估算
+	\begin{subequations}\begin{align}
+			A_\mathrm{v}=-g_\mathrm{m}R_\mathrm{d}\\
+			R_{\mathrm{i}}=R_{\mathrm{g1}}//R_{\mathrm{g2}}\\
+			R_{\mathrm{o}}=R_{\mathrm{d}}
+	\end{align}\end{subequations}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{2.2}
+		\caption{共源极放大电路}
+	\end{figure}
+\end{minipage}
+
+数据手册通常会给出$\nu_\mathrm{TN}$和某工作点下的$g_\mathrm{m}$。由表 3.3.1 看出，对于 MOS 管 2N7000,$I_{\mathrm{D} }= 200$mA 时，$g_m^{\prime}= 100$mS, 可得 $K_n= ( g_m^{\prime}/2) ^2/I_{\mathrm{D} }= 12.5$mA$/V^2$ 式(3.3.4a)中的$g_\mathrm{m}$是图 3.3.6 电路静态工作点下 MOS 管的互导，同样可得
+\begin{align}
+	g_m&=g_m'\sqrt{I_{\mathrm{DQ}}/I_{\mathrm{D}}}\\
+	g_{\mathrm{m}}&=10\sqrt{I_{\mathrm{DQ}}/2}\mathrm{mS}
+\end{align}
+
+由数据表可知$V_{\mathrm{TN}}$在0.8-3V之间,这里取 $V_{\mathrm{TN}}=1.75\mathrm{V}$
+\subsection{Multisim的使用和学习}
+\section{实验过程}
+\subsection{Multisim 仿真}
+\subsubsection{DC Operating Point 模拟直流静态工作点}
+\subsubsection{Single frequency ac analysis 得到输入输出电压曲线}
+\subsubsection{AC Analysis 得到幅频特性曲线}
+\subsubsection{AC 模式测量输入阻抗}
+\subsubsection{AC 模式测量输出阻抗.}
+\subsubsection{MOSFET 输出特性仿真}
+\subsubsection{MOSFET 转移特性仿真}
+\subsection{单极 MOSFET 共源放大电路插板实验}
+\subsubsection{测试静态工作点}
+\subsubsection{性能测试}
+\subsubsection{观察失真波形}
+\section{实验小结}
+\end{document}
