@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  5 NOV 2023 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  5 NOV 2023 22:56
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **第二次模电实验.tex
-(./第二次模电实验.tex
+
+(D:/Second-year-up/模电实验/模电实验报告/实验二/第二次模电实
+验.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -752,98 +755,99 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 31.
+h' as default language. on input line 32.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-1.
+2.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(./第二次模电实验.aux)
+(D:/Second-year-up/模电实验/模电实验报告/实验二/第二次模电实
+验.aux)
 \openout1 = `第二次模电实验.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -901,19 +905,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 31.
-Package microtype Info: Applying patch `item' on input line 31.
-Package microtype Info: Applying patch `toc' on input line 31.
-Package microtype Info: Applying patch `eqnum' on input line 31.
-Package microtype Info: Applying patch `footnote' on input line 31.
-Package microtype Info: Applying patch `verbatim' on input line 31.
+LaTeX Info: Redefining \microtypecontext on input line 32.
+Package microtype Info: Applying patch `item' on input line 32.
+Package microtype Info: Applying patch `toc' on input line 32.
+Package microtype Info: Applying patch `eqnum' on input line 32.
+Package microtype Info: Applying patch `footnote' on input line 32.
+Package microtype Info: Applying patch `verbatim' on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 31.
+LaTeX Info: Redefining \showhyphens on input line 32.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -936,32 +940,35 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 31.
-Package hyperref Info: Link coloring OFF on input line 31.
- (./第二次模电实验.out) (./第二次模电实验.out)
+or `english'. on input line 32.
+Package hyperref Info: Link coloring OFF on input line 32.
+
+(D:/Second-year-up/模电实验/模电实验报告/实验二/第二次模电实
+验.out)
+(D:/Second-year-up/模电实验/模电实验报告/实验二/第二次模电实
+验.out)
 \@outlinefile=\write3
 \openout3 = `第二次模电实验.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 35
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 36
 .
-
-(d:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+ (d:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 35.
+quanjiao) on input line 36.
 <hust.png, id=147, 88.07906pt x 67.0003pt>
 File: hust.png Graphic file (type png)
 <use hust.png>
-Package pdftex.def Info: hust.png  used on input line 44.
+Package pdftex.def Info: hust.png  used on input line 45.
 (pdftex.def)             Requested size: 88.07883pt x 67.00012pt.
 <eic.png, id=149, 76.78688pt x 76.78688pt>
 File: eic.png Graphic file (type png)
 <use eic.png>
-Package pdftex.def Info: eic.png  used on input line 47.
+Package pdftex.def Info: eic.png  used on input line 48.
 (pdftex.def)             Requested size: 76.78668pt x 76.78668pt.
 
 (d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
@@ -970,12 +977,14 @@ TeX and DVIPDFMx (CTEX)
 {d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
 e.sfd}) [1
 
-{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./hust.png> <./eic.pn
-g>] (./第二次模电实验.toc
+{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <D:/Second-year-up/模
+电实验/模电实验报告/实验二/hust.png> <D:/Second-year-up/模电实�
+�/模电实验报告/实验二/eic.png>]
+(D:/Second-year-up/模电实验/模电实验报告/实验二/第二次模电实
+验.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  5.
-
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1023,19 +1032,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 ...numberline {7}实验小结}{25}{section.7}
+l.30 ...numberline {7}实验小结}{23}{section.7}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `第二次模电实验.toc'.
 
  [2]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-2.
+3.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 []\U/pzd/m/n/10.95 � \C70/rm/m/n/10.95/8b � \C70/rm/m/n/10.95/7f n \C70/rm/m/n/
 10.95/76 � \C70/rm/m/n/10.95/6d A \C70/rm/m/n/10.95/62 k \C70/rm/m/n/10.95/63 �
  \C70/rm/m/n/10.95/52 ^^F \C70/rm/m/n/10.95/67 �\OT1/ptm/m/n/10.95 (+20) (DC Sw
@@ -1044,7 +1053,7 @@ m/m/n/10.95/7e � \C70/rm/m/n/10.95/62 k
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 110--111
+Underfull \hbox (badness 2689) in paragraph at lines 111--112
 \C70/rm/m/n/10.95/63 �\OT1/ptm/m/n/10.95 (+20) (Secondray Sweep), \C70/rm/m/n/1
 0.95/62 k \C70/rm/m/n/10.95/63 � \C70/rm/m/n/10.95/53 � \C70/rm/m/n/10.95/91 � 
 \C70/rm/m/n/10.95/4e : \OT1/ptm/m/n/10.95 (+20) VGG, \C70/rm/m/n/10.95/91 � \C7
@@ -1054,22 +1063,22 @@ Underfull \hbox (badness 2689) in paragraph at lines 110--111
 <2.1.png, id=319, 693.59125pt x 532.99126pt>
 File: 2.1.png Graphic file (type png)
 <use 2.1.png>
-Package pdftex.def Info: 2.1.png  used on input line 115.
+Package pdftex.def Info: 2.1.png  used on input line 116.
 (pdftex.def)             Requested size: 125.47417pt x 96.41411pt.
 
-Overfull \hbox (23.98048pt too wide) in paragraph at lines 105--119
+Overfull \hbox (23.98048pt too wide) in paragraph at lines 106--120
 [][] [] 
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-27.
+28.
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
 
-Overfull \hbox (8.93642pt too wide) in paragraph at lines 133--135
+Overfull \hbox (8.93642pt too wide) in paragraph at lines 134--136
 []\OT1/ptm/m/n/10.95 (-20) (2)\C70/rm/m/n/10.95/8b � \C70/rm/m/n/10.95/7f n \C7
 0/rm/m/n/10.95/4e � \C70/rm/m/n/10.95/77 ^^_ \C70/rm/m/n/10.95/7b � \C70/rm/m/n
 /10.95/88 h|\C70/rm/m/n/10.95/30 ^^B| \C70/rm/m/n/10.95/65 � \C70/rm/m/n/10.95/
@@ -1083,40 +1092,40 @@ rm/m/n/10.95/8b � \C70/rm/m/n/10.95/7f n \C70/rm/m/n/10.95/76 � \C70/rm/m/n/10.
 <2.2.png, id=326, 707.64375pt x 706.64pt>
 File: 2.2.png Graphic file (type png)
 <use 2.2.png>
-Package pdftex.def Info: 2.2.png  used on input line 143.
+Package pdftex.def Info: 2.2.png  used on input line 144.
 (pdftex.def)             Requested size: 250.95476pt x 250.59479pt.
-[4 <./2.1.png>]
+[4 <D:/Second-year-up/模电实验/模电实验报告/实验二/2.1.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 173.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 173.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 174.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./2.2.png>]
+[5 <D:/Second-year-up/模电实验/模电实验报告/实验二/2.2.png>]
 <2.3.png, id=377, 972.63374pt x 350.30875pt>
 File: 2.3.png Graphic file (type png)
 <use 2.3.png>
-Package pdftex.def Info: 2.3.png  used on input line 203.
+Package pdftex.def Info: 2.3.png  used on input line 204.
 (pdftex.def)             Requested size: 167.2989pt x 60.25192pt.
 
-Overfull \hbox (2.08049pt too wide) in paragraph at lines 185--206
+Overfull \hbox (2.08049pt too wide) in paragraph at lines 186--207
 []$[]$ $[]$ 
  []
 
-[6 <./2.3.png>]
+[6 <D:/Second-year-up/模电实验/模电实验报告/实验二/2.3.png>]
 File: 2.2.png Graphic file (type png)
 <use 2.2.png>
-Package pdftex.def Info: 2.2.png  used on input line 255.
+Package pdftex.def Info: 2.2.png  used on input line 256.
 (pdftex.def)             Requested size: 167.2989pt x 167.0524pt.
 
-Overfull \hbox (23.98048pt too wide) in paragraph at lines 238--259
+Overfull \hbox (23.98048pt too wide) in paragraph at lines 239--260
 [][] [] 
  []
 
 
-Overfull \hbox (16.63036pt too wide) in paragraph at lines 260--261
+Overfull \hbox (16.63036pt too wide) in paragraph at lines 261--262
 []\C70/rm/m/n/10.95/65 p \C70/rm/m/n/10.95/63 n \C70/rm/m/n/10.95/62 K \C70/rm/
 m/n/10.95/51 � \C70/rm/m/n/10.95/90 ^^Z \C70/rm/m/n/10.95/5e 8 \C70/rm/m/n/10.9
 5/4f ^^Z \C70/rm/m/n/10.95/7e � \C70/rm/m/n/10.95/51 �$\OML/ztmcm/m/it/10.95 ^^
@@ -1133,188 +1142,209 @@ m/n/10.95 (-20) 2N7000,$\OML/ztmcm/m/it/10.95 I[] \OT1/ztmcm/m/n/10.95 =
 <MULTISIM.png, id=416, 546.34302pt x 334.07831pt>
 File: MULTISIM.png Graphic file (type png)
 <use MULTISIM.png>
-Package pdftex.def Info: MULTISIM.png  used on input line 303.
+Package pdftex.def Info: MULTISIM.png  used on input line 304.
 (pdftex.def)             Requested size: 418.25368pt x 255.76277pt.
 <step.png, id=417, 844.15375pt x 350.30875pt>
 File: step.png Graphic file (type png)
 <use step.png>
-Package pdftex.def Info: step.png  used on input line 308.
+Package pdftex.def Info: step.png  used on input line 309.
 (pdftex.def)             Requested size: 292.77629pt x 121.49808pt.
 <5.2.2_1.png, id=418, 2569.6pt x 1378.14874pt>
 File: 5.2.2_1.png Graphic file (type png)
 <use 5.2.2_1.png>
-Package pdftex.def Info: 5.2.2_1.png  used on input line 314.
+Package pdftex.def Info: 5.2.2_1.png  used on input line 315.
 (pdftex.def)             Requested size: 418.25368pt x 224.31451pt.
- [9 <./MULTISIM.png> <./step.png>]
+ [9 <D:/Second-year-up/模电实验/模电实验报告/实验二/MULTISIM.png> 
+<D:/Second-year-up/模电实验/模电实验报告/实验二/step.png>]
 <5.2.2_2.png, id=426, 467.7475pt x 569.12625pt>
 File: 5.2.2_2.png Graphic file (type png)
 <use 5.2.2_2.png>
-Package pdftex.def Info: 5.2.2_2.png  used on input line 321.
+Package pdftex.def Info: 5.2.2_2.png  used on input line 322.
 (pdftex.def)             Requested size: 167.2989pt x 203.55661pt.
 <5.2.2_3.jpg, id=427, 104.01868pt x 90.23306pt>
 File: 5.2.2_3.jpg Graphic file (type jpg)
 <use 5.2.2_3.jpg>
-Package pdftex.def Info: 5.2.2_3.jpg  used on input line 330.
+Package pdftex.def Info: 5.2.2_3.jpg  used on input line 331.
 (pdftex.def)             Requested size: 125.47737pt x 108.8505pt.
- [10 <./5.2.2_1.png> <./5.2.2_2.png>]
+
+[10 <D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.2_1.png> <
+D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.2_2.png>]
 <5.2.3_1.png, id=437, 746.79pt x 675.52374pt>
 File: 5.2.3_1.png Graphic file (type png)
 <use 5.2.3_1.png>
-Package pdftex.def Info: 5.2.3_1.png  used on input line 336.
+Package pdftex.def Info: 5.2.3_1.png  used on input line 337.
 (pdftex.def)             Requested size: 209.12683pt x 189.16597pt.
 <5.2.3_2.png, id=438, 604.2575pt x 561.09625pt>
 File: 5.2.3_2.png Graphic file (type png)
 <use 5.2.3_2.png>
-Package pdftex.def Info: 5.2.3_2.png  used on input line 342.
+Package pdftex.def Info: 5.2.3_2.png  used on input line 343.
 (pdftex.def)             Requested size: 209.12683pt x 194.18628pt.
 
-[11 <./5.2.2_3.jpg> <./5.2.3_1.png>]
+[11 <D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.2_3.jpg> <
+D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.3_1.png>]
 <5.2.3_3.png, id=449, 604.2575pt x 561.09625pt>
 File: 5.2.3_3.png Graphic file (type png)
 <use 5.2.3_3.png>
-Package pdftex.def Info: 5.2.3_3.png  used on input line 351.
+Package pdftex.def Info: 5.2.3_3.png  used on input line 352.
 (pdftex.def)             Requested size: 209.12683pt x 194.18628pt.
- [12 <./5.2.3_2.png> <./5.2.3_3.png>]
+
+[12 <D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.3_2.png> <
+D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.3_3.png>]
 <5.2.3_4.png, id=460, 604.2575pt x 561.09625pt>
 File: 5.2.3_4.png Graphic file (type png)
 <use 5.2.3_4.png>
-Package pdftex.def Info: 5.2.3_4.png  used on input line 360.
+Package pdftex.def Info: 5.2.3_4.png  used on input line 361.
 (pdftex.def)             Requested size: 209.12683pt x 194.18628pt.
 <2.4.PNG, id=461, 1135.24126pt x 892.33376pt>
 File: 2.4.PNG Graphic file (type png)
 <use 2.4.PNG>
-Package pdftex.def Info: 2.4.PNG  used on input line 372.
+Package pdftex.def Info: 2.4.PNG  used on input line 373.
 (pdftex.def)             Requested size: 292.77629pt x 230.12231pt.
 
-[13 <./5.2.3_4.png>]
+[13 <D:/Second-year-up/模电实验/模电实验报告/实验二/5.2.3_4.png>]
 <Q_pt.png, id=471, 615.29875pt x 617.30624pt>
 File: Q_pt.png Graphic file (type png)
 <use Q_pt.png>
-Package pdftex.def Info: Q_pt.png  used on input line 379.
+Package pdftex.def Info: Q_pt.png  used on input line 380.
 (pdftex.def)             Requested size: 204.9466pt x 205.6144pt.
 <2.5.PNG, id=472, 376.40625pt x 318.18875pt>
 File: 2.5.PNG Graphic file (type png)
 <use 2.5.PNG>
-Package pdftex.def Info: 2.5.PNG  used on input line 383.
+Package pdftex.def Info: 2.5.PNG  used on input line 384.
 (pdftex.def)             Requested size: 204.9466pt x 173.25163pt.
 
-Overfull \hbox (4.66997pt too wide) in paragraph at lines 379--384
+Overfull \hbox (4.66997pt too wide) in paragraph at lines 380--385
 [][] [][] 
  []
 
 <2.6.PNG, id=473, 1449.415pt x 1043.9pt>
 File: 2.6.PNG Graphic file (type png)
 <use 2.6.PNG>
-Package pdftex.def Info: 2.6.PNG  used on input line 390.
+Package pdftex.def Info: 2.6.PNG  used on input line 391.
 (pdftex.def)             Requested size: 376.42575pt x 271.10495pt.
-[14 <./2.4.png> <./Q_pt.png> <./2.5.png>]
+[14 <D:/Second-year-up/模电实验/模电实验报告/实验二/2.4.PNG> <D:/S
+econd-year-up/模电实验/模电实验报告/实验二/Q_pt.png> <D:/Second-ye
+ar-up/模电实验/模电实验报告/实验二/2.5.PNG>]
 <6.1.2.PNG, id=485, 1132.23pt x 757.83125pt>
 File: 6.1.2.PNG Graphic file (type png)
 <use 6.1.2.PNG>
-Package pdftex.def Info: 6.1.2.PNG  used on input line 395.
+Package pdftex.def Info: 6.1.2.PNG  used on input line 396.
 (pdftex.def)             Requested size: 376.42575pt x 251.94682pt.
 <VoR_L.PNG, id=486, 1449.415pt x 1043.9pt>
 File: VoR_L.PNG Graphic file (type png)
 <use VoR_L.PNG>
-Package pdftex.def Info: VoR_L.PNG  used on input line 400.
+Package pdftex.def Info: VoR_L.PNG  used on input line 401.
 (pdftex.def)             Requested size: 334.60422pt x 240.98395pt.
- [15 <./2.6.png> <./6.1.2.png>]
+ [15 <D:/Second-year-up/模电实验/模电实验报告/实验二/2.6.PNG> <D:/
+Second-year-up/模电实验/模电实验报告/实验二/6.1.2.PNG>]
 <6.1.3_1.PNG, id=495, 537.00626pt x 630.355pt>
 File: 6.1.3_1.PNG Graphic file (type png)
 <use 6.1.3_1.PNG>
-Package pdftex.def Info: 6.1.3_1.PNG  used on input line 408.
+Package pdftex.def Info: 6.1.3_1.PNG  used on input line 409.
 (pdftex.def)             Requested size: 125.47737pt x 147.28702pt.
 <6.1.3_2.PNG, id=496, 604.2575pt x 561.09625pt>
 File: 6.1.3_2.PNG Graphic file (type png)
 <use 6.1.3_2.PNG>
-Package pdftex.def Info: 6.1.3_2.PNG  used on input line 412.
+Package pdftex.def Info: 6.1.3_2.PNG  used on input line 413.
 (pdftex.def)             Requested size: 125.47737pt x 116.5152pt.
 <6.1.3_4.PNG, id=497, 755.82375pt x 575.14874pt>
 File: 6.1.3_4.PNG Graphic file (type png)
 <use 6.1.3_4.PNG>
-Package pdftex.def Info: 6.1.3_4.PNG  used on input line 416.
+Package pdftex.def Info: 6.1.3_4.PNG  used on input line 417.
 (pdftex.def)             Requested size: 125.47737pt x 95.47466pt.
 <6.1.3_3.PNG, id=498, 2569.6pt x 1374.13374pt>
 File: 6.1.3_3.PNG Graphic file (type png)
 <use 6.1.3_3.PNG>
-Package pdftex.def Info: 6.1.3_3.PNG  used on input line 421.
+Package pdftex.def Info: 6.1.3_3.PNG  used on input line 422.
 (pdftex.def)             Requested size: 418.25368pt x 223.66101pt.
-
-[16 <./VoR_L.png> <./6.1.3_1.png> <./6.1.3_2.png> <./6.1.3_4.png>]
+ [16 <D:/Second-year-up/模电实验/模电实验报告/实验二/VoR_L.PNG> <D
+:/Second-year-up/模电实验/模电实验报告/实验二/6.1.3_1.PNG> <D:/Sec
+ond-year-up/模电实验/模电实验报告/实验二/6.1.3_2.PNG> <D:/Second-y
+ear-up/模电实验/模电实验报告/实验二/6.1.3_4.PNG>]
 <6.1.4_1.PNG, id=514, 2569.6pt x 1396.21625pt>
 File: 6.1.4_1.PNG Graphic file (type png)
 <use 6.1.4_1.PNG>
-Package pdftex.def Info: 6.1.4_1.PNG  used on input line 428.
+Package pdftex.def Info: 6.1.4_1.PNG  used on input line 429.
 (pdftex.def)             Requested size: 418.25368pt x 227.25528pt.
- [17 <./6.1.3_3.png> <./6.1.4_1.png>]
+ [17 <D:/Second-year-up/模电实验/模电实验报告/实验二/6.1.3_3.PNG> 
+<D:/Second-year-up/模电实验/模电实验报告/实验二/6.1.4_1.PNG>]
 <6.1.5_1.PNG, id=524, 849.1725pt x 628.3475pt>
 File: 6.1.5_1.PNG Graphic file (type png)
 <use 6.1.5_1.PNG>
-Package pdftex.def Info: 6.1.5_1.PNG  used on input line 435.
+Package pdftex.def Info: 6.1.5_1.PNG  used on input line 436.
 (pdftex.def)             Requested size: 334.60422pt x 247.5953pt.
 <6.1.5_2.PNG, id=525, 2569.6pt x 1399.2275pt>
 File: 6.1.5_2.PNG Graphic file (type png)
 <use 6.1.5_2.PNG>
-Package pdftex.def Info: 6.1.5_2.PNG  used on input line 440.
+Package pdftex.def Info: 6.1.5_2.PNG  used on input line 441.
 (pdftex.def)             Requested size: 418.25368pt x 227.7454pt.
- [18 <./6.1.5_1.png>]
+ [18 <D:/Second-year-up/模电实验/模电实验报告/实验二/6.1.5_1.PNG>]
 <TEK00013.PNG, id=533, 803.0pt x 481.8pt>
 File: TEK00013.PNG Graphic file (type png)
 <use TEK00013.PNG>
-Package pdftex.def Info: TEK00013.PNG  used on input line 472.
+Package pdftex.def Info: TEK00013.PNG  used on input line 473.
 (pdftex.def)             Requested size: 204.9466pt x 122.96396pt.
 <TEK00014.PNG, id=534, 803.0pt x 481.8pt>
 File: TEK00014.PNG Graphic file (type png)
 <use TEK00014.PNG>
-Package pdftex.def Info: TEK00014.PNG  used on input line 476.
+Package pdftex.def Info: TEK00014.PNG  used on input line 477.
 (pdftex.def)             Requested size: 204.9466pt x 122.96396pt.
 
-Overfull \hbox (4.66997pt too wide) in paragraph at lines 472--477
+Overfull \hbox (4.66997pt too wide) in paragraph at lines 473--478
 [][] [][] 
  []
 
-[19 <./6.1.5_2.png>]
+[19 <D:/Second-year-up/模电实验/模电实验报告/实验二/6.1.5_2.PNG>]
 <TEK00009.PNG, id=546, 803.0pt x 481.8pt>
 File: TEK00009.PNG Graphic file (type png)
 <use TEK00009.PNG>
-Package pdftex.def Info: TEK00009.PNG  used on input line 496.
+Package pdftex.def Info: TEK00009.PNG  used on input line 497.
 (pdftex.def)             Requested size: 292.77629pt x 175.66806pt.
- [20 <./TEK00013.PNG> <./TEK00014.PNG> <./TEK00009.PNG>]
+
+[20 <D:/Second-year-up/模电实验/模电实验报告/实验二/TEK00013.PNG> 
+<D:/Second-year-up/模电实验/模电实验报告/实验二/TEK00014.PNG> <D:/
+Second-year-up/模电实验/模电实验报告/实验二/TEK00009.PNG>]
 <6.2.5.png, id=559, 406.8801pt x 328.8285pt>
 File: 6.2.5.png Graphic file (type png)
 <use 6.2.5.png>
-Package pdftex.def Info: 6.2.5.png  used on input line 526.
+Package pdftex.def Info: 6.2.5.png  used on input line 527.
 (pdftex.def)             Requested size: 292.77629pt x 236.61082pt.
 <6.3.1.png, id=560, 811.03pt x 545.03625pt>
 File: 6.3.1.png Graphic file (type png)
 <use 6.3.1.png>
-Package pdftex.def Info: 6.3.1.png  used on input line 534.
+Package pdftex.def Info: 6.3.1.png  used on input line 535.
 (pdftex.def)             Requested size: 167.2989pt x 112.42343pt.
 
-[21 <./6.2.5.png>]
+[21 <D:/Second-year-up/模电实验/模电实验报告/实验二/6.2.5.png>]
 <6.3.1_1.png, id=568, 2569.6pt x 1380.15625pt>
 File: 6.3.1_1.png Graphic file (type png)
 <use 6.3.1_1.png>
-Package pdftex.def Info: 6.3.1_1.png  used on input line 539.
+Package pdftex.def Info: 6.3.1_1.png  used on input line 540.
 (pdftex.def)             Requested size: 418.25368pt x 224.64127pt.
 <6.3.2.png, id=569, 792.9625pt x 515.9275pt>
 File: 6.3.2.png Graphic file (type png)
 <use 6.3.2.png>
-Package pdftex.def Info: 6.3.2.png  used on input line 545.
+Package pdftex.def Info: 6.3.2.png  used on input line 546.
 (pdftex.def)             Requested size: 167.2989pt x 108.84393pt.
- [22 <./6.3.1.png> <./6.3.1_1.png>]
+
+[22 <D:/Second-year-up/模电实验/模电实验报告/实验二/6.3.1.png> <D:
+/Second-year-up/模电实验/模电实验报告/实验二/6.3.1_1.png>]
 <6.3.2_1.png, id=578, 2569.6pt x 1371.1225pt>
 File: 6.3.2_1.png Graphic file (type png)
 <use 6.3.2_1.png>
-Package pdftex.def Info: 6.3.2_1.png  used on input line 550.
+Package pdftex.def Info: 6.3.2_1.png  used on input line 551.
 (pdftex.def)             Requested size: 376.42575pt x 200.84752pt.
- [23 <./6.3.2.png> <./6.3.2_1.png>] (./第二次模电实验.aux)
+
+[23 <D:/Second-year-up/模电实验/模电实验报告/实验二/6.3.2.png> <D:
+/Second-year-up/模电实验/模电实验报告/实验二/6.3.2_1.png>]
+(D:/Second-year-up/模电实验/模电实验报告/实验二/第二次模电实
+验.aux)
 Package rerunfilecheck Info: File `第二次模电实验.out' has not changed.
 (rerunfilecheck)             Checksum: 7F8FE612B0A9AE2A182BF47493E81AD0;4524.
  ) 
 Here is how much of TeX's memory you used:
- 25566 strings out of 476025
- 492419 string characters out of 5794015
+ 25567 strings out of 476025
+ 493307 string characters out of 5794015
  1882382 words of memory out of 5000000
  45014 multiletter control sequences out of 15000+600000
  611289 words of font info for 387 fonts, out of 8000000 for 9000
@@ -1373,7 +1403,8 @@ syr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive
 /2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 第二次模电实验.pdf (24 pages, 2021915 bytes).
+Output written on D:/Second-year-up/模电实验/模电实验报告/实验二/�
+��二次模电实验.pdf (24 pages, 2021916 bytes).
 PDF statistics:
  1030 PDF objects out of 1200 (max. 8388607)
  712 compressed objects within 8 object streams
