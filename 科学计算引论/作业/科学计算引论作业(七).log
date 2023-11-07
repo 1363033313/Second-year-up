@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  6 NOV 2023 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  6 NOV 2023 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**第二次模电实验.tex
-(./第二次模电实验.tex
+**科学计算引论作业(七).tex
+(./科学计算引论作业(七).tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -690,6 +690,18 @@ Package caption Info: Standard document class detected.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
+(d:/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+Package bm Info: No bold for \OT1/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OML/ztmcm/m/it, using \pmb.
+Package bm Info: No bold for \OMS/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OMX/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+Package bm Info: No bold for \U/esint/m/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/bx/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/m/it, using \pmb.
+)
 (d:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip75
@@ -729,22 +741,6 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen258
 \titlewidthfirst=\dimen259
 )
-(d:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen260
-\c@nlinenum=\count324
-\TeXr@lab=\toks37
-)
-(d:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen261
-\TX@old@table=\dimen262
-\TX@old@col=\dimen263
-\TX@target=\dimen264
-\TX@delta=\dimen265
-\TX@cols=\count325
-\TX@ftn=\toks38
-)
 (d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
@@ -752,98 +748,98 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 32.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-2.
+h' as default language. on input line 29.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+9.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(./第二次模电实验.aux)
-\openout1 = `第二次模电实验.aux'.
+(./科学计算引论作业(七).aux)
+\openout1 = `科学计算引论作业(七).aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -881,17 +877,17 @@ LaTeX Font Info:    ... okay on input line 32.
 
 (d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen266
+\scratchcounter=\count324
+\scratchdimen=\dimen260
 \scratchbox=\box70
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen267
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks40
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen261
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks38
 ) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -901,19 +897,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 32.
-Package microtype Info: Applying patch `item' on input line 32.
-Package microtype Info: Applying patch `toc' on input line 32.
-Package microtype Info: Applying patch `eqnum' on input line 32.
-Package microtype Info: Applying patch `footnote' on input line 32.
-Package microtype Info: Applying patch `verbatim' on input line 32.
+LaTeX Info: Redefining \microtypecontext on input line 29.
+Package microtype Info: Applying patch `item' on input line 29.
+Package microtype Info: Applying patch `toc' on input line 29.
+Package microtype Info: Applying patch `eqnum' on input line 29.
+Package microtype Info: Applying patch `footnote' on input line 29.
+Package microtype Info: Applying patch `verbatim' on input line 29.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 32.
+LaTeX Info: Redefining \showhyphens on input line 29.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -936,44 +932,24 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 32.
-Package hyperref Info: Link coloring OFF on input line 32.
- (./第二次模电实验.out) (./第二次模电实验.out)
+or `english'. on input line 29.
+Package hyperref Info: Link coloring OFF on input line 29.
+ (./科学计算引论作业(七).out)
+(./科学计算引论作业(七).out)
 \@outlinefile=\write3
-\openout3 = `第二次模电实验.out'.
+\openout3 = `科学计算引论作业(七).out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 36
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 31
 .
 
 (d:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 36.
-<hust.png, id=144, 88.07906pt x 67.0003pt>
-File: hust.png Graphic file (type png)
-<use hust.png>
-Package pdftex.def Info: hust.png  used on input line 45.
-(pdftex.def)             Requested size: 88.07883pt x 67.00012pt.
-<eic.png, id=146, 76.78688pt x 76.78688pt>
-File: eic.png Graphic file (type png)
-<use eic.png>
-Package pdftex.def Info: eic.png  used on input line 48.
-(pdftex.def)             Requested size: 76.78668pt x 76.78668pt.
-
-(d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
-File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
-TeX and DVIPDFMx (CTEX)
-{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
-e.sfd}) [1
-
-{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./hust.png> <./eic.pn
-g>] (./第二次模电实验.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 5.
+ 31.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -983,19 +959,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 5.
+ 31.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 5.
+ 31.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 5.
+ 31.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1006,377 +982,78 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (d:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 5
-.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 3
+1.
 
 (d:/texlive/2023/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 ...numberline {7}实验小结}{23}{section.7}
-                                                  % [1])
-\tf@toc=\write4
-\openout4 = `第二次模电实验.toc'.
-
- [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-3.
-
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-[]\U/pzd/m/n/10.95 � \C70/rm/m/n/10.95/8b � \C70/rm/m/n/10.95/7f n \C70/rm/m/n/
-10.95/76 � \C70/rm/m/n/10.95/6d A \C70/rm/m/n/10.95/62 k \C70/rm/m/n/10.95/63 �
- \C70/rm/m/n/10.95/52 ^^F \C70/rm/m/n/10.95/67 �\OT1/ptm/m/n/10.95 (+20) (DC Sw
-eep)\C70/rm/m/n/10.95/4e - \C70/rm/m/n/10.95/76 � \C70/rm/m/n/10.95/4e � \C70/r
-m/m/n/10.95/7e � \C70/rm/m/n/10.95/62 k
- []
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 111--112
-\C70/rm/m/n/10.95/63 �\OT1/ptm/m/n/10.95 (+20) (Secondray Sweep), \C70/rm/m/n/1
-0.95/62 k \C70/rm/m/n/10.95/63 � \C70/rm/m/n/10.95/53 � \C70/rm/m/n/10.95/91 � 
-\C70/rm/m/n/10.95/4e : \OT1/ptm/m/n/10.95 (+20) VGG, \C70/rm/m/n/10.95/91 � \C7
-0/rm/m/n/10.95/75 ( \C70/rm/m/n/10.95/7e �
- []
+Package caption Warning: Unused \captionsetup[figure] on input line 24.
+See the caption package documentation for explanation.
 
-<2.1.png, id=319, 693.59125pt x 532.99126pt>
-File: 2.1.png Graphic file (type png)
-<use 2.1.png>
-Package pdftex.def Info: 2.1.png  used on input line 116.
-(pdftex.def)             Requested size: 125.47417pt x 96.41411pt.
+(d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
+TeX and DVIPDFMx (CTEX)
+{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
+e.sfd}) [1
 
-Overfull \hbox (23.98048pt too wide) in paragraph at lines 106--120
-[][] [] 
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-28.
-(d:/texlive/2023/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
-
-Overfull \hbox (8.93642pt too wide) in paragraph at lines 134--136
-[]\OT1/ptm/m/n/10.95 (-20) (2)\C70/rm/m/n/10.95/8b � \C70/rm/m/n/10.95/7f n \C7
-0/rm/m/n/10.95/4e � \C70/rm/m/n/10.95/77 ^^_ \C70/rm/m/n/10.95/7b � \C70/rm/m/n
-/10.95/88 h|\C70/rm/m/n/10.95/30 ^^B| \C70/rm/m/n/10.95/65 � \C70/rm/m/n/10.95/
-5e � \C70/rm/m/n/10.95/4e � \C70/rm/m/n/10.95/77 ^^_ \C70/rm/m/n/10.95/7b � \C7
-0/rm/m/n/10.95/88 h\OT1/ptm/m/n/10.95 (-20) (New Sim-u-la-tion Pro-file), \C70/
-rm/m/n/10.95/8b � \C70/rm/m/n/10.95/7f n \C70/rm/m/n/10.95/76 � \C70/rm/m/n/10.
-95/6d A \C70/rm/m/n/10.95/62 k \C70/rm/m/n/10.95/63 � \C70/rm/m/n/10.95/52 ^^F 
-\C70/rm/m/n/10.95/67 �\OT1/ptm/m/n/10.95 (-20) (DC Sweep)
- []
-
-<2.2.png, id=326, 707.64375pt x 706.64pt>
-File: 2.2.png Graphic file (type png)
-<use 2.2.png>
-Package pdftex.def Info: 2.2.png  used on input line 144.
-(pdftex.def)             Requested size: 250.95476pt x 250.59479pt.
-[4 <./2.1.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 174.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 174.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./2.2.png>]
-<2.3.png, id=372, 972.63374pt x 350.30875pt>
-File: 2.3.png Graphic file (type png)
-<use 2.3.png>
-Package pdftex.def Info: 2.3.png  used on input line 204.
-(pdftex.def)             Requested size: 167.2989pt x 60.25192pt.
-
-Overfull \hbox (2.08049pt too wide) in paragraph at lines 186--207
-[]$[]$ $[]$ 
- []
-
-[6 <./2.3.png>]
-File: 2.2.png Graphic file (type png)
-<use 2.2.png>
-Package pdftex.def Info: 2.2.png  used on input line 256.
-(pdftex.def)             Requested size: 167.2989pt x 167.0524pt.
-
-Overfull \hbox (23.98048pt too wide) in paragraph at lines 239--260
-[][] [] 
- []
-
-
-Overfull \hbox (16.63036pt too wide) in paragraph at lines 261--262
-[]\C70/rm/m/n/10.95/65 p \C70/rm/m/n/10.95/63 n \C70/rm/m/n/10.95/62 K \C70/rm/
-m/n/10.95/51 � \C70/rm/m/n/10.95/90 ^^Z \C70/rm/m/n/10.95/5e 8 \C70/rm/m/n/10.9
-5/4f ^^Z \C70/rm/m/n/10.95/7e � \C70/rm/m/n/10.95/51 �$\OML/ztmcm/m/it/10.95 ^^
-W[]$\C70/rm/m/n/10.95/54 � \C70/rm/m/n/10.95/67 � \C70/rm/m/n/10.95/5d � \C70/r
-m/m/n/10.95/4f \ \C70/rm/m/n/10.95/70 � \C70/rm/m/n/10.95/4e  \C70/rm/m/n/10.9
-5/76 �$\OML/ztmcm/m/it/10.95 g[]$|\C70/rm/m/n/10.95/30 ^^B| \C70/rm/m/n/10.95/7
-5 1 \C70/rm/m/n/10.95/88 h \OT1/ptm/m/n/10.95 (-20) 3.3.1 \C70/rm/m/n/10.95/77 
- \C70/rm/m/n/10.95/51 �|\C70/rm/m/n/10.95/ff ^^L| \C70/rm/m/n/10.95/5b � \C70/
-rm/m/n/10.95/4e � \OT1/ptm/m/n/10.95 (-20) MOS \C70/rm/m/n/10.95/7b � \OT1/ptm/
-m/n/10.95 (-20) 2N7000,$\OML/ztmcm/m/it/10.95 I[] \OT1/ztmcm/m/n/10.95 =
- []
-
-[7] [8]
-<MULTISIM.png, id=412, 546.34302pt x 334.07831pt>
-File: MULTISIM.png Graphic file (type png)
-<use MULTISIM.png>
-Package pdftex.def Info: MULTISIM.png  used on input line 304.
-(pdftex.def)             Requested size: 418.25368pt x 255.76277pt.
-<step.png, id=413, 844.15375pt x 350.30875pt>
-File: step.png Graphic file (type png)
-<use step.png>
-Package pdftex.def Info: step.png  used on input line 309.
-(pdftex.def)             Requested size: 292.77629pt x 121.49808pt.
-<5.2.2_1.png, id=414, 2569.6pt x 1378.14874pt>
-File: 5.2.2_1.png Graphic file (type png)
-<use 5.2.2_1.png>
-Package pdftex.def Info: 5.2.2_1.png  used on input line 315.
-(pdftex.def)             Requested size: 418.25368pt x 224.31451pt.
- [9 <./MULTISIM.png> <./step.png>]
-<5.2.2_2.png, id=422, 467.7475pt x 569.12625pt>
-File: 5.2.2_2.png Graphic file (type png)
-<use 5.2.2_2.png>
-Package pdftex.def Info: 5.2.2_2.png  used on input line 322.
-(pdftex.def)             Requested size: 167.2989pt x 203.55661pt.
-<5.2.2_3.jpg, id=423, 104.01868pt x 90.23306pt>
-File: 5.2.2_3.jpg Graphic file (type jpg)
-<use 5.2.2_3.jpg>
-Package pdftex.def Info: 5.2.2_3.jpg  used on input line 331.
-(pdftex.def)             Requested size: 125.47737pt x 108.8505pt.
- [10 <./5.2.2_1.png> <./5.2.2_2.png>]
-<5.2.3_1.png, id=433, 746.79pt x 675.52374pt>
-File: 5.2.3_1.png Graphic file (type png)
-<use 5.2.3_1.png>
-Package pdftex.def Info: 5.2.3_1.png  used on input line 337.
-(pdftex.def)             Requested size: 209.12683pt x 189.16597pt.
-<5.2.3_2.png, id=434, 604.2575pt x 561.09625pt>
-File: 5.2.3_2.png Graphic file (type png)
-<use 5.2.3_2.png>
-Package pdftex.def Info: 5.2.3_2.png  used on input line 343.
-(pdftex.def)             Requested size: 209.12683pt x 194.18628pt.
-
-[11 <./5.2.2_3.jpg> <./5.2.3_1.png>]
-<5.2.3_3.png, id=445, 604.2575pt x 561.09625pt>
-File: 5.2.3_3.png Graphic file (type png)
-<use 5.2.3_3.png>
-Package pdftex.def Info: 5.2.3_3.png  used on input line 352.
-(pdftex.def)             Requested size: 209.12683pt x 194.18628pt.
- [12 <./5.2.3_2.png> <./5.2.3_3.png>]
-<5.2.3_4.png, id=456, 604.2575pt x 561.09625pt>
-File: 5.2.3_4.png Graphic file (type png)
-<use 5.2.3_4.png>
-Package pdftex.def Info: 5.2.3_4.png  used on input line 361.
-(pdftex.def)             Requested size: 209.12683pt x 194.18628pt.
-<2.4.PNG, id=457, 1135.24126pt x 892.33376pt>
-File: 2.4.PNG Graphic file (type png)
-<use 2.4.PNG>
-Package pdftex.def Info: 2.4.PNG  used on input line 373.
-(pdftex.def)             Requested size: 292.77629pt x 230.12231pt.
-
-[13 <./5.2.3_4.png>]
-<Q_pt.png, id=468, 615.29875pt x 617.30624pt>
-File: Q_pt.png Graphic file (type png)
-<use Q_pt.png>
-Package pdftex.def Info: Q_pt.png  used on input line 380.
-(pdftex.def)             Requested size: 204.9466pt x 205.6144pt.
-<2.5.PNG, id=469, 376.40625pt x 318.18875pt>
-File: 2.5.PNG Graphic file (type png)
-<use 2.5.PNG>
-Package pdftex.def Info: 2.5.PNG  used on input line 384.
-(pdftex.def)             Requested size: 204.9466pt x 173.25163pt.
-
-Overfull \hbox (4.66997pt too wide) in paragraph at lines 380--385
-[][] [][] 
- []
-
-<2.6.PNG, id=470, 1449.415pt x 1043.9pt>
-File: 2.6.PNG Graphic file (type png)
-<use 2.6.PNG>
-Package pdftex.def Info: 2.6.PNG  used on input line 391.
-(pdftex.def)             Requested size: 376.42575pt x 271.10495pt.
-[14 <./2.4.png> <./Q_pt.png> <./2.5.png>]
-<6.1.2.PNG, id=482, 1132.23pt x 757.83125pt>
-File: 6.1.2.PNG Graphic file (type png)
-<use 6.1.2.PNG>
-Package pdftex.def Info: 6.1.2.PNG  used on input line 396.
-(pdftex.def)             Requested size: 376.42575pt x 251.94682pt.
-<VoR_L.PNG, id=483, 1449.415pt x 1043.9pt>
-File: VoR_L.PNG Graphic file (type png)
-<use VoR_L.PNG>
-Package pdftex.def Info: VoR_L.PNG  used on input line 401.
-(pdftex.def)             Requested size: 334.60422pt x 240.98395pt.
- [15 <./2.6.png> <./6.1.2.png>]
-<6.1.3_1.PNG, id=492, 537.00626pt x 630.355pt>
-File: 6.1.3_1.PNG Graphic file (type png)
-<use 6.1.3_1.PNG>
-Package pdftex.def Info: 6.1.3_1.PNG  used on input line 409.
-(pdftex.def)             Requested size: 125.47737pt x 147.28702pt.
-<6.1.3_2.PNG, id=493, 604.2575pt x 561.09625pt>
-File: 6.1.3_2.PNG Graphic file (type png)
-<use 6.1.3_2.PNG>
-Package pdftex.def Info: 6.1.3_2.PNG  used on input line 413.
-(pdftex.def)             Requested size: 125.47737pt x 116.5152pt.
-<6.1.3_4.PNG, id=494, 755.82375pt x 575.14874pt>
-File: 6.1.3_4.PNG Graphic file (type png)
-<use 6.1.3_4.PNG>
-Package pdftex.def Info: 6.1.3_4.PNG  used on input line 417.
-(pdftex.def)             Requested size: 125.47737pt x 95.47466pt.
-<6.1.3_3.PNG, id=495, 2569.6pt x 1374.13374pt>
-File: 6.1.3_3.PNG Graphic file (type png)
-<use 6.1.3_3.PNG>
-Package pdftex.def Info: 6.1.3_3.PNG  used on input line 422.
-(pdftex.def)             Requested size: 418.25368pt x 223.66101pt.
-
-[16 <./VoR_L.png> <./6.1.3_1.png> <./6.1.3_2.png> <./6.1.3_4.png>]
-<6.1.4_1.PNG, id=512, 2569.6pt x 1396.21625pt>
-File: 6.1.4_1.PNG Graphic file (type png)
-<use 6.1.4_1.PNG>
-Package pdftex.def Info: 6.1.4_1.PNG  used on input line 429.
-(pdftex.def)             Requested size: 418.25368pt x 227.25528pt.
- [17 <./6.1.3_3.png> <./6.1.4_1.png>]
-<6.1.5_1.PNG, id=523, 849.1725pt x 628.3475pt>
-File: 6.1.5_1.PNG Graphic file (type png)
-<use 6.1.5_1.PNG>
-Package pdftex.def Info: 6.1.5_1.PNG  used on input line 436.
-(pdftex.def)             Requested size: 334.60422pt x 247.5953pt.
-<6.1.5_2.PNG, id=524, 2569.6pt x 1399.2275pt>
-File: 6.1.5_2.PNG Graphic file (type png)
-<use 6.1.5_2.PNG>
-Package pdftex.def Info: 6.1.5_2.PNG  used on input line 441.
-(pdftex.def)             Requested size: 418.25368pt x 227.7454pt.
- [18 <./6.1.5_1.png>]
-<TEK00013.PNG, id=532, 803.0pt x 481.8pt>
-File: TEK00013.PNG Graphic file (type png)
-<use TEK00013.PNG>
-Package pdftex.def Info: TEK00013.PNG  used on input line 473.
-(pdftex.def)             Requested size: 204.9466pt x 122.96396pt.
-<TEK00014.PNG, id=533, 803.0pt x 481.8pt>
-File: TEK00014.PNG Graphic file (type png)
-<use TEK00014.PNG>
-Package pdftex.def Info: TEK00014.PNG  used on input line 477.
-(pdftex.def)             Requested size: 204.9466pt x 122.96396pt.
-
-Overfull \hbox (4.66997pt too wide) in paragraph at lines 473--478
-[][] [][] 
- []
-
-[19 <./6.1.5_2.png>]
-<TEK00009.PNG, id=545, 803.0pt x 481.8pt>
-File: TEK00009.PNG Graphic file (type png)
-<use TEK00009.PNG>
-Package pdftex.def Info: TEK00009.PNG  used on input line 497.
-(pdftex.def)             Requested size: 292.77629pt x 175.66806pt.
- [20 <./TEK00013.PNG> <./TEK00014.PNG> <./TEK00009.PNG>]
-<6.2.5.png, id=558, 406.8801pt x 328.8285pt>
-File: 6.2.5.png Graphic file (type png)
-<use 6.2.5.png>
-Package pdftex.def Info: 6.2.5.png  used on input line 527.
-(pdftex.def)             Requested size: 292.77629pt x 236.61082pt.
-<6.3.1.png, id=559, 811.03pt x 545.03625pt>
-File: 6.3.1.png Graphic file (type png)
-<use 6.3.1.png>
-Package pdftex.def Info: 6.3.1.png  used on input line 535.
-(pdftex.def)             Requested size: 167.2989pt x 112.42343pt.
-
-[21 <./6.2.5.png>]
-<6.3.1_1.png, id=567, 2569.6pt x 1380.15625pt>
-File: 6.3.1_1.png Graphic file (type png)
-<use 6.3.1_1.png>
-Package pdftex.def Info: 6.3.1_1.png  used on input line 540.
-(pdftex.def)             Requested size: 418.25368pt x 224.64127pt.
-<6.3.2.png, id=568, 792.9625pt x 515.9275pt>
-File: 6.3.2.png Graphic file (type png)
-<use 6.3.2.png>
-Package pdftex.def Info: 6.3.2.png  used on input line 546.
-(pdftex.def)             Requested size: 167.2989pt x 108.84393pt.
- [22 <./6.3.1.png> <./6.3.1_1.png>]
-<6.3.2_1.png, id=577, 2569.6pt x 1371.1225pt>
-File: 6.3.2_1.png Graphic file (type png)
-<use 6.3.2_1.png>
-Package pdftex.def Info: 6.3.2_1.png  used on input line 551.
-(pdftex.def)             Requested size: 376.42575pt x 200.84752pt.
- [23 <./6.3.2.png> <./6.3.2_1.png>] (./第二次模电实验.aux)
-Package rerunfilecheck Info: File `第二次模电实验.out' has not changed.
-(rerunfilecheck)             Checksum: 7F8FE612B0A9AE2A182BF47493E81AD0;4524.
+{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+(./科学计算引论作业(七).aux)
+Package rerunfilecheck Info: File `科学计算引论作业(七).out' has not c
+hanged.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25553 strings out of 476025
- 492169 string characters out of 5794015
- 1882382 words of memory out of 5000000
- 45004 multiletter control sequences out of 15000+600000
- 610749 words of font info for 385 fonts, out of 8000000 for 9000
+ 23736 strings out of 476025
+ 462032 string characters out of 5794015
+ 1862382 words of memory out of 5000000
+ 43631 multiletter control sequences out of 15000+600000
+ 564735 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,19n,80p,1048b,1000s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
-imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
-/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:
-/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
-.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
-s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Wind
-ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf>
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
-sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
-onts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/W
-indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
-tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
-simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
-s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
-:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhe
-i.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fon
-ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
-dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
-><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/si
-mhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
-Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/
-Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.
-ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts
-/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windo
-ws/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><
-c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simh
-ei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fo
-nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wi
-ndows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
-c><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
+ 78i,6n,80p,1026b,917s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
-/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:
-/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun
+/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
+/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
 .ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
 s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
 ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
 sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
-onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/W
-indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.t
-tf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
-simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
-s/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c
-:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhe
-i.ttf><c:/Windows/Fonts/simhei.ttf><d:/texlive/2023/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d
-:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texm
-f-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/
-urw/times/utmb8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb><d:/texlive/20
-23/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 第二次模电实验.pdf (24 pages, 2019218 bytes).
+onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
+indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
+tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
+simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
+:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/esint-type1/e
+sint10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texl
+ive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on 科学计算引论作业(七).pdf (1 page, 250724 bytes).
 PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
- 709 compressed objects within 8 object streams
- 113 named destinations out of 1000 (max. 500000)
- 54472 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 2 named destinations out of 1000 (max. 500000)
+ 44193 words of extra memory for PDF output out of 51595 (max. 10000000)
 

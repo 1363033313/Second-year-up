@@ -1,0 +1,63 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\captionsetup[figure]{name={Figure}}
+%opening
+\title{科学计算引论作业(七)}
+\author{谢悦晋 \quad U202210333}
+\date{Nov 6th, 2023 }
+\begin{document}
+\maketitle
+\textbf{5.1} 试分别利用中矩公式、梯形公式及 Simpson 公式计算定积分
+$$
+I=\int_0^{\frac12}\exp(3x)\cos2x\mathrm{d}x,
+$$
+并比较其计算精度。
+
+\textbf{5.2} 试确定下面求积公式
+$$
+\int_{-1}^1f(x)\mathrm{d}x\approx a[f(x_0)+f(x_1)+f(x_2)],
+$$
+
+使其具有 3 次代数精度，并由该公式计算定积分：
+$$
+	\int_{-1}^1\frac{x\sin x}{\sqrt{1+x^2}}\mathrm{d}x
+$$
+
+\textbf{5.5} 试构造两点 Gauss 型求积公式
+$$
+	\int_{-1}^1f(x)\mathrm{d}x\approx A_0f(x_0)+A_1f(x_1),
+$$
+
+并由此计算积分:
+$$
+	\int_0^1\sqrt{1+2x}\mathrm{d}x
+$$
+
+\textbf{5.7} (实验题) 分别用变步长梯形求积公式和 Romberg 算法计算椭圆积分
+$$
+	\int_0^\pi\frac{\sqrt{2}}{(1+\sin^2x)\sqrt{2-\sin^2x}}\mathrm{d}x
+$$
+
+要求其逼近值 $T_k,T_k^{(0)}$ 的计算精度分别满足 $|T_k-T_{k-1}|<10^{-12}$ 和$|T_k^{(0)}-T_{k-1}^{(0)}|<10^{-12}$.
+\end{document}
