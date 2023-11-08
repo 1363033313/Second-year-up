@@ -31,16 +31,96 @@
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{6.2.4}
+	\caption{6.2.4}
 \end{figure}
+\noindent 解：
+
+\textbf{Step 1.} 写出输出方程，激励方程，状态方程：
+$$
+Z=Q_0\overline{Q}_1,
+\begin{cases}
+	D_{FF_0}=A(Q_1+{Q}_0)\\
+	D_{FF_1}=A(\overline{Q}_0+\overline{Q}_1)
+\end{cases},
+\begin{cases}
+	Q_{0}^{n+1}=A(Q_1^n+{Q}_0^n)\\
+	Q_{1}^{n+1}=A(\overline{Q}_0^n+\overline{Q}^n_1)
+\end{cases}
+$$
+
+\textbf{Step 2.} 列出状态转换表
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multirow{2}{*}{$Q_0^nQ_1^n$} & \multicolumn{2}{c|}{$Q_0^{n+1}Q_1^{n+1}/Z$}\\
+		\cline{2-3}
+		& A=0 & A=1\\
+		\hline
+		00 & 00/0 & 01/0\\
+		01 & 00/0 & 11/0\\
+		10 & 00/1 & 11/1\\
+		11 & 00/0 & 10/0\\
+		\hline
+	\end{tabular}
+\end{table}
+\textbf{Step 3.} 画出状态转换图
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{6.2.4_1}
+	\caption{6.2.4}
+\end{figure}
+输出序列为：0000 0000 0100 0101 0100，可以检测连续的三个1，若连续的三个1之后每跟着两个1就输出一个1，只要有0重新检测。
+
 \textbf{6.2.6} 试分析图题 6.2.6 所示同步时序电路，写出激励方程组、状态转换方程组和输出方程，列出状态转换表并画出状态转换图。
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{6.2.6}
+	\caption{6.2.6}
 \end{figure}
+\noindent 解：
+
+\textbf{Step 1} 写出输出方程，激励方程，状态方程：
+$$
+Z=Q_0+\overline{Q}_1,
+\begin{cases}
+	D_{FF_0}=Q_1+\overline{Q}_0\\
+	D_{FF_1}=A\overline{Q}_1
+\end{cases},
+\begin{cases}
+	Q_{0}^{n+1}=Q_1^{n}+\overline{Q}_0^n\\
+	Q_{1}^{n+1}=A\overline{Q}_1^{n}
+\end{cases}
+$$
+
+\textbf{Step 2} 列出状态转换表
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multirow{2}{*}{$Q_1^nQ_0^n$} & \multicolumn{2}{c|}{$Q_1^{n+1}Q_0^{n+1}/Z$}\\
+		\cline{2-3}
+		& A=0 & A=1\\
+		\hline
+		00 & 01/1 & 11/1\\
+		01 & 00/0 & 10/0\\
+		10 & 01/1 & 01/1\\
+		11 & 01/1 & 01/1\\
+		\hline
+	\end{tabular}
+\end{table}
+\textbf{Step 3.} 画出状态转换图
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{6.2.6_1}
+	\caption{6.2.6}
+\end{figure}
+
 \textbf{6.3.5} 试用下降沿触发的$JK$触发器和最少的门电路，实现图题 6.3.5 所示的$Z_{1}$和$Z_{2}$输出波形(要求写出Verilog程序)
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{6.3.5}
+	\caption{6.3.5}
 \end{figure}
 \textbf{6.3.6} 试用上升沿触发的$D$触发器设计一个1101序列检测器(序列可重复),输入为串行编码序列，输出为检出信号(要求写出Verilog程序)
 
