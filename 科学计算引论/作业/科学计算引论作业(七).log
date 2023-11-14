@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  6 NOV 2023 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  13 NOV 2023 08:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1003,9 +1003,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 
-
-Package caption Warning: Unused \captionsetup[figure] on input line 24.
-See the caption package documentation for explanation.
+Overfull \hbox (39.96133pt too wide) in paragraph at lines 54--55
+[]\C70/rm/m/n/10.95/6b � \C70/rm/m/n/10.95/8f � \C70/rm/m/n/10.95/51 � \C70/rm/
+m/n/10.95/78 n \C70/rm/m/n/10.95/76 � \C70/rm/m/n/10.95/89 � \C70/rm/m/n/10.95/
+4e :$\OML/ztmcm/m/it/10.95 I \OT1/ztmcm/m/n/10.95 = 0\OML/ztmcm/m/it/10.95 :\OT
+1/ztmcm/m/n/10.95 9082171883002617$\OT1/ptm/m/n/10.95 (-20) , $\OML/ztmcm/m/it/
+10.95 " \OT1/ztmcm/m/n/10.95 = 1\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m/n/10.95 008
+3236338112719\OML/ztmcm/m/it/10.95 e \OMS/ztmcm/m/n/10.95 ^^@ \OT1/ztmcm/m/n/10
+.95 14$|\C70/rm/m/n/10.95/ff ^^L| \C70/rm/m/n/10.95/53 � \C70/rm/m/n/10.95/4e �
+ \C70/rm/m/n/10.95/77  \C70/rm/m/n/10.95/51 �\OT1/ptm/m/n/10.95 (-20) Simpson\
+C70/rm/m/n/10.95/51 l
+ []
 
 (d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
@@ -1014,19 +1022,46 @@ TeX and DVIPDFMx (CTEX)
 e.sfd}) [1
 
 {d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+<5.2_1.png, id=79, 1033.8625pt x 260.975pt>
+File: 5.2_1.png Graphic file (type png)
+<use 5.2_1.png>
+Package pdftex.def Info: 5.2_1.png  used on input line 85.
+(pdftex.def)             Requested size: 418.25368pt x 105.57881pt.
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 85--86
+[][] 
+ []
+
+<5.5_1.png, id=88, 982.67125pt x 274.02374pt>
+File: 5.5_1.png Graphic file (type png)
+<use 5.5_1.png>
+Package pdftex.def Info: 5.5_1.png  used on input line 121.
+(pdftex.def)             Requested size: 418.25368pt x 116.63206pt.
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 121--122
+[][] 
+ []
+
+[2 <./5.2_1.png>]
+<5.7.png, id=112, 983.675pt x 1125.20375pt>
+File: 5.7.png Graphic file (type png)
+<use 5.7.png>
+Package pdftex.def Info: 5.7.png  used on input line 135.
+(pdftex.def)             Requested size: 292.77629pt x 334.90251pt.
+ [3 <./5.5_1.png> <./5.7.png>]
 (./科学计算引论作业(七).aux)
 Package rerunfilecheck Info: File `科学计算引论作业(七).out' has not c
 hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23736 strings out of 476025
- 462032 string characters out of 5794015
- 1862382 words of memory out of 5000000
- 43631 multiletter control sequences out of 15000+600000
- 564735 words of font info for 206 fonts, out of 8000000 for 9000
+ 23845 strings out of 476025
+ 463732 string characters out of 5794015
+ 1866382 words of memory out of 5000000
+ 43718 multiletter control sequences out of 15000+600000
+ 566625 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,6n,80p,1026b,917s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,9n,80p,1026b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
@@ -1041,19 +1076,21 @@ indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
 tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
 simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
 s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
-:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2023/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/esint-type1/e
-sint10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texl
-ive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on 科学计算引论作业(七).pdf (1 page, 250724 bytes).
+:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
+n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+dows/Fonts/simsun.ttc><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/te
+xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/202
+3/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/texlive/2023/texmf-
+dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 科学计算引论作业(七).pdf (3 pages, 427321 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 2 named destinations out of 1000 (max. 500000)
- 44193 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 5 named destinations out of 1000 (max. 500000)
+ 44236 words of extra memory for PDF output out of 51595 (max. 10000000)
 

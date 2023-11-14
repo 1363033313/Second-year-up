@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  12 NOV 2023 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  9 NOV 2023 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**数字电子技术作业(五).tex
-(./数字电子技术作业(五).tex
+**第三次模电实验.tex
+(./第三次模电实验.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -729,6 +729,22 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen258
 \titlewidthfirst=\dimen259
 )
+(d:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen260
+\c@nlinenum=\count324
+\TeXr@lab=\toks37
+)
+(d:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen261
+\TX@old@table=\dimen262
+\TX@old@col=\dimen263
+\TX@target=\dimen264
+\TX@delta=\dimen265
+\TX@cols=\count325
+\TX@ftn=\toks38
+)
 (d:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
@@ -736,98 +752,98 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 28.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-8.
+h' as default language. on input line 32.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+2.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(./数字电子技术作业(五).aux)
-\openout1 = `数字电子技术作业(五).aux'.
+(./第三次模电实验.aux)
+\openout1 = `第三次模电实验.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -865,17 +881,17 @@ LaTeX Font Info:    ... okay on input line 28.
 
 (d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen260
+\scratchcounter=\count326
+\scratchdimen=\dimen266
 \scratchbox=\box70
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen261
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks38
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen267
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks40
 ) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -885,19 +901,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 28.
-Package microtype Info: Applying patch `item' on input line 28.
-Package microtype Info: Applying patch `toc' on input line 28.
-Package microtype Info: Applying patch `eqnum' on input line 28.
-Package microtype Info: Applying patch `footnote' on input line 28.
-Package microtype Info: Applying patch `verbatim' on input line 28.
+LaTeX Info: Redefining \microtypecontext on input line 32.
+Package microtype Info: Applying patch `item' on input line 32.
+Package microtype Info: Applying patch `toc' on input line 32.
+Package microtype Info: Applying patch `eqnum' on input line 32.
+Package microtype Info: Applying patch `footnote' on input line 32.
+Package microtype Info: Applying patch `verbatim' on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 28.
+LaTeX Info: Redefining \showhyphens on input line 32.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -920,24 +936,44 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 28.
-Package hyperref Info: Link coloring OFF on input line 28.
- (./数字电子技术作业(五).out)
-(./数字电子技术作业(五).out)
+or `english'. on input line 32.
+Package hyperref Info: Link coloring OFF on input line 32.
+ (./第三次模电实验.out) (./第三次模电实验.out)
 \@outlinefile=\write3
-\openout3 = `数字电子技术作业(五).out'.
+\openout3 = `第三次模电实验.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 30
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 36
 .
 
 (d:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 36.
+<hust.png, id=61, 88.07906pt x 67.0003pt>
+File: hust.png Graphic file (type png)
+<use hust.png>
+Package pdftex.def Info: hust.png  used on input line 45.
+(pdftex.def)             Requested size: 88.07883pt x 67.00012pt.
+<eic.png, id=63, 76.78688pt x 76.78688pt>
+File: eic.png Graphic file (type png)
+<use eic.png>
+Package pdftex.def Info: eic.png  used on input line 48.
+(pdftex.def)             Requested size: 76.78668pt x 76.78668pt.
+
+(d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
+TeX and DVIPDFMx (CTEX)
+{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
+e.sfd}) [1
+
+{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./hust.png> <./eic.pn
+g>] (./第三次模电实验.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 30.
+ 7.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -947,19 +983,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 30.
+ 7.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 30.
+ 7.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 30.
+ 7.
 
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -970,119 +1006,66 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (d:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 3
-0.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 7
+.
 
 (d:/texlive/2023/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 30.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
-<6.2.4.png, id=33, 1242.89343pt x 409.53pt>
-File: 6.2.4.png Graphic file (type png)
-<use 6.2.4.png>
-Package pdftex.def Info: 6.2.4.png  used on input line 33.
-(pdftex.def)             Requested size: 376.42575pt x 124.02849pt.
-<6.2.4_1.png, id=38, 849.1725pt x 783.92876pt>
-File: 6.2.4_1.png Graphic file (type png)
-<use 6.2.4_1.png>
-Package pdftex.def Info: 6.2.4_1.png  used on input line 70.
-(pdftex.def)             Requested size: 209.12683pt x 193.05107pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+)
+\tf@toc=\write4
+\openout4 = `第三次模电实验.toc'.
 
-(d:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
-File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
-TeX and DVIPDFMx (CTEX)
-{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicod
-e.sfd}) [1
 
-{d:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./6.2.4.png>]
-<6.2.6.png, id=92, 1330.9725pt x 510.90875pt>
-File: 6.2.6.png Graphic file (type png)
-<use 6.2.6.png>
-Package pdftex.def Info: 6.2.6.png  used on input line 78.
-(pdftex.def)             Requested size: 376.42575pt x 144.4879pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \tableofcontents\newpage
+                              [1]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+3.
 
-[2 <./6.2.4_1.png> <./6.2.6.png>]
-<6.2.6_1.png, id=108, 1172.38pt x 848.16875pt>
-File: 6.2.6_1.png Graphic file (type png)
-<use 6.2.6_1.png>
-Package pdftex.def Info: 6.2.6_1.png  used on input line 115.
-(pdftex.def)             Requested size: 209.12683pt x 151.29193pt.
-<6.3.5.png, id=113, 772.8875pt x 311.1625pt>
-File: 6.3.5.png Graphic file (type png)
-<use 6.3.5.png>
-Package pdftex.def Info: 6.3.5.png  used on input line 122.
-(pdftex.def)             Requested size: 292.77629pt x 117.86789pt.
- [3 <./6.2.6_1.png>]
-Overfull \hbox (24.78159pt too wide) in paragraph at lines 129--130
-[]\C70/rm/m/n/10.95/4e � \C70/rm/m/n/10.95/56 �\OT1/ptm/m/n/10.95 (-20) 6.3.5\C
-70/rm/m/n/10.95/62 @ \C70/rm/m/n/10.95/79 : \C70/rm/m/n/10.95/8f � \C70/rm/m/n/
-10.95/51 � \C70/rm/m/n/10.95/6c � \C70/rm/m/n/10.95/5f b \C70/rm/m/n/10.95/56 �
- \C70/rm/m/n/10.95/53 � \C70/rm/m/n/10.95/4e � \C70/rm/m/n/10.95/77  \C70/rm/m
-/n/10.95/51 �|\C70/rm/m/n/10.95/ff ^^L| \C70/rm/m/n/10.95/5b � \C70/rm/m/n/10.9
-5/4e � \C70/rm/m/n/10.95/6b � \C70/rm/m/n/10.95/4e ^^@ * \C70/rm/m/n/10.95/54 h
- \C70/rm/m/n/10.95/67 ^^_|\C70/rm/m/n/10.95/ff ^^L| \C70/rm/m/n/10.95/53 � \C70
-/rm/m/n/10.95/52 ^^F \C70/rm/m/n/10.95/4e :\OT1/ptm/m/n/10.95 (-20) 4\C70/rm/m/
-n/10.95/4e * \C70/rm/m/n/10.95/72 � \C70/rm/m/n/10.95/60 ^^A|\C70/rm/m/n/10.95/
-ff ^^Z| $\OML/ztmcm/m/it/10.95 Z[]Z[] \OT1/ztmcm/m/n/10.95 = 00\OML/ztmcm/m/it/
-10.95 ; Z[]Z[] \OT1/ztmcm/m/n/10.95 =
- []
-
-<6.3.5_1.png, id=129, 1457.445pt x 647.41875pt>
-File: 6.3.5_1.png Graphic file (type png)
-<use 6.3.5_1.png>
-Package pdftex.def Info: 6.3.5_1.png  used on input line 162.
-(pdftex.def)             Requested size: 292.77629pt x 130.05441pt.
-<6.3.5_2.png, id=130, 915.42pt x 1000.73875pt>
-File: 6.3.5_2.png Graphic file (type png)
-<use 6.3.5_2.png>
-Package pdftex.def Info: 6.3.5_2.png  used on input line 166.
-(pdftex.def)             Requested size: 292.77629pt x 320.05971pt.
-[4 <./6.3.5.png>] [5 <./6.3.5_1.png> <./6.3.5_2.png>]
-<6.3.6_2.png, id=156, 1512.65125pt x 647.41875pt>
-File: 6.3.6_2.png Graphic file (type png)
-<use 6.3.6_2.png>
-Package pdftex.def Info: 6.3.6_2.png  used on input line 210.
-(pdftex.def)             Requested size: 334.60422pt x 143.21298pt.
- [6 <./6.3.6_2.png>]
-<6.3.6_3.png, id=167, 1590.94376pt x 945.5325pt>
-File: 6.3.6_3.png Graphic file (type png)
-<use 6.3.6_3.png>
-Package pdftex.def Info: 6.3.6_3.png  used on input line 239.
-(pdftex.def)             Requested size: 292.77629pt x 173.9974pt.
-<6.3.6_4.png, id=168, 900.36375pt x 947.54pt>
-File: 6.3.6_4.png Graphic file (type png)
-<use 6.3.6_4.png>
-Package pdftex.def Info: 6.3.6_4.png  used on input line 243.
-(pdftex.def)             Requested size: 284.40942pt x 299.31525pt.
-
-[7 <./6.3.6_3.png> <./6.3.6_4.png>] (./数字电子技术作业(五).aux)
-Package rerunfilecheck Info: File `数字电子技术作业(五).out' has not c
-hanged.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(d:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<4.png, id=171, 1372.12625pt x 660.4675pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 98.
+(pdftex.def)             Requested size: 292.77629pt x 140.92947pt.
+ [2]
+<4.1.png, id=212, 285.065pt x 226.8475pt>
+File: 4.1.png Graphic file (type png)
+<use 4.1.png>
+Package pdftex.def Info: 4.1.png  used on input line 132.
+(pdftex.def)             Requested size: 125.47737pt x 99.85127pt.
+<4.2.png, id=213, 402.50375pt x 244.915pt>
+File: 4.2.png Graphic file (type png)
+<use 4.2.png>
+Package pdftex.def Info: 4.2.png  used on input line 135.
+(pdftex.def)             Requested size: 167.2989pt x 101.79851pt.
+ [3 <./4.png>]
+[4 <./4.1.png> <./4.2.png>] [5] [6] (./第三次模电实验.aux)
+Package rerunfilecheck Info: File `第三次模电实验.out' has not changed.
+(rerunfilecheck)             Checksum: 723D0545BBD54D0B5C8174E28411B7B3;974.
  ) 
 Here is how much of TeX's memory you used:
- 23916 strings out of 476025
- 465118 string characters out of 5794015
- 1865382 words of memory out of 5000000
- 43753 multiletter control sequences out of 15000+600000
- 567919 words of font info for 220 fonts, out of 8000000 for 9000
+ 24672 strings out of 476025
+ 477600 string characters out of 5794015
+ 1873382 words of memory out of 5000000
+ 44333 multiletter control sequences out of 15000+600000
+ 591605 words of font info for 309 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,13n,80p,1026b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
-imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
+ 78i,12n,80p,1018b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
+imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
 /Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
 .ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
@@ -1097,18 +1080,37 @@ simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
 s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
 :/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
 n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
-ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Win
 dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
-><c:/Windows/Fonts/simsun.ttc><d:/texlive/2023/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on 数字电子技术作业(五).pdf (7 pages, 3431639 bytes).
+><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
+msun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
+Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/
+Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.
+ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts
+/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windo
+ws/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><
+c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sims
+un.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fo
+nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wi
+ndows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
+c><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
+imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
+/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:
+/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
+.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/texlive/2023
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/esint-
+type1/esint10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
+d:/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2023/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2023/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb><d:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on 第三次模电实验.pdf (7 pages, 856764 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 24 named destinations out of 1000 (max. 500000)
- 44287 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 619 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 46962 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -122,6 +122,124 @@ $$
 	\includegraphics[width=0.7\textwidth]{6.3.5}
 	\caption{6.3.5}
 \end{figure}
-\textbf{6.3.6} 试用上升沿触发的$D$触发器设计一个1101序列检测器(序列可重复),输入为串行编码序列，输出为检出信号(要求写出Verilog程序)
+\noindent 解：
 
+\textbf{Step 1.} 逻辑抽象
+
+从图6.3.5所示输出波形图可以看出，对于每一个周期，可分为4个状态：$Z_2Z_1=00,Z_2Z_1=01,Z_2Z_1=11,Z_2Z_1=01$。设定为4个状态：00,01,10,11,用两个下降沿触发的 JK 触发器实现.设两个触发器的状态为 $Q_{1}$、 $Q_0$,输出信号为$Z_1,Z_2$
+
+\textbf{Step 2.} 列写激励方程，输出方程
+
+首先写出真值表：
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		$Q_0^nQ_1^n$ & $Q_0^{n+1}Q_1^{n+1}$ & $Z_1Z_2$ & $J_0$ & $K_0$ & $J_1$ & $K_1$\\
+		\hline
+		00 & 01 & 00 &1&x&0&x\\
+		01 & 10 & 10 &x&1&1&x\\
+		10 & 11 & 11 &1&x&x&0\\
+		11 & 00 & 10 &x&1&x&1\\
+		\hline
+	\end{tabular}
+\end{table}
+易得激励方程和输出方程：
+$$
+\begin{cases}
+	J_1=K_1=Q——0\\
+	J_0=K_0=1
+\end{cases},
+\begin{cases}
+	Z_1=Q_1+Q_0\\
+	Z_2=Q_1\overline{Q}_0
+\end{cases}
+$$
+
+\textbf{Step 2.} 画出逻辑电路，写出Verilog语句
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{6.3.5_1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{6.3.5_2}
+\end{figure}
+\textbf{6.3.6} 试用上升沿触发的$D$触发器设计一个1101序列检测器(序列可重复),输入为串行编码序列，输出为检出信号(要求写出Verilog程序)
+\noindent 解：
+
+\textbf{Step 1.} 逻辑抽象
+
+首先写出状态转换图和状态转换表
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multirow{2}{*}{$Q^n$} &\multicolumn{2}{c|}{$Q^{n+1}/Y$}\\
+		\cline{2-3}
+		& $A=0$ & $A=1$ \\
+		\hline
+		a&a/0&b/0\\
+		b&a/0&c/0\\
+		c&d/0&c/0\\
+		d&a/0&e/1\\
+		e&a/0&c/0\\
+		\hline
+	\end{tabular}
+\end{table}
+\textbf{Step 2.} 状态化简
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multirow{2}{*}{$Q^n$} &\multicolumn{2}{c|}{$Q^{n+1}/Y$}\\
+		\cline{2-3}
+		& $A=0$ & $A=1$ \\
+		\hline
+		a&a/0&b/0\\
+		b&a/0&c/0\\
+		c&d/0&c/0\\
+		d&a/0&b/1\\
+		\hline
+	\end{tabular}
+\end{table}
+\textbf{Step 3.} 状态分配
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{6.3.6_2}
+\end{figure}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multirow{2}{*}{$Q_0^nQ_1^n$} &\multicolumn{2}{c|}{$Q_0^{n+1}Q_1^{n+1}/Y$}\\
+		\cline{2-3}
+		& $A=0$ & $A=1$ \\
+		\hline
+		00&00/0&10/0\\
+		01&00/0&10/0\\
+		10&11/0&10/0\\
+		11&00/0&01/1\\
+		\hline
+	\end{tabular}
+\end{table}
+\textbf{Step 4.} 列写激励方程，输出方程
+$$
+\begin{cases}
+D_{0} =A\overline{Q}_{0}Q_{1}+\overline{A}Q_{0}\overline{Q}_{1}+AQ_{0}\overline{Q}_{1} \\
+D_{1} =A\overline{Q}_{0}\overline{Q}_{1}+\overline{A}Q_{0}\overline{Q}_{1}+AQ_{0}Q_{1} \\
+\end{cases}
+,Y=AQ_{0}^{n}Q_{1}^{n} 
+$$
+
+\textbf{Step 5.} 画出逻辑电路，写出Verilog语句
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{6.3.6_3}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.68\textwidth]{6.3.6_4}
+\end{figure}
 \end{document}
