@@ -6,5 +6,5 @@
 \contentsline {section}{\numberline {6}实验结果}{6}{section.6}%
 \contentsline {subsection}{\numberline {6.1}实验记录表格}{6}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}实验图像(对应表格)}{6}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}实验结果}{6}{subsection.6.3}%
-\contentsline {section}{\numberline {7}实验小结}{6}{section.7}%
+\contentsline {subsection}{\numberline {6.3}实验结果}{7}{subsection.6.3}%
+\contentsline {section}{\numberline {7}实验小结}{7}{section.7}%

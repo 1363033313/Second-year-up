@@ -1,0 +1,196 @@
+\documentclass[a4paper,11pt,UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\usepackage{esint} 
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{extarrows}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\captionsetup[figure]{name={Figure}}
+\titleformat{\section}{\Large\bfseries}{Chapter \thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1em}{}
+%opening
+\title{Here Are The All Points}
+\author{谢悦晋\quad 提高2201班}
+
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents\newpage
+\section{复数与复变函数}
+这一章的考点实际比较少，只能出一些小题.下面是个人认为比较重要的概念：
+\begin{enumerate}
+	\item 主辐角(辐角主值)
+	对于给定复数$z\neq0$，设$\alpha$有满足:
+	$$\alpha\in\mathrm{Arg}z,\alpha\in(-\pi,\pi]$$
+	则$\alpha$为辐角主值，且有：
+	$$\operatorname{Arg}z=\operatorname{arg}z+2k\pi,\quad k=0,\pm1,\pm2,\cdots\cdots.$$
+	\item 三角表示和指数表示
+	$$z=|z|e^{i\theta}=|z|(\cos\theta+i\sin\theta)$$
+	\item De Moivre公式
+	$$z^n=[r(\cos\theta+i\sin\theta)]^n=r^n(\cos n\theta+i\sin n\theta).$$
+	\item 复数方根
+	
+	设$z$是给定的复数，$n$ 是正整数，求所有满足$w^n=z$ 的复数$w$,称为把复数$z$开$n$ 次方，记作 $w=\sqrt[n]{z}$或 $w=z^{1/n}.$ \textbf{复数$z$的$n$次方根一般是多值的},公式如下：(也可用复平面单位根分解)
+	$$z=r\operatorname{e}^{i\theta}\Rightarrow w_k=\sqrt[n]{z}=\sqrt[n]{r}\operatorname{e}^{i(\frac\theta n+\frac{2k\pi}n)},(k=0,1,\cdots,n-1).$$
+	\item 无穷大和无穷远点，复平面和扩充复平面
+	\item 复变函数极限存在，连续$\Leftrightarrow$实部虚部极限存在，连续
+\end{enumerate}
+\section{解析函数}
+这一章会考构造解析函数的大题，对于常见的初等解析函数也会考小题，知识点如下
+\begin{enumerate}
+	\item 导数与微分
+	这部分与实值函数一致，不多赘述
+	\item 解析与解析函数
+	
+	$f(z)$ 在 $z_0$ 解析 $\Leftrightarrow$ $f(z)$在 $U(z_0,\delta)$ 可导
+	
+	$f(z)$ 在区域 $D$ 内的每一点解析$\Leftrightarrow$ $f(z)$ 在 D 内解析，称 $f(z)$ 是 D 内的解析函数
+	
+	\textbf{点解析$\Rightarrow$点可导，区间解析$\Leftrightarrow$区间可导}
+	\item 点可导的充要条件
+	
+	函数$w=f(z)=u(x,y)+iv(x,y)$在点 $z=x+iy$ 处可导
+	$\Leftrightarrow$\\
+	$u(x,y)$ 和$v(x,y)$ 在点$(x,y)$ 处可微， 且满足C-R方程：
+	$$\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y},\quad\frac{\partial u}{\partial y}=-\frac{\partial\nu}{\partial x}$$
+	\item \textbf{区域解析的充要条件}
+	
+	函数$w=f(z)=u(x,y)+iv(x,y)$在区域$D$内解析\\
+	$\Leftrightarrow$$u(x,y)$ 和 $\nu(x,y)$在区域 $D$ 内可微，且满足$C-R$方程。
+	\item 解析函数的调和性
+	
+	若函数 $f(z)=u(x,y)+iv(x,y)$ 在区域$D$ 内解析， 则 $u(x,y),v(u,y)$ 在区域 $D$ 内满足Laplace方程:(调和函数定义)
+	$$\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}=0,\frac{\partial^2v}{\partial x^2}+\frac{\partial^2v}{\partial y^2}=0$$
+	
+	共轭调和函数： $u(x,y)$ 及 $v(x,y)$ 均为区域 $D$ 内的调和函数， 且满足C-R方程：则称$v$是$u$的共轭调和函数。(不要弄反了)
+	\item \textbf{构造调和函数}
+	
+	已知实部 $u$, 求虚部 $v $(或者已知虚部 $v$, 求实部 $u$ ),使 $f(z)=u(x,y)+iv(x,y)$ 解析，且满足指定的条件。
+	
+	解决方法：\textbf{必须首先检验$u,v$是否为调和函数}，然后利用解析函数满足C-R方程的性质，根据偏积分或全微分法解决
+	\item 常见初等函数及其公式
+	\begin{itemize}
+		\item \textbf{指数函数}
+		
+		对于复数 $z= x+ iy, $称$w= \mathbf{e} ^x( \cos y+ i\sin y) $ 为指数函数, 记为$w=\exp z$ 或$w={e}^{z}.$
+		
+		性质：单值，除无穷远点处处连续，处处解析，以2k$\pi i$为周期
+		\item 对数函数
+		
+		满足方程 $\mathbf{e}^w=z$ 的函数 $w=f(z)$ 称为对数函数，记作 $w=\mathrm{Ln}z.$，计算公式：
+		$$
+			z=|z|{e}^{i\mathrm{Arg}z}=e^ue^{iv}\Rightarrow\begin{cases}
+				u=\ln |z|\\
+				v=\arg z+2k\pi i
+			\end{cases}\Rightarrow=w=\mathrm{Ln}z=u+iv=\ln |z|+\arg z+2k\pi i
+		$$
+		主值：$w=\ln z= \ln |z|+\arg z$，分支：任意固定的一个k，即为分支
+		\item 幂函数
+		
+		函数$w=z^\alpha$\textbf{规定}为 $z^\alpha=\mathrm{e}^{\alpha\mathrm{Ln}z}(\alpha$为复常数，$z\neq0)$ 称为复变量 $z$的幂函数。还\textbf{规定}： 当$a$为正实数，且 $z=0$ 时，$z^{\alpha}=0.$(\textbf{不要将这种“规定”方式反过来作用于指数函数})
+		
+		\item 三角函数
+		$$\cos z=\frac12(\mathrm{e}^{iz}+\mathrm{e}^{-iz}),\sin z=\frac1{2i}(\mathrm{e}^{iz}-\mathrm{e}^{-iz})$$
+		性质：周期性、可导性、奇偶性、零点、三角公式以及求导法则与实函数一致，\textbf{有界性不成立}
+		\item 反三角函数
+		如果$\cos w= z, $则称$w$为复变量$z$的反余弦函数记为$w=\mathrm{Arc\cos z}.$.计算方式如下：
+		$$z=\cos w=\frac12(\mathrm{e}^{iw}+\mathrm{e}^{-iw})\Rightarrow(\mathrm{e}^{iw})^2-2z\mathrm{e}^{iw}+1=0,$$
+		\item 双曲函数与反双曲函数(不做要求，了解即可)
+	\end{itemize}	
+\end{enumerate}
+\section{复变函数的积分}
+\begin{enumerate}
+	\item 复积分的性质与计算
+	
+	比较重要的性质是这个：$$
+	\left|\int_Cf(z)\mathrm{d}z\right|\leq\int_C|f(z)||\mathrm{d}z|=\int_C|f(z)|\mathrm{d}s\leq \max_{z\in c}|f(z)| L
+	$$
+	注意积分中值定理在复积分中并不成立
+	
+	复积分的计算：化为第二类曲线积分或定积分计算，后面还会使用计算原函数，柯西积分公式，导数公式以及留数计算
+	
+	一个重要的结论：$$I=\oint_{|z-z_0|=r}\frac{\mathrm{d}z}{(z-z_0)^n}=\begin{cases}
+		2\pi i,\quad n=1 \\0, \quad n\neq1
+	\end{cases}$$
+	\item 柯西积分定理
+	
+	设函数$f(z)$在单连通域$D$内解析, $\Gamma$为$D$内的任意一条简单闭曲线, 则有$\displaystyle\oint_{\Gamma}f(z)\mathrm{d}z=0$
+	
+	闭路变形原理: $\partial_D=C_1+C_2^-$，$f(z)$在D内解析，则有:$$\displaystyle\oint_{C_1}f(z)\mathrm{d}z=\oint_{C_2}f(z)\mathrm{d}z=\oint_\Gamma f(z)\mathrm{d}z$$
+	
+	复合闭路原理：$\partial_D=C_0+C_1^-+C_2^-+...+C_n^-$, 函数$f(z)$在D内解析，在$\overline{D}=D+C$上连续，则有
+	$$\oint_{\partial_D}f(z)\mathrm{d}z=0,\quad \oint_{C_0}f(z)\mathrm{d}z=\sum_{k=1}^{n}\oint_{C_k}f(z)\mathrm{d}z$$
+	
+	路径无关性：设函数 $f(z)$ 在单连通域 $D$ 内解析， $C_1,C_2$为$D$内的任意两条从$z_0$ 到$z_1$ 的简单曲线，则有
+	$$
+	\int_{C_1}f(z)\mathrm{d}z=\int_{C_2}f(z)\mathrm{d}z.
+	$$
+	
+	原函数与Newton-Leibniz公式：与实函数相同
+	\item 柯西积分公式
+	
+	如果函数 $f(z)$在简单闭曲线$C$所围成区域 $D$ 内解析， 在$\overline{D}=D+C$上连续，$z_0\in D$,则
+	$$
+	f(z_0)=\frac1{2\pi i}\oint_C\frac{f(z)}{z-z_0}\mathrm{d}z.
+	$$
+	应用：$
+	\displaystyle\oint_C\frac{f(z)}{z-z_0}\mathrm{d}z=2\pi if(z_0).
+	$
+	\item 平均值公式
+	
+	如果函数 $f(z)$在 $|z-z_0|<R$ 内解析， 在$|z-z_0|\leq R$上连续，则有
+	$$
+	f(z_0)=\frac1{2\pi}\int_0^{2\pi}f(z_0+R\mathrm{e}^{i\theta})\mathrm{d}\theta.
+	$$
+	\item 最大模原理(压轴证明或许会考)
+	
+	如果函数 $f(z)$在$D$ 内解析，且不为常数，则在$D$内$\left|f(z)\right|$没有最大值。
+	
+	推论：
+	\begin{itemize}
+		\item 在区域$D$内解析的函数，如果其模在$D$内达到最大值， 则此函数必恒为常数。
+		\item 若$f(z)$在有界区域$D$内解析，在$\overline{D}$上连续，则$|f(z)|$在D的边界上必能达到最大值。
+	\end{itemize}
+	\item 高阶导数公式
+	
+	如果函数 $f(z)$在区域 $D$ 内解析，在 $\overline{D}=D+C$ 上连续， 则 $f(z)$的各阶导数均在$D$ 上解析，且
+	$$
+	f^{(n)}(z)=\frac{n!}{2\pi i}\oint_C\frac{f(\zeta)}{\left(\zeta-z\right)^{n+1}}\mathrm{d}\zeta,\mathrm{~}(z\in D).
+	$$
+	\item 柯西不等式(压轴证明题或许会考)
+	
+	设函数$f(z)$在$|z-z_0|<R$内解析，且 $|f(z)|\leq M$,则
+	$$
+	|f^{(n)}(z_0)|\leq\frac{n!M}{R^n},\mathrm{~(n=1,2,\cdots)}.
+	$$
+	
+	\item 刘维尔定理(压轴证明题或许会考)
+	
+	设函数$f(z)$在全平面上解析且有界,则$f(z)$为一常数
+	
+	
+\end{enumerate}
+
+\section{解析函数的级数表示}
+\section{留数及其应用}
+\section{共形映射}
+\section{傅里叶变换}
+\section{拉普拉斯变换}
+\end{document}    

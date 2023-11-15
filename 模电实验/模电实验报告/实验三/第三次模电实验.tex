@@ -25,39 +25,10 @@
 \usepackage{graphicx}
 
 \numberwithin{equation}{subsection}
-
-\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
-\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1em}{}
 \begin{document}
-	\begin{titlepage}
-		\begin{center}
-			\vspace*{1cm}
-			\textbf{\LARGE 实验报告：方波-三角波发生器}
-			\vspace{0.5cm}
-			
-			\Large 谢悦晋\quad 提高2201班\quad U20221033
-			\vspace{1cm}
-			\begin{figure}[H]
-				\centering
-				\subfigure{
-					\includegraphics[scale=1]{hust}
-				}
-				\subfigure{
-					\includegraphics[scale=1]{eic}
-				}
-				\caption*{}
-			\end{figure}
-			\vfill
-			\vspace{0.8cm}
-			华中科技大学 \\
-			电子信息与通信学院 \\
-			Nov 9th, 2023
-		\end{center}
-	\end{titlepage}
 \tableofcontents\newpage
 \section{实验名称}
-方波-三角波发生器
+信号产生与变换电路
 \section{实验目的}
 \begin{itemize}
 	\item 集成运放性能指标含义
@@ -179,27 +150,78 @@ a 点闭合，即比较器与积分器首尾相连，形成闭环电路，只要
 
 
 \section{实验任务：方波-三角波函数发生器设计}
-方波-三角波函数发生器设计
-已知条件：运放NE5532一只。
-性能指标要求:
-频率范围:100 Hz$\sim$1kHz，1kHz$\sim$10 kHz；
-输出电压:方波$V_{pp}$≤24V，三角波$V_{pp}$=6V；
-波形特性:方波$t_r<30\mathrm{\mu s}$(1kHz，最大输出时)三角波$\gamma_\Delta<2\%$
+\noindent 已知条件：运放NE5532一只。
 
+\noindent 性能指标要求:
+\begin{itemize}
+	\item 频率范围:100 Hz$\sim$1kHz，1kHz$\sim$10 kHz；
+	\item 输出电压:方波$V_{pp}$≤24V，三角波$V_{pp}$=6V；
+	\item 波形特性:方波$t_r<30\mathrm{\mu s}$(1kHz，最大输出时)三角波$\gamma_\Delta<2\%$
+\end{itemize}
 注意事项：
-1.组装电路前须对所有电阻逐一测量，作好记录。 
-2.集成运算放大器的各个管脚不要接错，尤其是正、负电源不能接反，否则极易损坏芯片。
-
+\begin{enumerate}
+	\item 组装电路前须对所有电阻逐一测量，作好记录。 
+	\item 集成运算放大器的各个管脚不要接错，尤其是正、负电源不能接反，否则极易损坏芯片。。
+\end{enumerate}
 装调步骤：
-1.由于比较器$A_1$与积分器$A_2$组成正反馈闭环电路，同时输出方波与三角波，故这两个单元电路需同时安装。
-2.注意: 在安装电位器RP$_1$与RP$_2$之前，先将其调整到设计值，否则电路可能会不起振。
-3.如果电路接线正确，则在接通电源后，$A_1$的输出$v_{o1}$为方波，$A_2$的输出$v_{o2}$为三角波。
-4.在频率较低时，微调RP$_1$，使三角波输出幅度满足设计指标要求。
-5.再调节RP$_2$，则输出频率连续可变。
+\begin{enumerate}
+	\item 由于比较器$A_1$与积分器$A_2$组成正反馈闭环电路，同时输出方波与三角波，故这两个单元电路需同时安装。
+	\item 注意: 在安装电位器RP$_1$与RP$_2$之前，先将其调整到设计值，否则电路可能会不起振。
+	\item 如果电路接线正确，则在接通电源后，$A_1$的输出$v_{o1}$为方波，$A_2$的输出$v_{o2}$为三角波。
+	\item 在频率较低时，微调RP$_1$，使三角波输出幅度满足设计指标要求。
+	\item 再调节RP$_2$，则输出频率连续可变。
+	
+\end{enumerate}
+
 
 \section{实验结果}
 \subsection{实验记录表格}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		电容值&方波频率&方波峰峰值/V&	三角波峰峰值/V	&方波上升时间/us\\
+		\hline
+		\multirow{2}{*}{$C_2=0.1\mu$F} & 994.6Hz & 21.40 & 5.920 & $10.10\mu$s?\\
+		\cline{2-5}
+		& 100.4Hz & 21.80 & 6.00 & $26.10\mu$s?\\
+		\hline
+		\multirow{2}{*}{$C_2=0.01\mu$F} & 1.034kHz & 21.80 &  6.000 & $8.086\mu$s?\\
+		\cline{2-5}
+		& 10.27kHz & 21.00 &  6.480 & $7.609\mu$s?\\
+		\hline
+	\end{tabular}
+\end{table}
 \subsection{实验图像(对应表格)}
+100 Hz$\sim$1kHz
+
+\begin{figure}[H]
+	\centering
+	\subfigure{
+		\includegraphics[width=0.48\textwidth]{TEK00018}
+	}
+	\subfigure{
+		\includegraphics[width=0.48\textwidth]{TEK00019}
+	}
+\end{figure}
+1kHz$\sim$10 kHz
+\begin{figure}[H]
+	\centering
+	\subfigure{
+		\includegraphics[width=0.48\textwidth]{TEK00015.PNG}
+	}
+	\subfigure{
+		\includegraphics[width=0.48\textwidth]{TEK00017.PNG}
+	}
+\end{figure}
 \subsection{实验结果}
+方波的幅度由+$V_{CC}$和–$V_{EE}$决定，小于它们1V左右；三角波幅度可由RP1进行调节，但会影响频率。调节RP2，可调节频率，且不会影响三角波幅度，可用RP2实现频率微调，用C2改变频率范围。
+
+误差分析：
+
+实验误差很大程度来自于电容，实验器材中提供的104陶瓷电容误差过大，导致调整挡位无法调到合理频率范围，最后通过两个104电容并联基本完成了实验要求。
 \section{实验小结}
+本次实验电路搭建遇到了一点问题，当按照要求搭完电路后，并不能产生要求的波形，反复检查多次电路没有发现问题，最后无奈通过重新搭建电路解决了问题。
+
+同时，在重新搭建电路的过程中，我采用了分左右两块进行搭建的方法，确保能够产生实验需要的波形。
 \end{document}
