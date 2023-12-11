@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.31)  19 NOV 2023 21:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.31)  5 DEC 2023 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,34 +6,67 @@ entering extended mode
 (./第十五次模电作业.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
-(d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(d:/texlive/2023/texmf-dist/tex/latex/afthesis/afthesis.cls
+Document Class: afthesis 1996/12/14 v2.7 -- AFIT THESIS STYLE
+by Joel Young adapted from work by Mark Roth
+(d:/texlive/2023/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
 (d:/texlive/2023/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(d:/texlive/2023/texmf-dist/tex/latex/caption/caption2.sty
+Package: caption2 2021/01/20 v2.2i Customising captions (AR)
+
+(d:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+
+(d:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\caption@tempdima=\dimen141
+\captionmargin=\dimen142
+\caption@leftmargin=\dimen143
+\caption@rightmargin=\dimen144
+\caption@width=\dimen145
+\caption@indent=\dimen146
+\caption@parindent=\dimen147
+\caption@hangindent=\dimen148
+Package caption Info: Standard document class detected.
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 231.
+\captionlinewidth=\dimen149
+\realcaptionwidth=\dimen150
+Package caption2 Info: float package is not loaded on input line 335.
+Package caption2 Info: longtable package is not loaded on input line 352.
+Package caption2 Info: subfigure package is not loaded on input line 445.
+)
+(d:/texlive/2023/texmf-dist/tex/latex/afthesis/afthes11.sty))
 (d:/texlive/2023/texmf-dist/tex/latex/ctex/ctex.sty
 (d:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
 
 (d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
-\g__graphics_track_int=\count189
+\g__graphics_track_int=\count190
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count190
-\g__pdf_backend_annotation_int=\count191
-\g__pdf_backend_link_int=\count192
+\g__pdf_backend_object_int=\count191
+\g__pdf_backend_annotation_int=\count192
+\g__pdf_backend_link_int=\count193
 ))
 Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
 
@@ -50,11 +83,11 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count193
+\l__ctex_tmp_int=\count194
 \l__ctex_tmp_box=\box52
-\l__ctex_tmp_dim=\dimen141
-\g__ctex_section_depth_int=\count194
-\g__ctex_font_size_int=\count195
+\l__ctex_tmp_dim=\dimen151
+\g__ctex_section_depth_int=\count195
+\g__ctex_font_size_int=\count196
 
 (d:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
@@ -67,18 +100,18 @@ Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 
 (d:/texlive/2023/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2023-02-02 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen142
-\l__xtemplate_tmp_int=\count196
+\l__xtemplate_tmp_dim=\dimen152
+\l__xtemplate_tmp_int=\count197
 \l__xtemplate_tmp_muskip=\muskip16
 \l__xtemplate_tmp_skip=\skip50
 )
-\l__xeCJK_tmp_int=\count197
+\l__xeCJK_tmp_int=\count198
 \l__xeCJK_tmp_box=\box53
-\l__xeCJK_tmp_dim=\dimen143
+\l__xeCJK_tmp_dim=\dimen153
 \l__xeCJK_tmp_skip=\skip51
-\g__xeCJK_space_factor_int=\count198
-\l__xeCJK_begin_int=\count199
-\l__xeCJK_end_int=\count266
+\g__xeCJK_space_factor_int=\count199
+\l__xeCJK_begin_int=\count266
+\l__xeCJK_end_int=\count267
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -88,49 +121,49 @@ Package: xtemplate 2023-02-02 L3 Experimental prototype document functions
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip52
-\c__xeCJK_none_node=\count267
-\g__xeCJK_node_int=\count268
-\c__xeCJK_CJK_node_dim=\dimen144
-\c__xeCJK_CJK-space_node_dim=\dimen145
-\c__xeCJK_default_node_dim=\dimen146
-\c__xeCJK_CJK-widow_node_dim=\dimen147
-\c__xeCJK_normalspace_node_dim=\dimen148
+\c__xeCJK_none_node=\count268
+\g__xeCJK_node_int=\count269
+\c__xeCJK_CJK_node_dim=\dimen154
+\c__xeCJK_CJK-space_node_dim=\dimen155
+\c__xeCJK_default_node_dim=\dimen156
+\c__xeCJK_CJK-widow_node_dim=\dimen157
+\c__xeCJK_normalspace_node_dim=\dimen158
 \c__xeCJK_default-space_node_skip=\skip53
 \l__xeCJK_ccglue_skip=\skip54
 \l__xeCJK_ecglue_skip=\skip55
 \l__xeCJK_punct_kern_skip=\skip56
 \l__xeCJK_indent_box=\box54
-\l__xeCJK_last_penalty_int=\count269
-\l__xeCJK_last_bound_dim=\dimen149
-\l__xeCJK_last_kern_dim=\dimen150
-\l__xeCJK_widow_penalty_int=\count270
+\l__xeCJK_last_penalty_int=\count270
+\l__xeCJK_last_bound_dim=\dimen159
+\l__xeCJK_last_kern_dim=\dimen160
+\l__xeCJK_widow_penalty_int=\count271
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 (xtemplate)             argument(s) on line 2396.
 
-\l__xeCJK_fixed_punct_width_dim=\dimen151
-\l__xeCJK_mixed_punct_width_dim=\dimen152
-\l__xeCJK_middle_punct_width_dim=\dimen153
-\l__xeCJK_fixed_margin_width_dim=\dimen154
-\l__xeCJK_mixed_margin_width_dim=\dimen155
-\l__xeCJK_middle_margin_width_dim=\dimen156
-\l__xeCJK_bound_punct_width_dim=\dimen157
-\l__xeCJK_bound_margin_width_dim=\dimen158
-\l__xeCJK_margin_minimum_dim=\dimen159
-\l__xeCJK_kerning_total_width_dim=\dimen160
-\l__xeCJK_same_align_margin_dim=\dimen161
-\l__xeCJK_different_align_margin_dim=\dimen162
-\l__xeCJK_kerning_margin_width_dim=\dimen163
-\l__xeCJK_kerning_margin_minimum_dim=\dimen164
-\l__xeCJK_bound_dim=\dimen165
-\l__xeCJK_reverse_bound_dim=\dimen166
-\l__xeCJK_margin_dim=\dimen167
-\l__xeCJK_minimum_bound_dim=\dimen168
-\l__xeCJK_kerning_margin_dim=\dimen169
-\g__xeCJK_family_int=\count271
-\l__xeCJK_fam_int=\count272
-\g__xeCJK_fam_allocation_int=\count273
-\l__xeCJK_verb_case_int=\count274
+\l__xeCJK_fixed_punct_width_dim=\dimen161
+\l__xeCJK_mixed_punct_width_dim=\dimen162
+\l__xeCJK_middle_punct_width_dim=\dimen163
+\l__xeCJK_fixed_margin_width_dim=\dimen164
+\l__xeCJK_mixed_margin_width_dim=\dimen165
+\l__xeCJK_middle_margin_width_dim=\dimen166
+\l__xeCJK_bound_punct_width_dim=\dimen167
+\l__xeCJK_bound_margin_width_dim=\dimen168
+\l__xeCJK_margin_minimum_dim=\dimen169
+\l__xeCJK_kerning_total_width_dim=\dimen170
+\l__xeCJK_same_align_margin_dim=\dimen171
+\l__xeCJK_different_align_margin_dim=\dimen172
+\l__xeCJK_kerning_margin_width_dim=\dimen173
+\l__xeCJK_kerning_margin_minimum_dim=\dimen174
+\l__xeCJK_bound_dim=\dimen175
+\l__xeCJK_reverse_bound_dim=\dimen176
+\l__xeCJK_margin_dim=\dimen177
+\l__xeCJK_minimum_bound_dim=\dimen178
+\l__xeCJK_kerning_margin_dim=\dimen179
+\g__xeCJK_family_int=\count272
+\l__xeCJK_fam_int=\count273
+\g__xeCJK_fam_allocation_int=\count274
+\l__xeCJK_verb_case_int=\count275
 \l__xeCJK_verb_exspace_skip=\skip57
 
 (d:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
@@ -142,20 +175,20 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (d:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count275
-\l__fontspec_language_int=\count276
-\l__fontspec_strnum_int=\count277
-\l__fontspec_tmp_int=\count278
-\l__fontspec_tmpa_int=\count279
-\l__fontspec_tmpb_int=\count280
-\l__fontspec_tmpc_int=\count281
-\l__fontspec_em_int=\count282
-\l__fontspec_emdef_int=\count283
-\l__fontspec_strong_int=\count284
-\l__fontspec_strongdef_int=\count285
-\l__fontspec_tmpa_dim=\dimen170
-\l__fontspec_tmpb_dim=\dimen171
-\l__fontspec_tmpc_dim=\dimen172
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen180
+\l__fontspec_tmpb_dim=\dimen181
+\l__fontspec_tmpc_dim=\dimen182
 
 (d:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -164,15 +197,15 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 (d:/texlive/2023/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
-\ccwd=\dimen173
+\ccwd=\dimen183
 \l__ctex_ccglue_skip=\skip58
 )
-\l__ctex_ziju_dim=\dimen174
+\l__ctex_ziju_dim=\dimen184
 
 (d:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count286
-\l__zhnum_tmp_int=\count287
+\l__zhnum_scale_int=\count287
+\l__zhnum_tmp_int=\count288
 
 (d:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
@@ -234,24 +267,24 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen175
+\@emptytoks=\toks17
+\ex@=\dimen185
 ))
 (d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen176
+\pmbraise@=\dimen186
 )
 (d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count288
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count289
-\leftroot@=\count290
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count291
-\DOTSCASE@=\count292
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -261,48 +294,48 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen177
+\big@size=\dimen187
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count293
+\macc@depth=\count294
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip17
-\c@parentequation=\count295
-\dspbrk@lvl=\count296
-\tag@help=\toks17
-\row@=\count297
-\column@=\count298
-\maxfields@=\count299
-\andhelp@=\toks18
-\eqnshift@=\dimen178
-\alignsep@=\dimen179
-\tagshift@=\dimen180
-\tagwidth@=\dimen181
-\totwidth@=\dimen182
-\lineht@=\dimen183
-\@envbody=\toks19
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
+\tag@help=\toks18
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
+\andhelp@=\toks19
+\eqnshift@=\dimen188
+\alignsep@=\dimen189
+\tagshift@=\dimen190
+\tagwidth@=\dimen191
+\totwidth@=\dimen192
+\lineht@=\dimen193
+\@envbody=\toks20
 \multlinegap=\skip60
 \multlinetaggap=\skip61
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (d:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
 \thm@preskip=\skip62
 \thm@postskip=\skip63
 \thm@headsep=\skip64
-\dth@everypar=\toks26
+\dth@everypar=\toks27
 )
 (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -318,27 +351,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (d:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(d:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks27
-)
 (d:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (d:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count300
-\Gm@cntv=\count301
-\c@Gm@tempcnt=\count302
-\Gm@bindingoffset=\dimen184
-\Gm@wd@mp=\dimen185
-\Gm@odd@mp=\dimen186
-\Gm@even@mp=\dimen187
-\Gm@layoutwidth=\dimen188
-\Gm@layoutheight=\dimen189
-\Gm@layouthoffset=\dimen190
-\Gm@layoutvoffset=\dimen191
+\Gm@cnth=\count301
+\Gm@cntv=\count302
+\c@Gm@tempcnt=\count303
+\Gm@bindingoffset=\dimen194
+\Gm@wd@mp=\dimen195
+\Gm@odd@mp=\dimen196
+\Gm@even@mp=\dimen197
+\Gm@layoutwidth=\dimen198
+\Gm@layoutheight=\dimen199
+\Gm@layouthoffset=\dimen256
+\Gm@layoutvoffset=\dimen257
 \Gm@dimlist=\toks28
 )
 (d:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -358,27 +387,27 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 (d:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen192
-\Gin@req@width=\dimen193
+\Gin@req@height=\dimen258
+\Gin@req@width=\dimen259
 )
 (d:/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 
 (d:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count303
+\etb@tempcnta=\count304
 )
 \MT@toks=\toks29
 \MT@tempbox=\box57
-\MT@count=\count304
+\MT@count=\count305
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks30
 LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
-\MT@outer@kern=\dimen194
+\MT@outer@kern=\dimen260
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count305
+\MT@listname@count=\count306
 
 (d:/texlive/2023/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2023/03/13 v3.1a Definitions specific to xetex (RS)
@@ -391,10 +420,10 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
 (d:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen195
+\l__siunitx_angle_tmp_dim=\dimen261
 \l__siunitx_angle_marker_box=\box58
 \l__siunitx_angle_unit_box=\box59
-\l__siunitx_compound_count_int=\count306
+\l__siunitx_compound_count_int=\count307
 
 (d:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -414,34 +443,34 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count307
-\l__siunitx_number_min_decimal_int=\count308
-\l__siunitx_number_min_integer_int=\count309
-\l__siunitx_number_round_precision_int=\count310
-\l__siunitx_number_lower_threshold_int=\count311
-\l__siunitx_number_upper_threshold_int=\count312
-\l__siunitx_number_group_first_int=\count313
-\l__siunitx_number_group_size_int=\count314
-\l__siunitx_number_group_minimum_int=\count315
+\l__siunitx_number_exponent_fixed_int=\count308
+\l__siunitx_number_min_decimal_int=\count309
+\l__siunitx_number_min_integer_int=\count310
+\l__siunitx_number_round_precision_int=\count311
+\l__siunitx_number_lower_threshold_int=\count312
+\l__siunitx_number_upper_threshold_int=\count313
+\l__siunitx_number_group_first_int=\count314
+\l__siunitx_number_group_size_int=\count315
+\l__siunitx_number_group_minimum_int=\count316
 \l__siunitx_table_tmp_box=\box60
-\l__siunitx_table_tmp_dim=\dimen196
-\l__siunitx_table_column_width_dim=\dimen197
+\l__siunitx_table_tmp_dim=\dimen262
+\l__siunitx_table_column_width_dim=\dimen263
 \l__siunitx_table_integer_box=\box61
 \l__siunitx_table_decimal_box=\box62
 \l__siunitx_table_uncert_box=\box63
 \l__siunitx_table_before_box=\box64
 \l__siunitx_table_after_box=\box65
-\l__siunitx_table_before_dim=\dimen198
-\l__siunitx_table_carry_dim=\dimen199
-\l__siunitx_unit_tmp_int=\count316
-\l__siunitx_unit_position_int=\count317
-\l__siunitx_unit_total_int=\count318
+\l__siunitx_table_before_dim=\dimen264
+\l__siunitx_table_carry_dim=\dimen265
+\l__siunitx_unit_tmp_int=\count317
+\l__siunitx_unit_position_int=\count318
+\l__siunitx_unit_total_int=\count319
 
 (d:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen256
+\col@sep=\dimen266
 \ar@mcellbox=\box66
-\extrarowheight=\dimen257
+\extrarowheight=\dimen267
 \NC@list=\toks31
 \extratabsurround=\skip65
 \backup@length=\skip66
@@ -449,23 +478,23 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 ))
 (d:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen258
-\lightrulewidth=\dimen259
-\cmidrulewidth=\dimen260
-\belowrulesep=\dimen261
-\belowbottomsep=\dimen262
-\aboverulesep=\dimen263
-\abovetopsep=\dimen264
-\cmidrulesep=\dimen265
-\cmidrulekern=\dimen266
-\defaultaddspace=\dimen267
-\@cmidla=\count319
-\@cmidlb=\count320
-\@aboverulesep=\dimen268
-\@belowrulesep=\dimen269
-\@thisruleclass=\count321
-\@lastruleclass=\count322
-\@thisrulewidth=\dimen270
+\heavyrulewidth=\dimen268
+\lightrulewidth=\dimen269
+\cmidrulewidth=\dimen270
+\belowrulesep=\dimen271
+\belowbottomsep=\dimen272
+\aboverulesep=\dimen273
+\abovetopsep=\dimen274
+\cmidrulesep=\dimen275
+\cmidrulekern=\dimen276
+\defaultaddspace=\dimen277
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen278
+\@belowrulesep=\dimen279
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen280
 )
 (d:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
@@ -500,11 +529,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (d:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count323
+\c@section@level=\count324
 )
-\@linkdim=\dimen271
-\Hy@linkcounter=\count324
-\Hy@pagecounter=\count325
+\@linkdim=\dimen281
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
 
 (d:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
@@ -515,7 +544,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (d:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count326
+\Hy@SavedSpaceFactor=\count327
 
 (d:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
@@ -529,14 +558,14 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count327
+\c@Hy@tempcnt=\count328
 
 (d:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen272
+\XeTeXLinkMargin=\dimen282
 
 (d:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -545,9 +574,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count328
-\Field@Width=\dimen273
-\Fld@charsize=\dimen274
+\Fld@menulength=\count329
+\Field@Width=\dimen283
+\Fld@charsize=\dimen284
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -560,9 +589,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count329
-\c@Item=\count330
-\c@Hfootnote=\count331
+\Hy@abspage=\count330
+\c@Item=\count331
+\c@Hfootnote=\count332
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -574,10 +603,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box68
-\c@Hy@AnnotLevel=\count332
-\HyField@AnnotCount=\count333
-\Fld@listcount=\count334
-\c@bookmark@seq@number=\count335
+\c@Hy@AnnotLevel=\count333
+\HyField@AnnotCount=\count334
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
 
 (d:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -686,7 +715,7 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 (d:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count336
+\c@float@type=\count337
 \float@exts=\toks32
 \float@box=\box69
 \@float@everytoks=\toks33
@@ -695,35 +724,34 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (d:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
-(d:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen275
-\captionmargin=\dimen276
-\caption@leftmargin=\dimen277
-\caption@rightmargin=\dimen278
-\caption@width=\dimen279
-\caption@indent=\dimen280
-\caption@parindent=\dimen281
-\caption@hangindent=\dimen282
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count337
-\c@continuedfloat=\count338
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-)
-(d:/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.sty
+
+! Package caption Error: You can't use both, the (obsolete) caption2 *and*
+(caption)                the (current) caption package.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 }{}
+        
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (d:/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip82
 \subfigcapskip=\skip83
-\subfigcaptopadj=\dimen283
+\subfigcaptopadj=\dimen285
 \subfigbottomskip=\skip84
-\subfigcapmargin=\dimen284
+\subfigcapmargin=\dimen286
 \subfiglabelskip=\skip85
-\c@subfigure=\count339
-\c@lofdepth=\count340
-\c@subtable=\count341
-\c@lotdepth=\count342
+\c@subfigure=\count338
+\c@lofdepth=\count339
+\c@subtable=\count340
+\c@lotdepth=\count341
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -765,6 +793,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -782,15 +812,15 @@ LaTeX Font Info:    ... okay on input line 27.
 * \textheight=591.5302pt
 * \oddsidemargin=17.3571pt
 * \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=11.0pt
-* \footskip=30.0pt
+* \topmargin=7.13666pt
+* \headheight=18.0pt
+* \headsep=4.0pt
+* \topskip=10.0pt
+* \footskip=26.0pt
 * \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=20.0pt plus 4.0pt minus 4.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -840,12 +870,28 @@ Package hyperref Info: Link coloring OFF on input line 27.
 \@outlinefile=\write3
 \openout3 = `第十五次模电作业.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfigure package is loaded.
-Package caption Info: End \AtBeginDocument code.
+
+
+Title Page.
+[1
+
+
+]
+
+! LaTeX Error: No \title given.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 1
+      5.15 Consider the bandpass filter in Figure P15.15.(a) Show that the v...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  29.
-
 (d:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -895,6 +941,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+
+
+LaTeX Warning: No \author given.
+
+[2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -903,19 +954,44 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 File: 15.15.png Graphic file (type bmp)
 <15.15.png>
- [1
-
-]
+ [1]
 File: 15.17_a.png Graphic file (type bmp)
 <15.17_a.png>
 File: 15.17_b.png Graphic file (type bmp)
 <15.17_b.png>
- [2]
 File: 15.46.png Graphic file (type bmp)
 <15.46.png>
-File: 15.46_1.png Graphic file (type bmp)
-<15.46_1.png>
- [3]
+ [2]
+
+LaTeX Warning: File `15.46_1' not found on input line 126.
+
+
+! LaTeX Error: File `15.46_1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...udegraphics[width=0.4\textwidth]{15.46_1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in 15.46_1 (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...udegraphics[width=0.4\textwidth]{15.46_1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: 15.46_1 Graphic file (type eps)
+<15.46_1>
+[3]
 File: 15.47.png Graphic file (type bmp)
 <15.47.png>
  [4]
@@ -923,15 +999,15 @@ File: 15.47_1.png Graphic file (type bmp)
 <15.47_1.png>
 File: 15.48.png Graphic file (type bmp)
 <15.48.png>
+ [5]
 File: 15.48_1.png Graphic file (type bmp)
 <15.48_1.png>
-
-[5]
 File: 15.48_2.png Graphic file (type bmp)
 <15.48_2.png>
+ [6]
 File: 15.79.png Graphic file (type bmp)
 <15.79.png>
- [6]
+ [7]
 Missing character: There is no · ("B7) in font zptmcm7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
@@ -940,20 +1016,4 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
 File: 15.80.png Graphic file (type bmp)
 <15.80.png>
-[7] [8] (./第十五次模电作业.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `第十五次模电作业.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
-Here is how much of TeX's memory you used:
- 24768 strings out of 476683
- 552842 string characters out of 5807575
- 1858012 words of memory out of 5000000
- 44686 multiletter control sequences out of 15000+600000
- 534217 words of font info for 107 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 89i,11n,97p,1005b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on 第十五次模电作业.pdf (8 pages).
+[8
