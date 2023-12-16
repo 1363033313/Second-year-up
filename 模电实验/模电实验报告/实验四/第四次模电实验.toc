@@ -12,7 +12,10 @@
 \contentsline {subsubsection}{\numberline {5.2.1}合理布局，分级装调}{5}{subsubsection.5.2.1}%
 \contentsline {subsubsection}{\numberline {5.2.2}电路调试技术}{5}{subsubsection.5.2.2}%
 \contentsline {section}{\numberline {6}实验过程}{6}{section.6}%
-\contentsline {subsection}{\numberline {6.1}实验电路与功率、增益、效率}{6}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}幅频响应}{6}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}音调控制特性曲线测量数据}{6}{subsection.6.3}%
-\contentsline {section}{\numberline {7}实验小结}{6}{section.7}%
+\contentsline {subsection}{\numberline {6.1}放大倍数及额定功率}{6}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}输入阻抗}{7}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}输入灵敏度}{7}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}噪声电压}{7}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}整机效率}{7}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}频率响应}{8}{subsection.6.6}%
+\contentsline {section}{\numberline {7}实验小结}{8}{section.7}%

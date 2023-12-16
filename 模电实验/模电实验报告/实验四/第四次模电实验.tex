@@ -152,10 +152,60 @@
 	
 \end{enumerate}
 \section{实验过程}
-\subsection{实验电路与功率、增益、效率}
-\subsection{幅频响应}
-\subsection{音调控制特性曲线测量数据}
+\subsection{放大倍数及额定功率}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{TEK00020.PNG}
+		\caption{三级级联放大测量$A_\mathrm{v}$ = 335.6}
+	\end{figure}
+$R_\mathrm{L}$=9.812Ω  $V_\mathrm{o}$=5.130V 
 
+$P_\mathrm{o}=V_\mathrm{o}^{2}/	R_\mathrm{L}$={0.346W}
+
+\subsection{输入阻抗}
+\begin{figure}[!ht ]
+		\centering
+		\includegraphics[width=0.8\linewidth]{2.jpg}
+		\caption{输入阻抗实验电路图}
+\end{figure}
+采用在输入回路串入已知电阻的方法测量输入电阻，其局部连接示意图如上图所示。R取值尽量与$R_\mathrm{i}$ 接近（此处取R={100kΩ}）。用示波器一通道始终监视輸出	$v_\mathrm{i}$波形，用另一个通道先后測量R接入和不接入时的输出电压	$V_\mathrm{o1}$(测量值为{5.280V})和$V_\mathrm{o2}$(测量值为{2.540V})
+则输入电阻为
+$R_\mathrm{i} =V_\mathrm{o2}*R/（V_\mathrm{o1}-V_\mathrm{o2}$={99.83kΩ}  满足输入阻抗要求
+\subsection{输入灵敏度}
+使音响放大器输出额定功率时所需的输入电压（有效值）称为输入灵敏度$V_\mathrm{s}$。测量条件与额定功率的测量相同。测量方法是，先使$V_\mathrm{i}$从零开始逐渐增大，直到电路输出达到额定功率值（对应于输出电压值$V_\mathrm{o（额定）}$），此时对应的$V_\mathrm{i}$值即为输入灵敏度。
+
+测得输入灵敏度$V_\mathrm{s}$=15mV
+\subsection{噪声电压}
+音响放大器的输入为零时，输出负载$R_\mathrm{L}$，上的电压称为噪声电压 $V_\mathrm{N}$。测量条件同上。测量方法是，使输入端对地短路，音量电位器为最大值，用示波器观测负载 $R_\mathrm{L}$两端输出电压波形的有效值.
+
+测得噪声电压 $V_\mathrm{N}$={1.025mV}
+
+\subsection{整机效率}
+其表达式为 $\eta$ = $P_\mathrm{o}/P_\mathrm{c}\times100\%$
+
+式中，$P_\mathrm{o}$为输出的额定功率；$P_\mathrm{c}$为输出额定功率时所消耗的电源功率，可通过电源电压与电流的乘积获得.
+
+测得 $P_\mathrm{c}$ ={0.738W}
+
+又由之前实验测得，$P_\mathrm{o}$={0.346W},可算得整机效率$\eta=\dfrac{0.3001}{0.635}\times100\%=46.88\%$
+\subsection{频率响应}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		f/Hz& 20 & 40&50&500&100&200&500&600&800\\
+		\hline
+		$V_\mathrm{O}$/mV& 4.120 & 4.880&5.040&5.200&5.280&5.280&5.360&5.280&5.360\\
+		\hline
+		f/Hz& 1K& 5k&10k&20k&30k&40k&45k&50k&100k\\
+		\hline
+		$V_\mathrm{o}$/V& 3.201 & 5.280&5.160&5.160&5.040&5.120&5.120&5.080&4.960\\
+		\hline
+
+		\hline		
+	\end{tabular}
+\end{table}
+由测量数据可知，$f_\mathrm{L}\approx{40Hz}$，$f_\mathrm{H}>{100kHz}$
 \section{实验小结}
-
+本次实验让我学会了电路的级联调试。虽然电路搭建很快，但是调试电路却花费了两节课的时间。但是这个时间是值得的，因为我掌握了我不熟悉的方法，当最后完美试音的时候，我觉得这一个月的时间是值得的
 \end{document}
