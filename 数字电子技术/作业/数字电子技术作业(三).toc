@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{考点分布}{2}{0}{1}
+\beamer@sectionintoc {2}{波动}{3}{0}{2}
+\beamer@sectionintoc {3}{光学}{4}{0}{3}

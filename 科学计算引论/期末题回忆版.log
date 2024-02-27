@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.31)  5 DEC 2023 21:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.31)  13 JAN 2024 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,10 +932,10 @@ Package rerunfilecheck Info: File `期末题回忆版.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24994 strings out of 476683
- 559609 string characters out of 5807575
+ 24991 strings out of 476683
+ 559563 string characters out of 5807575
  1860012 words of memory out of 5000000
- 44896 multiletter control sequences out of 15000+600000
+ 44893 multiletter control sequences out of 15000+600000
  525277 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,10n,97p,1003b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s

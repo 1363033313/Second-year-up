@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{波动}{3}{0}{1}
+\beamer@sectionintoc {2}{光学}{20}{0}{2}
